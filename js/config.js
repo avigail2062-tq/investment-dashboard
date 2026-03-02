@@ -207,6 +207,31 @@ const PORTFOLIO_CONFIG = {
     enabled: localStorage.getItem('emailjs_enabled') === 'true'
   },
 
+  intelligence: {
+    confidenceThresholds: {
+      high: 70,
+      medium: 40,
+      showOnDashboard: 30
+    },
+    alertTypes: {
+      INTELLIGENCE_BUY: {
+        label: 'המלצת קנייה חכמה',
+        icon: '🧠',
+        severity: 'opportunity'
+      },
+      INTELLIGENCE_SELL: {
+        label: 'המלצת מכירה חכמה',
+        icon: '🧠',
+        severity: 'critical'
+      },
+      INTELLIGENCE_WATCH: {
+        label: 'מעקב חכם',
+        icon: '👁️',
+        severity: 'info'
+      }
+    }
+  },
+
   refresh: {
     intervalMs: 5 * 60 * 1000,
     dataPath: './data/'
@@ -277,7 +302,19 @@ const LABELS = {
   testEmail: 'שלח מייל בדיקה',
   shortTerm: 'טווח קצר',
   mediumTerm: 'טווח בינוני',
-  longTerm: 'טווח ארוך'
+  longTerm: 'טווח ארוך',
+  intelligence: 'מודיעין חכם',
+  recommendations: 'המלצות',
+  events: 'אירועים',
+  insiderTrading: 'מסחר פנימי',
+  socialSentiment: 'סנטימנט חברתי',
+  confidence: 'ביטחון',
+  buyNow: 'קנייה עכשיו',
+  sellNow: 'מכירה עכשיו',
+  watch: 'עקוב',
+  highUrgency: 'דחיפות גבוהה',
+  mediumUrgency: 'דחיפות בינונית',
+  lowUrgency: 'דחיפות נמוכה'
 };
 
 // Freeze config to prevent accidental mutations

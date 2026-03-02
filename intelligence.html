@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מודיעין שוק חכם — Investment Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/intelligence.css">
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="header-content">
+        <div class="logo">
+            <div class="logo-icon" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">🧠</div>
+            <div>
+                <h1 style="background: linear-gradient(135deg, #f59e0b, #ef4444); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Smart Intelligence</h1>
+                <span>מודיעין פרואקטיבי — אירועים, סנטימנט, והמלצות</span>
+            </div>
+        </div>
+        <div class="header-meta">
+            <a href="index.html" class="back-link">← חזרה לדשבורד</a>
+            <div class="date-badge" id="lastUpdated">ממתין לעדכון...</div>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-content">
+        <a class="nav-item" href="index.html">📊 דשבורד ראשי</a>
+        <a class="nav-item" href="short-term.html">⚡ מסחר קצר טווח</a>
+        <a class="nav-item active" onclick="scrollToSection('recommendations')">🎯 המלצות</a>
+        <a class="nav-item" onclick="scrollToSection('events')">📰 אירועים</a>
+        <a class="nav-item" onclick="scrollToSection('insider')">👔 מסחר פנימי</a>
+        <a class="nav-item" onclick="scrollToSection('social')">💬 סנטימנט חברתי</a>
+    </div>
+</nav>
+
+<!-- Main -->
+<main class="main">
+
+    <!-- Intelligence Summary -->
+    <section id="summary" class="section" style="scroll-margin-top:160px;">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(245,158,11,0.15);">🧠</div>
+            <div>
+                <h2 class="section-title">סיכום מודיעין</h2>
+                <p class="section-subtitle">סקירה כללית של אירועים והמלצות</p>
+            </div>
+        </div>
+        <div class="intel-summary-grid" id="intelSummaryGrid">
+            <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">⏳ טוען נתונים...</div>
+        </div>
+    </section>
+
+    <!-- Proactive Recommendations -->
+    <section id="recommendations" class="section" style="scroll-margin-top:160px;">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(16,185,129,0.15);">🎯</div>
+            <div>
+                <h2 class="section-title">המלצות פרואקטיביות</h2>
+                <p class="section-subtitle">המלצות מבוססות ניתוח אירועים, סנטימנט ומסחר פנימי</p>
+            </div>
+        </div>
+
+        <div class="signal-filter-bar">
+            <button class="signal-filter-btn active" data-filter="all" onclick="intelligencePage.filterRecommendations('all')">הכל</button>
+            <button class="signal-filter-btn buy-filter" data-filter="BUY" onclick="intelligencePage.filterRecommendations('BUY')">🟢 קנייה</button>
+            <button class="signal-filter-btn sell-filter" data-filter="SELL" onclick="intelligencePage.filterRecommendations('SELL')">🔴 מכירה</button>
+            <button class="signal-filter-btn hold-filter" data-filter="WATCH" onclick="intelligencePage.filterRecommendations('WATCH')">🟡 עקוב</button>
+        </div>
+
+        <div class="recommendations-grid" id="recommendationsGrid">
+            <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">⏳ טוען המלצות...</div>
+        </div>
+    </section>
+
+    <!-- Event Feed -->
+    <section id="events" class="section" style="scroll-margin-top:160px;">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(59,130,246,0.15);">📰</div>
+            <div>
+                <h2 class="section-title">פיד אירועים</h2>
+                <p class="section-subtitle">אירועים שזוהו בחדשות ומשפיעים על השוק</p>
+            </div>
+        </div>
+        <div class="events-timeline" id="eventsTimeline">
+            <div style="text-align:center;padding:2rem;color:var(--text-muted);">⏳ טוען אירועים...</div>
+        </div>
+    </section>
+
+    <!-- Insider Trading -->
+    <section id="insider" class="section" style="scroll-margin-top:160px;">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(139,92,246,0.15);">👔</div>
+            <div>
+                <h2 class="section-title">מסחר פנימי</h2>
+                <p class="section-subtitle">פעילות רכישה ומכירה של מנהלים בכירים</p>
+            </div>
+        </div>
+        <div class="insider-grid" id="insiderGrid">
+            <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">⏳ טוען נתוני מסחר פנימי...</div>
+        </div>
+    </section>
+
+    <!-- Social Sentiment -->
+    <section id="social" class="section" style="scroll-margin-top:160px;">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(236,72,153,0.15);">💬</div>
+            <div>
+                <h2 class="section-title">סנטימנט חברתי</h2>
+                <p class="section-subtitle">מגמות מ-StockTwits ו-Reddit</p>
+            </div>
+        </div>
+        <div class="social-grid" id="socialGrid">
+            <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">⏳ טוען סנטימנט...</div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+        <h4>⚠️ הצהרת אחריות</h4>
+        <p>המלצות המודיעין מבוססות על ניתוח אוטומטי של חדשות, סנטימנט חברתי ומסחר פנימי בלבד. אין לראות בהן ייעוץ השקעות. יש להתייעץ עם יועץ מורשה לפני ביצוע עסקאות. סיכון לאובדן הון.</p>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>Smart Intelligence Dashboard | מקורות: Finnhub, MarketAux, StockTwits, SEC EDGAR | עדכון 3 פעמים ביום</p>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/data-loader.js"></script>
+<script src="js/intelligence-ui.js"></script>
+<script src="js/chat-widget.js"></script>
+<script>
+    function scrollToSection(id) {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>

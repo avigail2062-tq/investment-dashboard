@@ -21,6 +21,9 @@ class DataLoader {
     /** @type {object|null} Current short-term analysis data */
     this.shortTermData = null;
 
+    /** @type {object|null} Current intelligence data */
+    this.intelligenceData = null;
+
     /** @type {number|null} Auto-refresh interval ID */
     this._refreshInterval = null;
 
@@ -121,15 +124,17 @@ class DataLoader {
     this.emit('loadingStart', null);
 
     try {
-      const [marketResult, alertsResult, shortTermResult] = await Promise.allSettled([
+      const [marketResult, alertsResult, shortTermResult, intelligenceResult] = await Promise.allSettled([
         this.fetchFile('market-data.json'),
         this.fetchFile('alerts.json'),
-        this.fetchFile('short-term.json')
+        this.fetchFile('short-term.json'),
+        this.fetchFile('intelligence.json')
       ]);
 
       const market = marketResult.status === 'fulfilled' ? marketResult.value : null;
       const alerts = alertsResult.status === 'fulfilled' ? alertsResult.value : null;
       const shortTerm = shortTermResult.status === 'fulfilled' ? shortTermResult.value : null;
+      const intelligence = intelligenceResult.status === 'fulfilled' ? intelligenceResult.value : null;
 
       let hasAnyData = false;
 
@@ -154,6 +159,13 @@ class DataLoader {
         this.emit('shortTermUpdated', this.shortTermData);
       }
 
+      // Update intelligence data
+      if (intelligence) {
+        this.intelligenceData = intelligence;
+        hasAnyData = true;
+        this.emit('intelligenceUpdated', this.intelligenceData);
+      }
+
       if (hasAnyData) {
         this.lastUpdated = new Date();
         this.isLoaded = true;
@@ -161,6 +173,7 @@ class DataLoader {
           marketData: this.marketData,
           alertsData: this.alertsData,
           shortTermData: this.shortTermData,
+          intelligenceData: this.intelligenceData,
           timestamp: this.lastUpdated
         });
       } else {
@@ -338,6 +351,7 @@ class DataLoader {
     this.marketData = null;
     this.alertsData = null;
     this.shortTermData = null;
+    this.intelligenceData = null;
   }
 }
 
