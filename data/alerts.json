@@ -1,5 +1,30 @@
 {
-  "lastUpdated": "2026-03-02T23:00:16.121041+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-03-02T23:11:27.432498+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-nvda-ma_crossover_bearish-20260302",
+      "ticker": "NVDA",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "NVDA — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-03-02T23:11:16.559776+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-noc-rsi_overbought-20260302",
+      "ticker": "NOC",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "NOC — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.6,
+      "threshold": 70,
+      "timestamp": "2026-03-02T23:11:21.166197+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
