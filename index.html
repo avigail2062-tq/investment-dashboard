@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מחקר שוק והמלצות השקעה — מרץ 2026</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+
+        :root {
+            --bg-primary: #0a0e1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2235;
+            --bg-card-hover: #1e2a42;
+            --border: #2a3a5c;
+            --text-primary: #e8ecf4;
+            --text-secondary: #8b95a8;
+            --text-muted: #5a6578;
+            --accent-blue: #3b82f6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-orange: #f59e0b;
+            --accent-purple: #8b5cf6;
+            --accent-pink: #ec4899;
+            --accent-gold: #fbbf24;
+            --gradient-blue: linear-gradient(135deg, #3b82f6, #06b6d4);
+            --gradient-green: linear-gradient(135deg, #10b981, #06b6d4);
+            --gradient-red: linear-gradient(135deg, #ef4444, #f59e0b);
+            --gradient-purple: linear-gradient(135deg, #8b5cf6, #ec4899);
+            --gradient-gold: linear-gradient(135deg, #f59e0b, #fbbf24);
+            --shadow: 0 4px 24px rgba(0,0,0,0.3);
+            --shadow-lg: 0 8px 40px rgba(0,0,0,0.4);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Heebo', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-primary); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--accent-blue); }
+
+        /* Header */
+        .header {
+            background: linear-gradient(180deg, rgba(59,130,246,0.15) 0%, transparent 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--gradient-blue);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        .logo h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            background: var(--gradient-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo span {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            display: block;
+        }
+
+        .header-meta {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .live-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(239,68,68,0.15);
+            border: 1px solid rgba(239,68,68,0.3);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--accent-red);
+            font-weight: 600;
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-red);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.3); }
+        }
+
+        .date-badge {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Navigation */
+        .nav {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 85px;
+            z-index: 99;
+        }
+
+        .nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            gap: 0;
+            overflow-x: auto;
+        }
+
+        .nav-item {
+            padding: 1rem 1.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            white-space: nowrap;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            color: var(--accent-blue);
+            border-bottom-color: var(--accent-blue);
+        }
+
+        /* Main */
+        .main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 3rem;
+            scroll-margin-top: 160px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .section-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Hero KPI Cards */
+        .hero-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .kpi-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80px;
+            height: 80px;
+            border-radius: 0 16px 0 80px;
+            opacity: 0.1;
+        }
+
+        .kpi-card.blue::before { background: var(--accent-blue); }
+        .kpi-card.green::before { background: var(--accent-green); }
+        .kpi-card.red::before { background: var(--accent-red); }
+        .kpi-card.orange::before { background: var(--accent-orange); }
+        .kpi-card.purple::before { background: var(--accent-purple); }
+        .kpi-card.gold::before { background: var(--accent-gold); }
+
+        .kpi-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .kpi-value {
+            font-size: 1.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .kpi-value.blue { color: var(--accent-blue); }
+        .kpi-value.green { color: var(--accent-green); }
+        .kpi-value.red { color: var(--accent-red); }
+        .kpi-value.orange { color: var(--accent-orange); }
+        .kpi-value.purple { color: var(--accent-purple); }
+        .kpi-value.gold { color: var(--accent-gold); }
+
+        .kpi-change {
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .kpi-change.up { color: var(--accent-green); }
+        .kpi-change.down { color: var(--accent-red); }
+
+        /* War Alert Banner */
+        .alert-banner {
+            background: linear-gradient(135deg, rgba(239,68,68,0.1), rgba(245,158,11,0.1));
+            border: 1px solid rgba(239,68,68,0.3);
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .alert-icon {
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        .alert-content h3 {
+            color: var(--accent-red);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .alert-content p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .alert-stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .alert-stat {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .alert-stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .alert-stat-value {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        /* Charts Grid */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .chart-card:hover {
+            border-color: var(--accent-blue);
+            box-shadow: var(--shadow);
+        }
+
+        .chart-card.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .chart-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+
+        /* Stock Cards */
+        .stocks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .stock-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.4s;
+            cursor: pointer;
+        }
+
+        .stock-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .stock-card-header {
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stock-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .stock-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.75rem;
+            color: white;
+        }
+
+        .stock-name h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        .stock-name span {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .stock-allocation {
+            text-align: left;
+        }
+
+        .stock-allocation .amount {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent-green);
+        }
+
+        .stock-allocation .percent {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .stock-card-body {
+            padding: 1.5rem;
+        }
+
+        .stock-thesis {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .stock-metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .metric {
+            background: rgba(59,130,246,0.05);
+            border: 1px solid rgba(59,130,246,0.1);
+            border-radius: 8px;
+            padding: 0.6rem 0.8rem;
+        }
+
+        .metric-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-bottom: 0.2rem;
+        }
+
+        .metric-value {
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .stock-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .tag.sector {
+            background: rgba(59,130,246,0.15);
+            color: var(--accent-blue);
+        }
+
+        .tag.risk {
+            background: rgba(239,68,68,0.15);
+            color: var(--accent-red);
+        }
+
+        .tag.horizon {
+            background: rgba(16,185,129,0.15);
+            color: var(--accent-green);
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding: 1rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            right: 24px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: var(--border);
+            border-radius: 2px;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-right: 60px;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            right: 16px;
+            top: 6px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 3px solid;
+            background: var(--bg-primary);
+            z-index: 1;
+        }
+
+        .timeline-dot.phase1 { border-color: var(--accent-red); }
+        .timeline-dot.phase2 { border-color: var(--accent-blue); }
+        .timeline-dot.phase3 { border-color: var(--accent-green); }
+        .timeline-dot.phase4 { border-color: var(--accent-purple); }
+
+        .timeline-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .timeline-card:hover {
+            border-color: var(--accent-blue);
+            box-shadow: var(--shadow);
+        }
+
+        .timeline-phase {
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        .timeline-phase.phase1 { color: var(--accent-red); }
+        .timeline-phase.phase2 { color: var(--accent-blue); }
+        .timeline-phase.phase3 { color: var(--accent-green); }
+        .timeline-phase.phase4 { color: var(--accent-purple); }
+
+        .timeline-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-desc {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .timeline-amount {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--accent-green);
+            margin-top: 0.5rem;
+        }
+
+        .timeline-stocks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-top: 0.5rem;
+        }
+
+        .timeline-stock-badge {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            background: rgba(59,130,246,0.15);
+            color: var(--accent-blue);
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        /* Risk Table */
+        .risk-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .risk-table th {
+            background: rgba(59,130,246,0.1);
+            padding: 1rem 1.5rem;
+            text-align: right;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: var(--accent-blue);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .risk-table td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid rgba(42,58,92,0.5);
+            font-size: 0.9rem;
+            vertical-align: top;
+        }
+
+        .risk-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .risk-table tr:hover td {
+            background: rgba(59,130,246,0.03);
+        }
+
+        .risk-level {
+            display: inline-block;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .risk-level.high { background: rgba(239,68,68,0.15); color: var(--accent-red); }
+        .risk-level.medium { background: rgba(245,158,11,0.15); color: var(--accent-orange); }
+        .risk-level.low { background: rgba(16,185,129,0.15); color: var(--accent-green); }
+
+        /* Peak Timing Cards */
+        .peak-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .peak-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .peak-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .peak-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .peak-sector {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .peak-date {
+            font-size: 0.85rem;
+            padding: 0.3rem 1rem;
+            background: rgba(245,158,11,0.15);
+            color: var(--accent-orange);
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .peak-bar-container {
+            background: rgba(59,130,246,0.1);
+            border-radius: 8px;
+            height: 8px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .peak-bar {
+            height: 100%;
+            border-radius: 8px;
+            transition: width 1.5s ease;
+        }
+
+        .peak-rationale {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.8rem;
+        }
+
+        .peak-signal {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Exit Rules */
+        .exit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .exit-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.2rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            transition: all 0.3s;
+        }
+
+        .exit-card:hover {
+            border-color: var(--accent-orange);
+        }
+
+        .exit-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .exit-stock {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .exit-rule {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Disclaimer */
+        .disclaimer {
+            background: rgba(245,158,11,0.05);
+            border: 1px solid rgba(245,158,11,0.2);
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .disclaimer h4 {
+            color: var(--accent-orange);
+            margin-bottom: 0.5rem;
+        }
+
+        .disclaimer p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+
+        /* Sector allocation bar */
+        .sector-bar-container {
+            margin-bottom: 2rem;
+        }
+
+        .sector-bar {
+            display: flex;
+            height: 40px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .sector-bar-segment {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: white;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .sector-bar-segment:hover {
+            filter: brightness(1.2);
+        }
+
+        .sector-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 4px;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.6s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in:nth-child(2) { animation-delay: 0.1s; }
+        .fade-in:nth-child(3) { animation-delay: 0.2s; }
+        .fade-in:nth-child(4) { animation-delay: 0.3s; }
+        .fade-in:nth-child(5) { animation-delay: 0.4s; }
+        .fade-in:nth-child(6) { animation-delay: 0.5s; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; gap: 1rem; text-align: center; }
+            .header-meta { justify-content: center; }
+            .charts-grid { grid-template-columns: 1fr; }
+            .stocks-grid { grid-template-columns: 1fr; }
+            .hero-grid { grid-template-columns: repeat(2, 1fr); }
+            .nav-content { justify-content: flex-start; }
+            .peak-grid { grid-template-columns: 1fr; }
+            .exit-grid { grid-template-columns: 1fr; }
+            .alert-stats { gap: 1rem; }
+            .kpi-value { font-size: 1.4rem; }
+        }
+
+        @media (max-width: 480px) {
+            .hero-grid { grid-template-columns: 1fr; }
+            .main { padding: 1rem; }
+            .stock-metrics { grid-template-columns: 1fr; }
+        }
+
+        /* Tab filter for stocks */
+        .filter-bar {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: 'Heebo', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        /* Tooltip */
+        .tooltip-container { position: relative; }
+        .tooltip {
+            display: none;
+            position: absolute;
+            bottom: 120%;
+            right: 50%;
+            transform: translateX(50%);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            box-shadow: var(--shadow);
+            z-index: 10;
+        }
+        .tooltip-container:hover .tooltip { display: block; }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="header-content">
+        <div class="logo">
+            <div class="logo-icon">M</div>
+            <div>
+                <h1>Market Research Dashboard</h1>
+                <span>המלצות השקעה — תיק $45,000 | סיכון בינוני-גבוה</span>
+            </div>
+        </div>
+        <div class="header-meta">
+            <div class="live-badge">
+                <div class="live-dot"></div>
+                מלחמה פעילה — איראן
+            </div>
+            <div class="date-badge">מרץ 2026</div>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-content">
+        <a class="nav-item active" onclick="scrollToSection('macro')">מאקרו</a>
+        <a class="nav-item" onclick="scrollToSection('allocation')">חלוקת תיק</a>
+        <a class="nav-item" onclick="scrollToSection('stocks')">מניות</a>
+        <a class="nav-item" onclick="scrollToSection('timeline')">אסטרטגיית כניסה</a>
+        <a class="nav-item" onclick="scrollToSection('peak')">תזמון פיק</a>
+        <a class="nav-item" onclick="scrollToSection('risks')">סיכונים</a>
+        <a class="nav-item" onclick="scrollToSection('exit')">נקודות יציאה</a>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main class="main">
+
+    <!-- Macro Section -->
+    <section id="macro" class="section">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(59,130,246,0.15);">🌍</div>
+            <div>
+                <h2 class="section-title">סביבה מאקרו-כלכלית</h2>
+                <p class="section-subtitle">מצב השוק הנוכחי — מרץ 2026</p>
+            </div>
+        </div>
+
+        <!-- KPI Grid -->
+        <div class="hero-grid">
+            <div class="kpi-card blue fade-in">
+                <div class="kpi-label">ריבית הפד</div>
+                <div class="kpi-value blue">3.50-3.75%</div>
+                <div class="kpi-change down">▼ צפי ל-1-2 הורדות ב-2026</div>
+            </div>
+            <div class="kpi-card green fade-in">
+                <div class="kpi-label">Core PCE (אינפלציה)</div>
+                <div class="kpi-value green">2.5%</div>
+                <div class="kpi-change down">▼ ירידה מ-2.8%</div>
+            </div>
+            <div class="kpi-card purple fade-in">
+                <div class="kpi-label">S&P 500 יעד</div>
+                <div class="kpi-value purple">7,100-8,100</div>
+                <div class="kpi-change up">▲ צמיחת EPS +12.5%</div>
+            </div>
+            <div class="kpi-card gold fade-in">
+                <div class="kpi-label">זהב ($/oz)</div>
+                <div class="kpi-value gold">$5,400</div>
+                <div class="kpi-change up">▲ שיא חדש</div>
+            </div>
+            <div class="kpi-card red fade-in">
+                <div class="kpi-label">Brent Crude</div>
+                <div class="kpi-value red">$78.41</div>
+                <div class="kpi-change up">▲ +7.6% (מלחמה)</div>
+            </div>
+            <div class="kpi-card orange fade-in">
+                <div class="kpi-label">WTI Crude</div>
+                <div class="kpi-value orange">$72.01</div>
+                <div class="kpi-change up">▲ +7.4%</div>
+            </div>
+        </div>
+
+        <!-- War Alert -->
+        <div class="alert-banner fade-in">
+            <div class="alert-icon">⚠️</div>
+            <div class="alert-content">
+                <h3>מלחמת איראן — השלכות שוק</h3>
+                <p>התקיפות האמריקאיות-ישראליות על איראן (סוף פברואר–תחילת מרץ 2026) יצרו מפנה גיאופוליטי משמעותי. מניות ביטחוניות קפצו, נפט זינק, זהב פרץ שיא חדש, ו-S&P 500 ירד אך התאושש במהירות.</p>
+                <div class="alert-stats">
+                    <div class="alert-stat">
+                        <span class="alert-stat-label">מניות ביטחון</span>
+                        <span class="alert-stat-value" style="color: var(--accent-green);">+2% עד +6%</span>
+                    </div>
+                    <div class="alert-stat">
+                        <span class="alert-stat-label">נפט</span>
+                        <span class="alert-stat-value" style="color: var(--accent-green);">+7-8%</span>
+                    </div>
+                    <div class="alert-stat">
+                        <span class="alert-stat-label">זהב</span>
+                        <span class="alert-stat-value" style="color: var(--accent-gold);">שיא חדש</span>
+                    </div>
+                    <div class="alert-stat">
+                        <span class="alert-stat-label">S&P 500</span>
+                        <span class="alert-stat-value" style="color: var(--accent-red);">-0.4% עד -1%</span>
+                    </div>
+                    <div class="alert-stat">
+                        <span class="alert-stat-label">סיכון מרכזי</span>
+                        <span class="alert-stat-value" style="color: var(--accent-red);">מצר הורמוז — 20M bbl/day</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Allocation Section -->
+    <section id="allocation" class="section">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(16,185,129,0.15);">📊</div>
+            <div>
+                <h2 class="section-title">חלוקת תיק — $45,000</h2>
+                <p class="section-subtitle">פיזור לפי סקטורים עם 21% רזרבת מזומן</p>
+            </div>
+        </div>
+
+        <!-- Visual Sector Bar -->
+        <div class="sector-bar-container fade-in">
+            <div class="sector-bar">
+                <div class="sector-bar-segment" style="width: 27%; background: var(--gradient-blue);" title="AI / מוליכים למחצה — 27%">27% AI</div>
+                <div class="sector-bar-segment" style="width: 25%; background: linear-gradient(135deg, #ef4444, #dc2626);" title="ביטחון / הגנה — 25%">25% ביטחון</div>
+                <div class="sector-bar-segment" style="width: 8%; background: var(--gradient-purple);" title="סייבר — 8%">8%</div>
+                <div class="sector-bar-segment" style="width: 13%; background: linear-gradient(135deg, #f59e0b, #10b981);" title="אנרגיה — 13%">13% אנרגיה</div>
+                <div class="sector-bar-segment" style="width: 6%; background: var(--gradient-gold);" title="זהב — 6%">6%</div>
+                <div class="sector-bar-segment" style="width: 21%; background: linear-gradient(135deg, #374151, #4b5563);" title="מזומן / רזרבה — 21%">21% מזומן</div>
+            </div>
+            <div class="sector-legend">
+                <div class="legend-item"><div class="legend-dot" style="background: var(--accent-blue);"></div>AI / מוליכים למחצה — $12,150</div>
+                <div class="legend-item"><div class="legend-dot" style="background: var(--accent-red);"></div>ביטחון / הגנה — $11,250</div>
+                <div class="legend-item"><div class="legend-dot" style="background: var(--accent-purple);"></div>סייבר — $3,600</div>
+                <div class="legend-item"><div class="legend-dot" style="background: var(--accent-orange);"></div>אנרגיה — $5,850</div>
+                <div class="legend-item"><div class="legend-dot" style="background: var(--accent-gold);"></div>זהב — $2,700</div>
+                <div class="legend-item"><div class="legend-dot" style="background: #4b5563;"></div>מזומן / רזרבה — $9,450</div>
+            </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="charts-grid">
+            <div class="chart-card fade-in">
+                <div class="chart-title">📊 חלוקת תיק לפי סקטור</div>
+                <div class="chart-container">
+                    <canvas id="sectorChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card fade-in">
+                <div class="chart-title">📈 הקצאה לפי מניה</div>
+                <div class="chart-container">
+                    <canvas id="stockChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Cash -->
+        <div class="chart-card fade-in" style="background: linear-gradient(135deg, rgba(59,130,246,0.05), rgba(139,92,246,0.05));">
+            <div class="chart-title">💰 למה 21% מזומן?</div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; padding: 1rem 0;">
+                <div>
+                    <h4 style="color: var(--accent-blue); margin-bottom: 0.5rem;">ניצול תיקונים</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">אם S&P 500 יורד 5-10% על הסלמה — יש כוח קנייה מיידי</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--accent-green); margin-bottom: 0.5rem;">מיצוע עלויות (DCA)</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">כניסה הדרגתית ב-3-4 טרנצ'ים לאורך 2-3 חודשים</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--accent-purple); margin-bottom: 0.5rem;">הזדמנויות טקטיות</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">מניות שנפגעו בלי הצדקה — בדיוק מה שקרה ב-1/3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stocks Section -->
+    <section id="stocks" class="section">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(139,92,246,0.15);">🏢</div>
+            <div>
+                <h2 class="section-title">10 מניות מומלצות</h2>
+                <p class="section-subtitle">ניתוח מפורט עם נימוקים, סיכונים ואופק השקעה</p>
+            </div>
+        </div>
+
+        <!-- Filter -->
+        <div class="filter-bar">
+            <button class="filter-btn active" onclick="filterStocks('all')">הכל</button>
+            <button class="filter-btn" onclick="filterStocks('ai')">AI / מוליכים למחצה</button>
+            <button class="filter-btn" onclick="filterStocks('defense')">ביטחון</button>
+            <button class="filter-btn" onclick="filterStocks('cyber')">סייבר</button>
+            <button class="filter-btn" onclick="filterStocks('energy')">אנרגיה</button>
+            <button class="filter-btn" onclick="filterStocks('gold')">זהב</button>
+        </div>
+
+        <!-- Stock Cards -->
+        <div class="stocks-grid" id="stocksGrid">
+            <!-- NVDA -->
+            <div class="stock-card fade-in" data-sector="ai">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #76b900, #4a7a00);">NVDA</div>
+                        <div class="stock-name">
+                            <h3>NVIDIA</h3>
+                            <span>AI / מוליכים למחצה</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$5,400</div>
+                        <div class="percent">12% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">80%+ נתח שוק במאיצי AI, צבר הזמנות עצום עבור Blackwell/B300. תמחור ~46x רווחים — אטרקטיבי ביחס לצמיחה.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">צמיחת רווחים שנתית</div>
+                            <div class="metric-value" style="color: var(--accent-green);">~37%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">12-24 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">P/E</div>
+                            <div class="metric-value">~46x</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">נתח שוק AI</div>
+                            <div class="metric-value" style="color: var(--accent-blue);">80%+</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">AI</span>
+                        <span class="tag risk">סיכון: רגולציה ייצוא</span>
+                        <span class="tag horizon">12-24 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AVGO -->
+            <div class="stock-card fade-in" data-sector="ai">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #cc0000, #8b0000);">AVGO</div>
+                        <div class="stock-name">
+                            <h3>Broadcom</h3>
+                            <span>AI Infrastructure</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$4,050</div>
+                        <div class="percent">9% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">70-80% נתח שוק ב-ASIC מותאם (Google, Meta, Anthropic), 80% בשבבי Ethernet. שוק ה-ASIC צומח 20-30% שנתי.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">צמיחת שוק ASIC</div>
+                            <div class="metric-value" style="color: var(--accent-green);">20-30%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">12-24 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">נתח ASIC</div>
+                            <div class="metric-value" style="color: var(--accent-blue);">70-80%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">נתח Ethernet</div>
+                            <div class="metric-value" style="color: var(--accent-blue);">80%</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">AI Infrastructure</span>
+                        <span class="tag risk">סיכון: תלות בלקוחות</span>
+                        <span class="tag horizon">12-24 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LMT -->
+            <div class="stock-card fade-in" data-sector="defense">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #1a3a5c, #0d1f33);">LMT</div>
+                        <div class="stock-name">
+                            <h3>Lockheed Martin</h3>
+                            <span>ביטחון / הגנה</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$4,500</div>
+                        <div class="percent">10% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">צבר $194B, קבלן מס' 1 של ממשלת ארה"ב, תוכנית F-35. מלחמת איראן + תקציב ביטחון $1.5T ל-2027 כקטליזטור מרכזי.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">צמיחה שנתית</div>
+                            <div class="metric-value" style="color: var(--accent-green);">8-12%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">12-36 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">צבר הזמנות</div>
+                            <div class="metric-value" style="color: var(--accent-gold);">$194B</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">תקציב ביטחון</div>
+                            <div class="metric-value" style="color: var(--accent-red);">$1.5T</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">ביטחון</span>
+                        <span class="tag risk">סיכון: תלות תקציבית</span>
+                        <span class="tag horizon">12-36 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RTX -->
+            <div class="stock-card fade-in" data-sector="defense">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #003366, #001a33);">RTX</div>
+                        <div class="stock-name">
+                            <h3>RTX Corporation</h3>
+                            <span>ביטחון + אווירונאוטיקה</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$3,600</div>
+                        <div class="percent">8% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">הכפילה ייצור טילי AMRAAM ל-1,200/שנה, חוזה $3.5B. Top pick של אנליסטים. צמיחה דו-ספרתית ברווח + שיפור שוליים.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">צמיחת רווח</div>
+                            <div class="metric-value" style="color: var(--accent-green);">דו-ספרתית</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">12-24 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">ייצור AMRAAM</div>
+                            <div class="metric-value" style="color: var(--accent-orange);">1,200/שנה</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">חוזה חדש</div>
+                            <div class="metric-value" style="color: var(--accent-gold);">$3.5B</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">ביטחון</span>
+                        <span class="tag risk">סיכון: שרשרת אספקה</span>
+                        <span class="tag horizon">12-24 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NOC -->
+            <div class="stock-card fade-in" data-sector="defense">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #4a0e8f, #2d0654);">NOC</div>
+                        <div class="stock-name">
+                            <h3>Northrop Grumman</h3>
+                            <span>ביטחון מתקדם</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$3,150</div>
+                        <div class="percent">7% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">B-21 Raider נכנס לייצור, צפי לחוזה $4.5B. פרויקט Golden Dome. צמיחת הכנסות >4.5% (צפי לעבור את ההנחיה).</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">צמיחת הכנסות</div>
+                            <div class="metric-value" style="color: var(--accent-green);">>4.5%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">18-36 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">חוזה צפוי</div>
+                            <div class="metric-value" style="color: var(--accent-gold);">$4.5B</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">פרויקט מפתח</div>
+                            <div class="metric-value" style="color: var(--accent-purple);">B-21 Raider</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">ביטחון מתקדם</span>
+                        <span class="tag risk">סיכון: ריכוז פרויקטים</span>
+                        <span class="tag horizon">18-36 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CRWD -->
+            <div class="stock-card fade-in" data-sector="cyber">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">CRWD</div>
+                        <div class="stock-name">
+                            <h3>CrowdStrike</h3>
+                            <span>סייבר</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$3,600</div>
+                        <div class="percent">8% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">צמיחה של ~21% בהכנסות, חודר לנתח של מתחרים. מלחמת סייבר מקבילה למלחמה הפיזית עם איראן כקטליזטור.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">צמיחת הכנסות</div>
+                            <div class="metric-value" style="color: var(--accent-green);">~21%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">12-24 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">הכנסות FY2026</div>
+                            <div class="metric-value" style="color: var(--accent-blue);">~$4.8B</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">הכנסות FY2027</div>
+                            <div class="metric-value" style="color: var(--accent-cyan);">~$5.8B</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">סייבר</span>
+                        <span class="tag risk">סיכון: תמחור גבוה</span>
+                        <span class="tag horizon">12-24 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CEG -->
+            <div class="stock-card fade-in" data-sector="energy">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">CEG</div>
+                        <div class="stock-name">
+                            <h3>Constellation Energy</h3>
+                            <span>אנרגיה גרעינית</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$3,150</div>
+                        <div class="percent">7% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">21 כורים גרעיניים, חוזה 20 שנה עם Microsoft, רכישת Calpine הושלמה. ביקוש AI לחשמל 24/7 — מ-19GW ל-35GW עד 2030.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">כורים פעילים</div>
+                            <div class="metric-value" style="color: var(--accent-green);">21</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">24-60 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">חוזה Microsoft</div>
+                            <div class="metric-value" style="color: var(--accent-blue);">20 שנים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">ביקוש DC 2030</div>
+                            <div class="metric-value" style="color: var(--accent-orange);">35 GW</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">אנרגיה גרעינית</span>
+                        <span class="tag risk">סיכון: רגולציה</span>
+                        <span class="tag horizon">24-60 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- XOM -->
+            <div class="stock-card fade-in" data-sector="energy">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">XOM</div>
+                        <div class="stock-name">
+                            <h3>Exxon Mobil</h3>
+                            <span>אנרגיה / נפט</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$2,700</div>
+                        <div class="percent">6% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">מוביל עולמי, נהנה ישירות מעליית מחירי נפט. מלחמת איראן + סיכון מצר הורמוז = $80-$100 נפט. תשואת דיבידנד ~3.5%.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">תשואת דיבידנד</div>
+                            <div class="metric-value" style="color: var(--accent-green);">~3.5%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">3-12 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">יעד נפט (הסלמה)</div>
+                            <div class="metric-value" style="color: var(--accent-red);">$80-$100</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">סוג עסקה</div>
+                            <div class="metric-value" style="color: var(--accent-orange);">גיאופוליטי</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">נפט</span>
+                        <span class="tag risk">סיכון: נפט חוזר ל-$60</span>
+                        <span class="tag horizon">3-12 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NEM -->
+            <div class="stock-card fade-in" data-sector="gold">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #f1c40f, #d4ac0d);">NEM</div>
+                        <div class="stock-name">
+                            <h3>Newmont Corporation</h3>
+                            <span>זהב / כרייה</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$2,700</div>
+                        <div class="percent">6% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">זהב ב-$5,400, שולי רווח ~70% (עלות $1,400-1,600/אונקיה). בנקים מרכזיים קונים 60 טון/חודש. גידור מצוין.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">שולי רווח</div>
+                            <div class="metric-value" style="color: var(--accent-green);">~70%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">6-18 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">עלות ייצור</div>
+                            <div class="metric-value">$1,400-1,600</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">זהב נוכחי</div>
+                            <div class="metric-value" style="color: var(--accent-gold);">$5,400</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">זהב</span>
+                        <span class="tag risk">סיכון: הסכם שלום</span>
+                        <span class="tag horizon">6-18 חודשים</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AMD -->
+            <div class="stock-card fade-in" data-sector="ai">
+                <div class="stock-card-header">
+                    <div class="stock-info">
+                        <div class="stock-icon" style="background: linear-gradient(135deg, #00a86b, #007a4d);">AMD</div>
+                        <div class="stock-name">
+                            <h3>AMD</h3>
+                            <span>מוליכים למחצה</span>
+                        </div>
+                    </div>
+                    <div class="stock-allocation">
+                        <div class="amount">$2,700</div>
+                        <div class="percent">6% מהתיק</div>
+                    </div>
+                </div>
+                <div class="stock-card-body">
+                    <p class="stock-thesis">MI300 — 70-80% מביצועי NVIDIA ב-60% מהמחיר. Data Center +150% ב-2025, גנבת נתח מ-Intel.</p>
+                    <div class="stock-metrics">
+                        <div class="metric">
+                            <div class="metric-label">צמיחת Data Center</div>
+                            <div class="metric-value" style="color: var(--accent-green);">+150%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">אופק אופטימלי</div>
+                            <div class="metric-value">12-24 חודשים</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">ביצוע vs NVIDIA</div>
+                            <div class="metric-value" style="color: var(--accent-blue);">70-80%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">מחיר vs NVIDIA</div>
+                            <div class="metric-value" style="color: var(--accent-green);">60%</div>
+                        </div>
+                    </div>
+                    <div class="stock-tags">
+                        <span class="tag sector">מוליכים למחצה</span>
+                        <span class="tag risk">סיכון: CUDA ecosystem</span>
+                        <span class="tag horizon">12-24 חודשים</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="section">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(245,158,11,0.15);">⏱️</div>
+            <div>
+                <h2 class="section-title">אסטרטגיית כניסה</h2>
+                <p class="section-subtitle">4 שלבי כניסה הדרגתית לאורך 3 חודשים</p>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div style="grid-column: 1 / -1;">
+                <div class="timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot phase1"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-phase phase1">שלב 1 — מיידי (השבוע)</div>
+                            <div class="timeline-title">40% מהתיק — קטליזטור פעיל</div>
+                            <div class="timeline-desc">מניות ביטחון — הקטליזטור כבר כאן. זהב ונפט כגידור גיאופוליטי מיידי.</div>
+                            <div class="timeline-amount">$18,000</div>
+                            <div class="timeline-stocks">
+                                <span class="timeline-stock-badge">LMT</span>
+                                <span class="timeline-stock-badge">RTX</span>
+                                <span class="timeline-stock-badge">NOC</span>
+                                <span class="timeline-stock-badge">NEM</span>
+                                <span class="timeline-stock-badge">XOM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot phase2"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-phase phase2">שלב 2 — תוך 2-4 שבועות</div>
+                            <div class="timeline-title">25% מהתיק — ירידת תנודתיות</div>
+                            <div class="timeline-desc">AI וסייבר — לחכות לירידה בתנודתיות. סייבר רלוונטי גם בהסלמה וגם בהרגעה.</div>
+                            <div class="timeline-amount">$11,250</div>
+                            <div class="timeline-stocks">
+                                <span class="timeline-stock-badge">NVDA</span>
+                                <span class="timeline-stock-badge">AVGO</span>
+                                <span class="timeline-stock-badge">CRWD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot phase3"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-phase phase3">שלב 3 — תוך 1-3 חודשים</div>
+                            <div class="timeline-title">14% מהתיק — נקודות תמיכה</div>
+                            <div class="timeline-desc">כניסה ב-AMD ו-CEG בנקודות תמיכה טכניות. אנרגיה גרעינית כהשקעה ארוכת טווח.</div>
+                            <div class="timeline-amount">$6,300</div>
+                            <div class="timeline-stocks">
+                                <span class="timeline-stock-badge">AMD</span>
+                                <span class="timeline-stock-badge">CEG</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot phase4"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-phase phase4">שלב 4 — רזרבה</div>
+                            <div class="timeline-title">21% מהתיק — כוח קנייה</div>
+                            <div class="timeline-desc">שמירה לניצול הזדמנויות, מיצוע כלפי מטה בתיקונים, או כניסה למניות חדשות.</div>
+                            <div class="timeline-amount">$9,450</div>
+                            <div class="timeline-stocks">
+                                <span class="timeline-stock-badge" style="background: rgba(139,92,246,0.15); color: var(--accent-purple);">מזומן</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Entry Timeline Chart -->
+        <div class="chart-card fade-in" style="margin-top: 1.5rem;">
+            <div class="chart-title">📅 לוח זמנים להשקעה</div>
+            <div class="chart-container">
+                <canvas id="timelineChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Peak Timing Section -->
+    <section id="peak" class="section">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(236,72,153,0.15);">🎯</div>
+            <div>
+                <h2 class="section-title">ניתוח תזמון פיק</h2>
+                <p class="section-subtitle">מתי כל סקטור צפוי להגיע לשיא — ומתי לשקול מכירה</p>
+            </div>
+        </div>
+
+        <div class="peak-grid">
+            <div class="peak-card fade-in">
+                <div class="peak-header">
+                    <div class="peak-sector">🛡️ ביטחון / הגנה</div>
+                    <div class="peak-date">Q4 2026 – Q2 2027</div>
+                </div>
+                <div class="peak-bar-container">
+                    <div class="peak-bar" style="width: 70%; background: var(--gradient-red);"></div>
+                </div>
+                <p class="peak-rationale">מחזור רכש ביטחוני מגיב ב-lag של 6-12 חודשים אחרי סכסוך. תקציב ביטחון $1.5T ל-2027.</p>
+                <div class="peak-signal">🔍 סיגנל: הצבעות תקציב בקונגרס, התחייבויות NATO</div>
+            </div>
+
+            <div class="peak-card fade-in">
+                <div class="peak-header">
+                    <div class="peak-sector">🤖 AI / מוליכים למחצה</div>
+                    <div class="peak-date">Q2 – Q4 2026</div>
+                </div>
+                <div class="peak-bar-container">
+                    <div class="peak-bar" style="width: 55%; background: var(--gradient-blue);"></div>
+                </div>
+                <p class="peak-rationale">מחזור Capex של Hyperscalers מגיע לשיא, פריסה מלאה של Blackwell/B300.</p>
+                <div class="peak-signal">🔍 סיגנל: הנחיות Capex של ענקיות הענן, Lead times</div>
+            </div>
+
+            <div class="peak-card fade-in">
+                <div class="peak-header">
+                    <div class="peak-sector">🛢️ אנרגיה — נפט</div>
+                    <div class="peak-date">Q1 – Q2 2026</div>
+                </div>
+                <div class="peak-bar-container">
+                    <div class="peak-bar" style="width: 35%; background: var(--gradient-gold);"></div>
+                </div>
+                <p class="peak-rationale">נפט הוא trade על פרמיית מלחמה — מחירים מתנרמלים אחרי סיום הסכסוך.</p>
+                <div class="peak-signal">🔍 סיגנל: נתוני ספנות הורמוז, התפתחויות דיפלומטיות</div>
+            </div>
+
+            <div class="peak-card fade-in">
+                <div class="peak-header">
+                    <div class="peak-sector">⚛️ אנרגיה — גרעינית</div>
+                    <div class="peak-date">2028 – 2030</div>
+                </div>
+                <div class="peak-bar-container">
+                    <div class="peak-bar" style="width: 90%; background: var(--gradient-green);"></div>
+                </div>
+                <p class="peak-rationale">מגמה מבנית רב-שנתית. ביקוש Data Centers לחשמל הוא מגמה של עשור.</p>
+                <div class="peak-signal">🔍 סיגנל: חוזי חשמל חדשים, אבני דרך SMR</div>
+            </div>
+
+            <div class="peak-card fade-in">
+                <div class="peak-header">
+                    <div class="peak-sector">🔒 סייבר</div>
+                    <div class="peak-date">Q3 2026 – Q1 2027</div>
+                </div>
+                <div class="peak-bar-container">
+                    <div class="peak-bar" style="width: 60%; background: var(--gradient-purple);"></div>
+                </div>
+                <p class="peak-rationale">מלחמת סייבר מתגברת במהלך ואחרי סכסוך פיזי. הוצאה ממשלתית עולה.</p>
+                <div class="peak-signal">🔍 סיגנל: הוצאה ממשלתית על סייבר, תדירות פריצות</div>
+            </div>
+
+            <div class="peak-card fade-in">
+                <div class="peak-header">
+                    <div class="peak-sector">🥇 זהב</div>
+                    <div class="peak-date">Q1 – Q3 2026</div>
+                </div>
+                <div class="peak-bar-container">
+                    <div class="peak-bar" style="width: 40%; background: linear-gradient(135deg, #f59e0b, #d97706);"></div>
+                </div>
+                <p class="peak-rationale">זהב הוא trade על פחד — מגיע לשיא עם מקסימום אי-ודאות גיאופוליטית.</p>
+                <div class="peak-signal">🔍 סיגנל: רכישות בנקים מרכזיים, ריבית ריאלית, מו"מ שלום</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Section -->
+    <section id="risks" class="section">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(239,68,68,0.15);">⚡</div>
+            <div>
+                <h2 class="section-title">מפת סיכונים</h2>
+                <p class="section-subtitle">5 תרחישי סיכון מרכזיים עם מנגנוני הגנה בתיק</p>
+            </div>
+        </div>
+
+        <table class="risk-table fade-in">
+            <thead>
+                <tr>
+                    <th>סיכון</th>
+                    <th>רמה</th>
+                    <th>השפעה</th>
+                    <th>הגנה בתיק</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>הסלמה במצר הורמוז</strong></td>
+                    <td><span class="risk-level high">גבוהה</span></td>
+                    <td>נפט >$100, שוק -10%</td>
+                    <td>NEM, XOM, LMT מאזנים. מזומן 21% לניצול הזדמנויות.</td>
+                </tr>
+                <tr>
+                    <td><strong>הפסקת אש מהירה</strong></td>
+                    <td><span class="risk-level medium">בינונית</span></td>
+                    <td>נפט חוזר ל-$60, זהב יורד</td>
+                    <td>AI וביטחון ממשיכים לצמוח ללא תלות בסכסוך.</td>
+                </tr>
+                <tr>
+                    <td><strong>ריבית עולה במקום יורדת</strong></td>
+                    <td><span class="risk-level medium">בינונית</span></td>
+                    <td>לחץ על תמחור מניות צמיחה</td>
+                    <td>ביטחון ואנרגיה פחות רגישים לריבית.</td>
+                </tr>
+                <tr>
+                    <td><strong>תיקון שוק 10-15%</strong></td>
+                    <td><span class="risk-level high">גבוהה</span></td>
+                    <td>פגיעה רוחבית בכל הסקטורים</td>
+                    <td>21% מזומן + מיצוע הדרגתי. פיזור סקטוריאלי.</td>
+                </tr>
+                <tr>
+                    <td><strong>רגולציה על AI/שבבים</strong></td>
+                    <td><span class="risk-level medium">בינונית</span></td>
+                    <td>פגיעה ב-NVDA, AVGO, AMD</td>
+                    <td>פיזור סקטוריאלי — רק 27% חשופים ל-AI.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Exit Section -->
+    <section id="exit" class="section">
+        <div class="section-header">
+            <div class="section-icon" style="background: rgba(245,158,11,0.15);">🚪</div>
+            <div>
+                <h2 class="section-title">נקודות יציאה / לקיחת רווחים</h2>
+                <p class="section-subtitle">כללים ברורים מתי למכור ומתי להחזיק</p>
+            </div>
+        </div>
+
+        <div class="exit-grid">
+            <div class="exit-card fade-in">
+                <div class="exit-icon">🛢️</div>
+                <div>
+                    <div class="exit-stock">XOM — נפט</div>
+                    <div class="exit-rule">מכור אם נפט יורד מתחת ל-<strong>$65</strong> או עולה מעל <strong>$95</strong> (לקיחת רווחים)</div>
+                </div>
+            </div>
+            <div class="exit-card fade-in">
+                <div class="exit-icon">🥇</div>
+                <div>
+                    <div class="exit-stock">NEM — זהב</div>
+                    <div class="exit-rule">הפחת אם מתפתח הסכם שלום או זהב יורד מתחת ל-<strong>$4,800</strong></div>
+                </div>
+            </div>
+            <div class="exit-card fade-in">
+                <div class="exit-icon">🛡️</div>
+                <div>
+                    <div class="exit-stock">LMT, RTX, NOC — ביטחון</div>
+                    <div class="exit-rule">Positions ל-<strong>1-3 שנים</strong> — אל תמכור על תנודות יומיות</div>
+                </div>
+            </div>
+            <div class="exit-card fade-in">
+                <div class="exit-icon">🤖</div>
+                <div>
+                    <div class="exit-stock">NVDA, AVGO, AMD — AI</div>
+                    <div class="exit-rule">מכור <strong>25-30%</strong> מהפוזיציה אם מניה עולה <strong>>50%</strong> מנקודת הכניסה</div>
+                </div>
+            </div>
+            <div class="exit-card fade-in">
+                <div class="exit-icon">🔒</div>
+                <div>
+                    <div class="exit-stock">CRWD — סייבר</div>
+                    <div class="exit-rule">הפחת אם צמיחת הכנסות יורדת מתחת ל-<strong>15%</strong> או P/S עולה מעל <strong>25x</strong></div>
+                </div>
+            </div>
+            <div class="exit-card fade-in">
+                <div class="exit-icon">⚛️</div>
+                <div>
+                    <div class="exit-stock">CEG — גרעינית</div>
+                    <div class="exit-rule">השקעה ארוכת טווח. מכור רק אם רגולציה משתנה או חוזים מבוטלים.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer fade-in">
+        <h4>⚠️ הצהרת אחריות</h4>
+        <p>מסמך זה אינו מהווה ייעוץ השקעות מוסמך. יש להתייעץ עם יועץ השקעות מורשה לפני ביצוע עסקאות. השוק תנודתי במיוחד בימים אלה ויש סיכון לאובדן הון.</p>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>Market Research Dashboard — מרץ 2026 | מבוסס על נתוני J.P. Morgan, Goldman Sachs, Morgan Stanley, CNBC, Seeking Alpha</p>
+</footer>
+
+<!-- Charts Script -->
+<script>
+// Register datalabels plugin
+Chart.register(ChartDataLabels);
+
+// Chart defaults
+Chart.defaults.color = '#8b95a8';
+Chart.defaults.font.family = 'Heebo';
+
+// Sector Doughnut Chart
+const sectorCtx = document.getElementById('sectorChart').getContext('2d');
+new Chart(sectorCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['AI / מוליכים למחצה', 'ביטחון / הגנה', 'סייבר', 'אנרגיה', 'זהב', 'מזומן'],
+        datasets: [{
+            data: [12150, 11250, 3600, 5850, 2700, 9450],
+            backgroundColor: [
+                '#3b82f6',
+                '#ef4444',
+                '#8b5cf6',
+                '#f59e0b',
+                '#fbbf24',
+                '#4b5563'
+            ],
+            borderColor: '#1a2235',
+            borderWidth: 3,
+            hoverOffset: 10
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '65%',
+        plugins: {
+            legend: {
+                position: 'bottom',
+                rtl: true,
+                labels: {
+                    padding: 15,
+                    usePointStyle: true,
+                    pointStyleWidth: 12,
+                    font: { size: 12 }
+                }
+            },
+            datalabels: {
+                color: '#e8ecf4',
+                font: { weight: 'bold', size: 11 },
+                formatter: (value, ctx) => {
+                    const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                    const pct = Math.round(value / total * 100);
+                    return pct >= 8 ? pct + '%' : '';
+                }
+            }
+        }
+    }
+});
+
+// Stock Bar Chart
+const stockCtx = document.getElementById('stockChart').getContext('2d');
+new Chart(stockCtx, {
+    type: 'bar',
+    data: {
+        labels: ['NVDA', 'LMT', 'AVGO', 'RTX', 'CRWD', 'NOC', 'CEG', 'XOM', 'NEM', 'AMD'],
+        datasets: [{
+            label: 'הקצאה ($)',
+            data: [5400, 4500, 4050, 3600, 3600, 3150, 3150, 2700, 2700, 2700],
+            backgroundColor: [
+                '#76b900', '#1a3a5c', '#cc0000', '#003366', '#e74c3c',
+                '#4a0e8f', '#2ecc71', '#e74c3c', '#f1c40f', '#00a86b'
+            ],
+            borderRadius: 8,
+            borderSkipped: false
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        indexAxis: 'y',
+        plugins: {
+            legend: { display: false },
+            datalabels: {
+                anchor: 'end',
+                align: 'start',
+                offset: 8,
+                color: '#e8ecf4',
+                font: { weight: 'bold', size: 11 },
+                formatter: (value) => '$' + value.toLocaleString()
+            }
+        },
+        scales: {
+            x: {
+                grid: { color: 'rgba(42,58,92,0.3)', drawBorder: false },
+                ticks: {
+                    callback: (value) => '$' + (value / 1000) + 'K'
+                }
+            },
+            y: {
+                grid: { display: false },
+                ticks: { font: { weight: 'bold', size: 12 } }
+            }
+        }
+    }
+});
+
+// Timeline Chart
+const timeCtx = document.getElementById('timelineChart').getContext('2d');
+new Chart(timeCtx, {
+    type: 'bar',
+    data: {
+        labels: ['שלב 1\nמיידי', 'שלב 2\n2-4 שבועות', 'שלב 3\n1-3 חודשים', 'שלב 4\nרזרבה'],
+        datasets: [{
+            label: 'סכום השקעה',
+            data: [18000, 11250, 6300, 9450],
+            backgroundColor: [
+                'rgba(239,68,68,0.8)',
+                'rgba(59,130,246,0.8)',
+                'rgba(16,185,129,0.8)',
+                'rgba(139,92,246,0.8)'
+            ],
+            borderRadius: 12,
+            borderSkipped: false,
+            barThickness: 60
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { display: false },
+            datalabels: {
+                anchor: 'end',
+                align: 'end',
+                color: '#e8ecf4',
+                font: { weight: 'bold', size: 13 },
+                formatter: (value) => '$' + value.toLocaleString()
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                grid: { color: 'rgba(42,58,92,0.3)', drawBorder: false },
+                ticks: {
+                    callback: (value) => '$' + (value / 1000) + 'K'
+                }
+            },
+            x: {
+                grid: { display: false },
+                ticks: { font: { size: 11 } }
+            }
+        }
+    }
+});
+
+// Stock Filter
+function filterStocks(sector) {
+    const cards = document.querySelectorAll('.stock-card');
+    const btns = document.querySelectorAll('.filter-btn');
+
+    btns.forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    cards.forEach(card => {
+        if (sector === 'all' || card.dataset.sector === sector) {
+            card.style.display = '';
+            card.style.animation = 'fadeIn 0.4s ease forwards';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+}
+
+// Navigation
+function scrollToSection(id) {
+    const el = document.getElementById(id);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+        // Update active nav
+        document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+}
+
+// Intersection Observer for nav highlighting
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const id = entry.target.id;
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.toggle('active', item.getAttribute('onclick')?.includes(id));
+            });
+        }
+    });
+}, { threshold: 0.3, rootMargin: '-160px 0px 0px 0px' });
+
+document.querySelectorAll('.section').forEach(section => observer.observe(section));
+
+// Animate fade-in on scroll
+const fadeObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.animationPlayState = 'running';
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-in').forEach(el => {
+    el.style.animationPlayState = 'paused';
+    fadeObserver.observe(el);
+});
+</script>
+
+</body>
+</html>
