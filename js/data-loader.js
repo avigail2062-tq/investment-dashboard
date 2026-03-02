@@ -356,6 +356,13 @@ class DataLoader {
 }
 
 // ---------------------------------------------------------------------------
-// Singleton
+// Singleton — auto-load data when DOM is ready
 // ---------------------------------------------------------------------------
 window.dataLoader = new DataLoader();
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Immediately load all data on first page load
+  window.dataLoader.loadAll();
+  // Then start auto-refreshing every 5 minutes
+  window.dataLoader.startAutoRefresh();
+});

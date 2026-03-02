@@ -12,17 +12,39 @@ class IntelligencePage {
             this.data = data;
             this.render(data);
         });
-        loader.on('dataError', () => {
-            this.showLoading();
+        loader.on('loadError', () => {
+            this.showError();
+        });
+        loader.on('awaitingData', () => {
+            this.showAwaiting();
         });
         this.showLoading();
-        loader.startAutoRefresh();
+        // Data loading & auto-refresh are handled by data-loader.js DOMContentLoaded
+        // If data is already loaded, render immediately
+        if (loader.intelligenceData) {
+            this.data = loader.intelligenceData;
+            this.render(loader.intelligenceData);
+        }
     }
 
     showLoading() {
         const el = document.getElementById('intelSummaryGrid');
         if (el) {
             el.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">⏳ טוען נתונים...</div>';
+        }
+    }
+
+    showError() {
+        const el = document.getElementById('intelSummaryGrid');
+        if (el) {
+            el.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--accent-red);">❌ שגיאה בטעינת נתונים. ניסיון חוזר בעוד 5 דקות...</div>';
+        }
+    }
+
+    showAwaiting() {
+        const el = document.getElementById('intelSummaryGrid');
+        if (el) {
+            el.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">📭 ממתין לנתוני מודיעין ראשונים... הנתונים יעודכנו אוטומטית.</div>';
         }
     }
 

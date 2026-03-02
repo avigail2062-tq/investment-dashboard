@@ -12,6 +12,37 @@ import os
 import time
 from datetime import datetime, timezone
 
+# Suppress yfinance deprecation warnings
+import warnings
+warnings.filterwarnings('ignore', category=FutureWarning)
+
+
+def fetch_history_safe(ticker_str, period='1y', retries=2):
+    """Fetch ticker history with retry and fallback to yf.download()."""
+    for attempt in range(retries + 1):
+        try:
+            t = yf.Ticker(ticker_str)
+            df = t.history(period=period)
+            if df is not None and len(df) > 0:
+                return df, t
+        except Exception as e:
+            print(f"  Attempt {attempt+1} failed for {ticker_str}: {e}")
+
+        # Fallback: use yf.download which is often more reliable
+        try:
+            df = yf.download(ticker_str, period=period, progress=False, auto_adjust=True)
+            if df is not None and len(df) > 0:
+                # Create a dummy ticker object for .info access
+                t = yf.Ticker(ticker_str)
+                return df, t
+        except Exception as e2:
+            print(f"  Download fallback failed for {ticker_str}: {e2}")
+
+        if attempt < retries:
+            time.sleep(1)
+
+    return pd.DataFrame(), yf.Ticker(ticker_str)
+
 # === CONFIGURATION ===
 
 TICKERS = ['NVDA', 'AVGO', 'LMT', 'RTX', 'NOC', 'CRWD', 'CEG', 'XOM', 'NEM', 'AMD']
@@ -402,8 +433,7 @@ def fetch_all_data():
     macro = {}
     for yticker, name in INDEX_TICKERS.items():
         try:
-            t = yf.Ticker(yticker)
-            hist = t.history(period='5d')
+            hist, _ = fetch_history_safe(yticker, period='5d', retries=1)
             if len(hist) >= 2:
                 latest_price = float(hist['Close'].iloc[-1])
                 prev_price = float(hist['Close'].iloc[-2])
@@ -430,10 +460,9 @@ def fetch_all_data():
     for ticker in TICKERS:
         try:
             print(f"  Processing {ticker}...")
-            t = yf.Ticker(ticker)
 
             # Get 1 year of data for SMA200
-            df = t.history(period='1y')
+            df, t = fetch_history_safe(ticker, period='1y', retries=2)
             if len(df) < 5:
                 print(f"  Warning: Not enough data for {ticker}")
                 continue
@@ -460,10 +489,14 @@ def fetch_all_data():
             current_value = shares_estimate * price
             total_current_value += current_value
 
-            # Get info for PE
-            info = t.info or {}
-            pe = info.get('trailingPE') or info.get('forwardPE')
-            market_cap = info.get('marketCap')
+            # Get info for PE (may fail, not critical)
+            try:
+                info = t.info or {}
+                pe = info.get('trailingPE') or info.get('forwardPE')
+                market_cap = info.get('marketCap')
+            except Exception:
+                pe = None
+                market_cap = None
 
             stocks_data[ticker] = {
                 'price': round(price, 2),

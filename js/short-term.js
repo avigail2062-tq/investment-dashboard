@@ -9,16 +9,31 @@ class ShortTermPage {
 
     async init() {
         const loader = window.dataLoader;
-        loader.on('dataUpdated', ({ shortTerm, marketData }) => {
-            this.data = shortTerm;
-            this.marketData = marketData;
-            this.render(shortTerm, marketData);
+        // Listen for short-term specific data updates
+        loader.on('shortTermUpdated', (shortTermData) => {
+            this.data = shortTermData;
+            this.render(shortTermData, loader.marketData);
         });
-        loader.on('dataError', () => {
-            this.showLoading();
+        // Also listen for market data updates (to refresh prices)
+        loader.on('dataUpdated', (marketData) => {
+            this.marketData = marketData;
+            if (this.data) {
+                this.render(this.data, marketData);
+            }
+        });
+        loader.on('loadError', () => {
+            this.showError();
+        });
+        loader.on('awaitingData', () => {
+            this.showAwaiting();
         });
         this.showLoading();
-        loader.startAutoRefresh();
+        // Data loading & auto-refresh are handled by data-loader.js DOMContentLoaded
+        // If data is already loaded, render immediately
+        if (loader.shortTermData) {
+            this.data = loader.shortTermData;
+            this.render(loader.shortTermData, loader.marketData);
+        }
     }
 
     showLoading() {
@@ -28,11 +43,27 @@ class ShortTermPage {
         }
     }
 
+    showError() {
+        const sentimentEl = document.getElementById('sentimentGrid');
+        if (sentimentEl) {
+            sentimentEl.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--accent-red);">❌ שגיאה בטעינת נתונים. ניסיון חוזר בעוד 5 דקות...</div>';
+        }
+    }
+
+    showAwaiting() {
+        const sentimentEl = document.getElementById('sentimentGrid');
+        if (sentimentEl) {
+            sentimentEl.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">📭 ממתין לנתונים ראשונים... הנתונים יעודכנו אוטומטית.</div>';
+        }
+    }
+
     render(shortTerm, marketData) {
+        if (!shortTerm) return;
+        const stocks = (marketData && marketData.stocks) ? marketData.stocks : {};
         this.renderSentiment(shortTerm.marketSentiment);
-        this.renderSignalCards(shortTerm.signals, marketData.stocks);
-        this.renderTradeIdeas(shortTerm.signals, 'dayTrade');
-        this.renderTradeIdeas(shortTerm.signals, 'swingTrade');
+        this.renderSignalCards(shortTerm.signals || [], stocks);
+        this.renderTradeIdeas(shortTerm.signals || [], 'dayTrade');
+        this.renderTradeIdeas(shortTerm.signals || [], 'swingTrade');
         this.updateLastUpdated(shortTerm.lastUpdated);
     }
 
