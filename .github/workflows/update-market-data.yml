@@ -1,9 +1,11 @@
-name: Update Market Data
+name: Update Market Data & Intelligence
 
 on:
   schedule:
     # Morning: 7:30 AM Israel Time (4:30 AM UTC) - pre-market
     - cron: '30 4 * * 1-5'
+    # Midday: 3:30 PM Israel Time (12:30 PM UTC) - during market hours
+    - cron: '30 12 * * 1-5'
     # Evening: 10:30 PM Israel Time (7:30 PM UTC) - after market close
     - cron: '30 19 * * 1-5'
   workflow_dispatch: # Manual trigger for testing
@@ -29,10 +31,19 @@ jobs:
       - name: Fetch market data
         run: python scripts/fetch_market_data.py
 
+      - name: Fetch intelligence data
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}
+          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/fetch_intelligence.py
+
       - name: Commit and push
         run: |
           git config user.name "Market Data Bot"
           git config user.email "bot@investment-dashboard.github.io"
           git add data/
-          git diff --staged --quiet || git commit -m "📊 data: update market data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "📊 data: update market & intelligence data $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
