@@ -536,14 +536,18 @@ def fetch_insider_transactions(tickers, limit_per_ticker=20):
 # === SOCIAL SENTIMENT ===
 
 def fetch_stocktwits_sentiment(tickers):
-    """Fetch StockTwits sentiment (free, no auth needed)."""
+    """Fetch StockTwits sentiment (may require API token)."""
     print(f"  Fetching StockTwits sentiment for {len(tickers)} tickers...")
     social_data = {}
 
     for ticker in tickers:
         try:
             url = f"https://api.stocktwits.com/api/2/streams/symbol/{ticker}.json"
-            data = make_request(url, timeout=10)
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (compatible; InvestmentDashboard/1.0)',
+                'Accept': 'application/json'
+            }
+            data = make_request(url, headers=headers, timeout=10)
 
             if data and 'messages' in data:
                 messages = data['messages']
@@ -583,8 +587,11 @@ def fetch_reddit_trending():
 
     for sub in subreddits:
         try:
-            url = f"https://www.reddit.com/r/{sub}/hot.json?limit=25"
-            headers = {'User-Agent': 'InvestmentDashboard/1.0'}
+            url = f"https://www.reddit.com/r/{sub}/hot.json?limit=25&raw_json=1"
+            headers = {
+                'User-Agent': 'linux:InvestmentDashboard:v1.0 (by /u/investbot)',
+                'Accept': 'application/json'
+            }
             data = make_request(url, headers=headers, timeout=10)
 
             if data and 'data' in data and 'children' in data['data']:
