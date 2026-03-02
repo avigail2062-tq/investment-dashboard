@@ -1,0 +1,356 @@
+/* Short-Term Trading Page Styles */
+
+/* Signal Cards Grid */
+.signals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 1.5rem;
+}
+
+.signal-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.signal-card:hover {
+    border-color: var(--accent-blue);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+.signal-card-header {
+    padding: 1.2rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.signal-card-info {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.signal-ticker {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.signal-price {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.signal-badge {
+    padding: 0.4rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.signal-badge.buy {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--accent-green);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.signal-badge.sell {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--accent-red);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.signal-badge.hold {
+    background: rgba(139, 92, 246, 0.15);
+    color: var(--accent-purple);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.signal-card-body {
+    padding: 1.2rem 1.5rem;
+}
+
+/* Momentum Score Bar */
+.momentum-container {
+    margin-bottom: 1rem;
+}
+
+.momentum-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.momentum-score {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.momentum-bar {
+    height: 8px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.momentum-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.8s ease;
+}
+
+.momentum-fill.bullish { background: linear-gradient(90deg, var(--accent-green), #34d399); }
+.momentum-fill.neutral { background: linear-gradient(90deg, var(--accent-orange), #fbbf24); }
+.momentum-fill.bearish { background: linear-gradient(90deg, var(--accent-red), #f87171); }
+
+/* Analysis Grid */
+.analysis-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.analysis-item {
+    background: rgba(59, 130, 246, 0.05);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    border-radius: 8px;
+    padding: 0.6rem 0.8rem;
+}
+
+.analysis-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-bottom: 0.2rem;
+}
+
+.analysis-value {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.analysis-value.bullish { color: var(--accent-green); }
+.analysis-value.bearish { color: var(--accent-red); }
+.analysis-value.neutral { color: var(--accent-orange); }
+
+/* Support/Resistance */
+.sr-levels {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    font-size: 0.85rem;
+}
+
+.sr-support { color: var(--accent-green); }
+.sr-resistance { color: var(--accent-red); }
+.sr-current { color: var(--accent-blue); font-weight: 700; }
+
+/* Sentiment Overview */
+.sentiment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.sentiment-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.sentiment-card:hover {
+    border-color: var(--accent-blue);
+    transform: translateY(-2px);
+}
+
+.sentiment-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sentiment-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.3rem;
+}
+
+.sentiment-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.sentiment-value.bullish { color: var(--accent-green); }
+.sentiment-value.bearish { color: var(--accent-red); }
+.sentiment-value.neutral { color: var(--accent-orange); }
+.sentiment-value.cautious { color: var(--accent-orange); }
+.sentiment-value.elevated { color: var(--accent-orange); }
+.sentiment-value.high { color: var(--accent-red); }
+.sentiment-value.normal { color: var(--accent-green); }
+
+/* Trade Ideas Tables */
+.trade-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.trade-table th {
+    background: rgba(59, 130, 246, 0.1);
+    padding: 1rem 1.2rem;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--accent-blue);
+    border-bottom: 1px solid var(--border);
+}
+
+.trade-table td {
+    padding: 0.8rem 1.2rem;
+    border-bottom: 1px solid rgba(42, 58, 92, 0.5);
+    font-size: 0.9rem;
+}
+
+.trade-table tr:last-child td {
+    border-bottom: none;
+}
+
+.trade-table tr:hover td {
+    background: rgba(59, 130, 246, 0.03);
+}
+
+.rr-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.rr-badge.good {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--accent-green);
+}
+
+.rr-badge.moderate {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--accent-orange);
+}
+
+.rr-badge.poor {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--accent-red);
+}
+
+/* MACD Mini Chart */
+.macd-mini-container {
+    height: 40px;
+    margin-top: 0.5rem;
+}
+
+/* Back to dashboard link */
+.back-link {
+    color: var(--accent-blue);
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: var(--accent-cyan);
+}
+
+/* Filter bar for signals */
+.signal-filter-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.signal-filter-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.signal-filter-btn:hover,
+.signal-filter-btn.active {
+    background: var(--accent-blue);
+    color: white;
+    border-color: var(--accent-blue);
+}
+
+.signal-filter-btn.buy-filter.active {
+    background: var(--accent-green);
+    border-color: var(--accent-green);
+}
+
+.signal-filter-btn.sell-filter.active {
+    background: var(--accent-red);
+    border-color: var(--accent-red);
+}
+
+.signal-filter-btn.hold-filter.active {
+    background: var(--accent-purple);
+    border-color: var(--accent-purple);
+}
+
+/* No signals message */
+.no-signals {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    grid-column: 1 / -1;
+}
+
+.no-signals-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .signals-grid {
+        grid-template-columns: 1fr;
+    }
+    .sentiment-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .trade-table {
+        font-size: 0.8rem;
+    }
+    .trade-table th,
+    .trade-table td {
+        padding: 0.6rem 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sentiment-grid {
+        grid-template-columns: 1fr;
+    }
+}

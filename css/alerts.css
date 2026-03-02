@@ -1,0 +1,320 @@
+/* Alert System Styles */
+
+.alerts-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+}
+
+.alert-notification {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    border-right: 4px solid;
+    animation: alertSlideIn 0.4s ease;
+    transition: all 0.3s;
+}
+
+@keyframes alertSlideIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.alert-notification.danger {
+    background: rgba(239, 68, 68, 0.1);
+    border-right-color: var(--accent-red);
+}
+
+.alert-notification.warning {
+    background: rgba(245, 158, 11, 0.1);
+    border-right-color: var(--accent-orange);
+}
+
+.alert-notification.info {
+    background: rgba(59, 130, 246, 0.1);
+    border-right-color: var(--accent-blue);
+}
+
+.alert-notification.opportunity {
+    background: rgba(16, 185, 129, 0.1);
+    border-right-color: var(--accent-green);
+}
+
+.alert-notification-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.alert-notification-content {
+    flex: 1;
+}
+
+.alert-notification-content strong {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 0.2rem;
+}
+
+.alert-notification.danger strong { color: var(--accent-red); }
+.alert-notification.warning strong { color: var(--accent-orange); }
+.alert-notification.info strong { color: var(--accent-blue); }
+.alert-notification.opportunity strong { color: var(--accent-green); }
+
+.alert-notification-content p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.alert-dismiss {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.alert-dismiss:hover {
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.1);
+}
+
+.alert-notification-timestamp {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+}
+
+/* Alert count badge */
+.alert-count-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    background: var(--accent-red);
+    color: white;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0 5px;
+    margin-right: 0.5rem;
+    animation: badgePulse 2s infinite;
+}
+
+@keyframes badgePulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* Sound enable banner */
+.sound-enable-banner {
+    background: rgba(139, 92, 246, 0.1);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: 10px;
+    padding: 0.8rem 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--accent-purple);
+}
+
+.sound-enable-btn {
+    background: var(--accent-purple);
+    color: white;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.sound-enable-btn:hover {
+    filter: brightness(1.1);
+}
+
+/* Settings Panel */
+.settings-panel {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 380px;
+    height: 100vh;
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border);
+    z-index: 200;
+    padding: 2rem;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+}
+
+.settings-panel.open {
+    left: 0;
+}
+
+.settings-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 199;
+    display: none;
+}
+
+.settings-overlay.open {
+    display: block;
+}
+
+.settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.settings-header h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.settings-close {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.settings-group {
+    margin-bottom: 1.5rem;
+}
+
+.settings-group label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.settings-group input[type="text"],
+.settings-group input[type="email"] {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.9rem;
+    direction: ltr;
+}
+
+.settings-group input:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+}
+
+.settings-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.settings-toggle label {
+    margin: 0;
+}
+
+/* Toggle switch */
+.toggle-switch {
+    position: relative;
+    width: 44px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--border);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.toggle-slider::before {
+    content: '';
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    right: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+    background: var(--accent-blue);
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+    transform: translateX(-20px);
+}
+
+.settings-save-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--accent-blue);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.2s;
+}
+
+.settings-save-btn:hover {
+    filter: brightness(1.1);
+}
+
+@media (max-width: 768px) {
+    .alerts-container {
+        padding: 0.5rem 1rem;
+    }
+    .alert-notification {
+        padding: 0.8rem 1rem;
+        font-size: 0.85rem;
+    }
+    .settings-panel {
+        width: 100%;
+        left: -100%;
+    }
+}
