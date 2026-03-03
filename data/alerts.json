@@ -1,28 +1,16 @@
 {
-  "lastUpdated": "2026-03-03T07:14:56.960661+00:00",
+  "lastUpdated": "2026-03-03T15:09:51.384852+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-ma_crossover_bearish-20260303",
-      "ticker": "NVDA",
-      "type": "ma_crossover_bearish",
-      "severity": "warning",
-      "titleHe": "NVDA — חציית ממוצעים דובית",
-      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
-      "value": null,
+      "id": "alert-nem-price_drop-20260303",
+      "ticker": "NEM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NEM — ירידת מחיר חריגה",
+      "messageHe": "NEM ירדה 8.96% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -8.96,
       "threshold": null,
-      "timestamp": "2026-03-03T07:14:46.779843+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-noc-rsi_overbought-20260303",
-      "ticker": "NOC",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "NOC — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.6,
-      "threshold": 70,
-      "timestamp": "2026-03-03T07:14:51.251973+00:00",
+      "timestamp": "2026-03-03T15:09:49.846562+00:00",
       "dismissed": false
     }
   ],
