@@ -305,16 +305,74 @@
     filter: brightness(1.1);
 }
 
+/* ===== Mobile Responsiveness ===== */
+
 @media (max-width: 768px) {
+    .settings-panel {
+        width: 100%;
+        left: -100%;
+        padding: 1.5rem;
+    }
+
     .alerts-container {
         padding: 0.5rem 1rem;
     }
+
     .alert-notification {
         padding: 0.8rem 1rem;
         font-size: 0.85rem;
     }
+
+    .alert-count-badge {
+        min-width: 18px;
+        height: 18px;
+        font-size: 0.65rem;
+        padding: 0 4px;
+    }
+}
+
+@media (max-width: 480px) {
     .settings-panel {
         width: 100%;
         left: -100%;
+        padding: 1rem;
+    }
+
+    .alerts-container {
+        padding: 0.3rem 0.5rem;
+    }
+
+    .alert-notification {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.8rem;
+        gap: 0.6rem;
+    }
+
+    .alert-notification-content strong {
+        font-size: 0.85rem;
+    }
+
+    .alert-notification-content p {
+        font-size: 0.78rem;
+    }
+
+    .alert-notification-icon {
+        font-size: 1.1rem;
+    }
+
+    .alert-count-badge {
+        min-width: 16px;
+        height: 16px;
+        font-size: 0.6rem;
+        padding: 0 3px;
+        margin-right: 0.3rem;
+    }
+
+    .sound-enable-banner {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
     }
 }

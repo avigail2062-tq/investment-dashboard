@@ -332,25 +332,346 @@
     margin-bottom: 1rem;
 }
 
-/* Responsive */
+/* Responsive - Tablet */
 @media (max-width: 768px) {
+    /* Signals grid: remove minmax(360px) that forces horizontal scroll */
     .signals-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
+
+    /* Sentiment grid: 2 columns on tablet */
     .sentiment-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-bottom: 1.5rem;
     }
+
+    /* Sentiment cards: reduce padding */
+    .sentiment-card {
+        padding: 1.2rem;
+    }
+
+    .sentiment-value {
+        font-size: 1.3rem;
+    }
+
+    /* Signal cards: reduce internal padding */
+    .signal-card-header {
+        padding: 1rem 1.2rem;
+    }
+
+    .signal-card-body {
+        padding: 1rem 1.2rem;
+    }
+
+    /* Trade table: add horizontal scroll wrapper support, reduce sizing */
+    .trade-table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 16px;
+    }
+
     .trade-table {
         font-size: 0.8rem;
+        min-width: 580px;
     }
+
     .trade-table th,
     .trade-table td {
         padding: 0.6rem 0.8rem;
     }
+
+    /* Filter bar: allow wrapping, reduce button padding */
+    .signal-filter-bar {
+        gap: 0.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .signal-filter-btn {
+        padding: 0.4rem 0.9rem;
+        font-size: 0.8rem;
+    }
+
+    /* Section containers: reduce padding on page-level sections */
+    .section-container,
+    .content-section,
+    .page-section {
+        padding: 1.2rem;
+    }
+
+    /* No signals message: reduce padding */
+    .no-signals {
+        padding: 2rem;
+    }
+
+    .no-signals-icon {
+        font-size: 2.5rem;
+    }
 }
 
+/* Responsive - Mobile */
 @media (max-width: 480px) {
+    /* Sentiment grid: single column on small mobile */
     .sentiment-grid {
         grid-template-columns: 1fr;
+        gap: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .sentiment-card {
+        padding: 1rem;
+    }
+
+    .sentiment-icon {
+        font-size: 1.6rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .sentiment-value {
+        font-size: 1.2rem;
+    }
+
+    .sentiment-label {
+        font-size: 0.75rem;
+    }
+
+    /* Signal cards: further reduce padding and font sizes */
+    .signal-card-header {
+        padding: 0.8rem 1rem;
+    }
+
+    .signal-card-body {
+        padding: 0.8rem 1rem;
+    }
+
+    .signal-ticker {
+        font-size: 1rem;
+    }
+
+    .signal-price {
+        font-size: 0.8rem;
+    }
+
+    .signal-badge {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.75rem;
+    }
+
+    /* Analysis grid inside signal cards */
+    .analysis-item {
+        padding: 0.5rem 0.6rem;
+    }
+
+    .analysis-label {
+        font-size: 0.65rem;
+    }
+
+    .analysis-value {
+        font-size: 0.8rem;
+    }
+
+    /* Support/Resistance levels */
+    .sr-levels {
+        font-size: 0.78rem;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+
+    /* Trade table: smaller text, tighter cells */
+    .trade-table {
+        font-size: 0.75rem;
+        min-width: 500px;
+    }
+
+    .trade-table th {
+        padding: 0.5rem 0.6rem;
+        font-size: 0.75rem;
+    }
+
+    .trade-table td {
+        padding: 0.5rem 0.6rem;
+    }
+
+    .rr-badge {
+        padding: 0.15rem 0.4rem;
+        font-size: 0.7rem;
+    }
+
+    /* Filter bar: compact on mobile */
+    .signal-filter-bar {
+        gap: 0.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .signal-filter-btn {
+        padding: 0.35rem 0.7rem;
+        font-size: 0.75rem;
+    }
+
+    /* Section containers: tighter on mobile */
+    .section-container,
+    .content-section,
+    .page-section {
+        padding: 1rem;
+    }
+
+    /* Momentum bar */
+    .momentum-label {
+        font-size: 0.75rem;
+    }
+
+    .momentum-score {
+        font-size: 0.9rem;
+    }
+
+    /* No signals */
+    .no-signals {
+        padding: 1.5rem;
+    }
+
+    .no-signals-icon {
+        font-size: 2rem;
+    }
+}
+
+/* Responsive - Small Mobile (320px devices) */
+@media (max-width: 360px) {
+    /* Signals grid: tightest spacing */
+    .signals-grid {
+        gap: 0.8rem;
+    }
+
+    /* Sentiment grid: minimal gap */
+    .sentiment-grid {
+        gap: 0.6rem;
+    }
+
+    .sentiment-card {
+        padding: 0.8rem;
+    }
+
+    .sentiment-icon {
+        font-size: 1.4rem;
+    }
+
+    .sentiment-value {
+        font-size: 1.05rem;
+    }
+
+    /* Signal cards: minimal padding for 320px fit */
+    .signal-card-header {
+        padding: 0.7rem 0.8rem;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .signal-card-body {
+        padding: 0.7rem 0.8rem;
+    }
+
+    .signal-ticker {
+        font-size: 0.9rem;
+    }
+
+    .signal-badge {
+        padding: 0.25rem 0.6rem;
+        font-size: 0.7rem;
+    }
+
+    /* Analysis grid: stack to single column on very small screens */
+    .analysis-grid {
+        grid-template-columns: 1fr;
+        gap: 0.4rem;
+    }
+
+    .analysis-item {
+        padding: 0.4rem 0.5rem;
+    }
+
+    .analysis-label {
+        font-size: 0.6rem;
+    }
+
+    .analysis-value {
+        font-size: 0.75rem;
+    }
+
+    /* Support/Resistance */
+    .sr-levels {
+        font-size: 0.72rem;
+        flex-direction: column;
+        gap: 0.2rem;
+        text-align: center;
+    }
+
+    /* Trade table: smallest comfortable size */
+    .trade-table {
+        font-size: 0.7rem;
+        min-width: 440px;
+    }
+
+    .trade-table th {
+        padding: 0.4rem 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .trade-table td {
+        padding: 0.4rem 0.5rem;
+    }
+
+    .rr-badge {
+        padding: 0.1rem 0.3rem;
+        font-size: 0.65rem;
+    }
+
+    /* Filter bar: minimal sizing */
+    .signal-filter-bar {
+        gap: 0.25rem;
+    }
+
+    .signal-filter-btn {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    /* Section containers */
+    .section-container,
+    .content-section,
+    .page-section {
+        padding: 0.8rem;
+    }
+
+    /* Momentum indicators: fit 320px */
+    .momentum-container {
+        margin-bottom: 0.8rem;
+    }
+
+    .momentum-label {
+        font-size: 0.7rem;
+    }
+
+    .momentum-score {
+        font-size: 0.85rem;
+    }
+
+    .momentum-bar {
+        height: 6px;
+    }
+
+    /* MACD mini chart: reduce height */
+    .macd-mini-container {
+        height: 32px;
+    }
+
+    /* No signals */
+    .no-signals {
+        padding: 1rem;
+        font-size: 0.85rem;
+    }
+
+    .no-signals-icon {
+        font-size: 1.8rem;
+        margin-bottom: 0.6rem;
     }
 }

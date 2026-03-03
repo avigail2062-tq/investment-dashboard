@@ -617,36 +617,340 @@
     color: var(--accent-cyan);
 }
 
-/* Responsive */
+/* Responsive — 768px (tablets) */
 @media (max-width: 768px) {
-    .recommendations-grid {
-        grid-template-columns: 1fr;
-    }
-    .insider-grid {
-        grid-template-columns: 1fr;
-    }
-    .social-grid {
-        grid-template-columns: 1fr;
-    }
+    /* 1. Summary grid: 2 columns on tablets */
     .intel-summary-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
-    .event-header {
-        flex-wrap: wrap;
+
+    /* 2. Recommendations grid: single column to prevent horizontal scroll */
+    .recommendations-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
+
+    /* 3. Rec cards: reduce padding */
     .rec-card-header {
+        padding: 1rem 1.2rem;
         flex-direction: column;
         align-items: flex-start;
         gap: 0.5rem;
     }
+
+    .rec-card-body {
+        padding: 1rem 1.2rem;
+    }
+
     .rec-badges {
         flex-direction: row;
         align-items: center;
     }
+
+    /* 4. Event items: reduce padding and gap */
+    .event-item {
+        padding: 0.8rem 1rem;
+        gap: 0.75rem;
+    }
+
+    .event-header {
+        flex-wrap: wrap;
+    }
+
+    /* 5. Insider grid: single column */
+    .insider-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* 6. Social grid: single column */
+    .social-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* 7. Card padding: reduce across all card types */
+    .insider-card,
+    .social-card {
+        padding: 1rem;
+    }
+
+    /* 8. Filter bar: wrap buttons, reduce padding */
+    .rec-filter-bar {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .rec-filter-bar .filter-btn {
+        padding: 0.35rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    /* 9. Confidence bars: ensure proper display */
+    .confidence-bar {
+        height: 8px;
+        min-width: 0;
+    }
+
+    .confidence-container {
+        margin-bottom: 0.8rem;
+    }
+
+    /* 10. Section titles: reduce font-size */
+    .section-title,
+    .intel-section-title {
+        font-size: 1.1rem;
+    }
+
+    .section-subtitle,
+    .intel-section-subtitle {
+        font-size: 0.8rem;
+    }
 }
 
+/* Responsive — 480px (mobile phones) */
 @media (max-width: 480px) {
+    /* 1. Summary grid: single column on phones */
     .intel-summary-grid {
         grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .intel-summary-card {
+        padding: 1rem;
+    }
+
+    .intel-summary-value {
+        font-size: 1.25rem;
+    }
+
+    /* 2–3. Rec cards: further reduce padding */
+    .rec-card-header {
+        padding: 0.8rem 1rem;
+    }
+
+    .rec-card-body {
+        padding: 0.8rem 1rem;
+    }
+
+    .rec-action-badge {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.75rem;
+    }
+
+    /* 4. Event items: tighter spacing */
+    .event-item {
+        padding: 0.7rem 0.8rem;
+        gap: 0.5rem;
+    }
+
+    .event-headline {
+        font-size: 0.85rem;
+    }
+
+    .event-footer {
+        gap: 0.3rem;
+    }
+
+    /* 5–6. Card padding on phones */
+    .insider-card,
+    .social-card {
+        padding: 0.8rem;
+    }
+
+    .insider-stats {
+        gap: 0.5rem;
+    }
+
+    .insider-stat {
+        padding: 0.4rem;
+    }
+
+    .insider-stat-value {
+        font-size: 1rem;
+    }
+
+    /* 8. Filter bar: smaller buttons */
+    .rec-filter-bar .filter-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.75rem;
+    }
+
+    /* 9. Confidence bars: slightly thinner for compact layout */
+    .confidence-bar {
+        height: 6px;
+    }
+
+    .confidence-score {
+        font-size: 0.9rem;
+    }
+
+    /* 10. Section titles: smaller on phones */
+    .section-title,
+    .intel-section-title {
+        font-size: 1rem;
+    }
+
+    .section-subtitle,
+    .intel-section-subtitle {
+        font-size: 0.75rem;
+    }
+
+    /* Reduce grids gap globally */
+    .recommendations-grid,
+    .insider-grid,
+    .social-grid {
+        gap: 0.75rem;
+    }
+
+    /* Insider transactions: tighter on mobile */
+    .insider-txn {
+        font-size: 0.75rem;
+        gap: 0.3rem;
+    }
+
+    /* Reddit stats wrap nicely */
+    .reddit-stats {
+        gap: 0.5rem;
+        font-size: 0.75rem;
+    }
+}
+
+/* Responsive — 360px (small phones) */
+@media (max-width: 360px) {
+    /* Summary grid: reduce further */
+    .intel-summary-grid {
+        gap: 0.5rem;
+    }
+
+    .intel-summary-card {
+        padding: 0.8rem;
+        border-radius: 12px;
+    }
+
+    .intel-summary-icon {
+        font-size: 1.5rem;
+    }
+
+    .intel-summary-value {
+        font-size: 1.1rem;
+    }
+
+    .intel-summary-label {
+        font-size: 0.7rem;
+    }
+
+    /* Rec cards: minimal padding */
+    .rec-card-header {
+        padding: 0.6rem 0.8rem;
+    }
+
+    .rec-card-body {
+        padding: 0.6rem 0.8rem;
+    }
+
+    .rec-card {
+        border-radius: 12px;
+    }
+
+    .rec-ticker {
+        font-size: 1rem;
+    }
+
+    .rec-reason p {
+        font-size: 0.8rem;
+    }
+
+    /* Event items: compact */
+    .event-item {
+        padding: 0.5rem 0.6rem;
+        gap: 0.4rem;
+        border-radius: 8px;
+    }
+
+    .event-headline {
+        font-size: 0.8rem;
+    }
+
+    .event-category {
+        font-size: 0.65rem;
+        padding: 0.1rem 0.4rem;
+    }
+
+    /* Insider and social cards: compact */
+    .insider-card,
+    .social-card {
+        padding: 0.6rem;
+        border-radius: 12px;
+    }
+
+    .insider-ticker,
+    .social-ticker {
+        font-size: 0.95rem;
+    }
+
+    .insider-stat-value {
+        font-size: 0.9rem;
+    }
+
+    .insider-stat-label {
+        font-size: 0.65rem;
+    }
+
+    /* Filter bar: very compact */
+    .rec-filter-bar {
+        gap: 0.3rem;
+    }
+
+    .rec-filter-bar .filter-btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    /* Section titles: smallest */
+    .section-title,
+    .intel-section-title {
+        font-size: 0.9rem;
+    }
+
+    .section-subtitle,
+    .intel-section-subtitle {
+        font-size: 0.7rem;
+    }
+
+    /* Confidence: compact */
+    .confidence-label {
+        font-size: 0.7rem;
+    }
+
+    .confidence-score {
+        font-size: 0.8rem;
+    }
+
+    .confidence-bar {
+        height: 5px;
+    }
+
+    /* Data tags: smaller */
+    .rec-data-tag {
+        padding: 0.15rem 0.4rem;
+        font-size: 0.65rem;
+    }
+
+    /* Grids: minimal gap */
+    .recommendations-grid,
+    .insider-grid,
+    .social-grid {
+        gap: 0.5rem;
+    }
+
+    /* Sentiment bars remain visible */
+    .sentiment-bar-container {
+        height: 6px;
+    }
+
+    .sentiment-bar-labels {
+        font-size: 0.65rem;
     }
 }

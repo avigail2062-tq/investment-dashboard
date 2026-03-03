@@ -229,16 +229,79 @@
     border-radius: 3px;
 }
 
+/* ===== Mobile Responsiveness ===== */
+
+@media (max-width: 768px) {
+    .chat-panel {
+        width: calc(100% - 20px);
+        max-height: 65vh;
+    }
+
+    .chat-fab {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+        bottom: 25px;
+        left: 25px;
+    }
+
+    .chat-results {
+        max-height: 280px;
+    }
+
+    .chat-result-question {
+        font-size: 0.92rem;
+    }
+
+    .chat-result-answer {
+        font-size: 0.85rem;
+    }
+}
+
 @media (max-width: 480px) {
     .chat-panel {
         width: calc(100% - 20px);
         left: 10px;
         bottom: 10px;
-        max-height: 70vh;
+        max-height: 60vh;
     }
 
     .chat-fab {
-        bottom: 20px;
-        left: 20px;
+        width: 46px;
+        height: 46px;
+        font-size: 1.2rem;
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .chat-results {
+        max-height: 240px;
+    }
+
+    .chat-header {
+        padding: 0.8rem 1rem;
+    }
+
+    .chat-header span {
+        font-size: 0.95rem;
+    }
+
+    .chat-result-question {
+        font-size: 0.93rem;
+    }
+
+    .chat-result-answer {
+        font-size: 0.86rem;
+        line-height: 1.5;
+    }
+
+    .chat-category-btn {
+        font-size: 0.78rem;
+        padding: 0.25rem 0.7rem;
+    }
+
+    .chat-search input {
+        font-size: 0.88rem;
+        padding: 0.6rem 0.8rem;
     }
 }
