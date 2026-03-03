@@ -140,6 +140,25 @@ class DataLoader {
 
       // Update market data
       if (market) {
+        // Normalize field names: Python outputs changePct, JS expects changePercent
+        if (market.stocks) {
+          for (const s of Object.values(market.stocks)) {
+            if (s.changePct !== undefined && s.changePercent === undefined) {
+              s.changePercent = s.changePct;
+            }
+            // Convert priceHistory5d array to history array of objects for sparklines
+            if (s.priceHistory5d && !s.history) {
+              s.history = s.priceHistory5d.map(p => ({ close: p }));
+            }
+          }
+        }
+        if (market.macro) {
+          for (const m of Object.values(market.macro)) {
+            if (m.changePct !== undefined && m.changePercent === undefined) {
+              m.changePercent = m.changePct;
+            }
+          }
+        }
         this.marketData = market;
         hasAnyData = true;
         this.emit('dataUpdated', this.marketData);
@@ -361,8 +380,27 @@ class DataLoader {
 window.dataLoader = new DataLoader();
 
 document.addEventListener('DOMContentLoaded', () => {
+  const loader = window.dataLoader;
+
+  // Wire up ChartManager on main dashboard (index.html)
+  if (window.chartManager) {
+    window.chartManager.init();
+    loader.on('dataUpdated', (marketData) => {
+      window.chartManager.updateFromData(marketData);
+    });
+  }
+
+  // Wire up AlertsUI to DataLoader alerts (all pages)
+  if (window.alertsUI) {
+    loader.on('alertsUpdated', (alertsData) => {
+      window.alertsUI.alerts = alertsData.activeAlerts || [];
+      window.alertsUI._render();
+      window.alertsUI._checkForNewAlerts();
+    });
+  }
+
   // Immediately load all data on first page load
-  window.dataLoader.loadAll();
+  loader.loadAll();
   // Then start auto-refreshing every 5 minutes
-  window.dataLoader.startAutoRefresh();
+  loader.startAutoRefresh();
 });

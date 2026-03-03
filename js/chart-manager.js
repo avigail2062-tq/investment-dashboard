@@ -492,34 +492,29 @@ class ChartManager {
       const stockData = marketData.stocks[symbol];
       if (!stockData) continue;
 
-      // Price
+      // Find live data container by data-ticker attribute
+      const liveDataEl = document.querySelector(`.stock-live-data[data-ticker="${symbol}"]`);
+      if (liveDataEl) {
+        const priceEl = liveDataEl.querySelector('.live-price');
+        const changeEl = liveDataEl.querySelector('.live-change');
+
+        if (priceEl) {
+          priceEl.textContent = Utils.formatCurrency(stockData.price);
+        }
+
+        if (changeEl) {
+          const change = stockData.change || 0;
+          const changePct = stockData.changePercent || 0;
+          const sign = change >= 0 ? '+' : '';
+          changeEl.textContent = `${sign}${change.toFixed(2)} (${sign}${changePct.toFixed(2)}%)`;
+          changeEl.className = `live-change ${change >= 0 ? 'positive' : 'negative'}`;
+        }
+      }
+
+      // Also try ID-based elements (if they exist on the page)
       this._setElementText(`stock-price-${symbol}`, Utils.formatCurrency(stockData.price));
+      this._setElementText(`stock-value-${symbol}`, Utils.formatCurrency(stockData.price * config.shares));
 
-      // Change amount and percent
-      const changeEl = document.getElementById(`stock-change-${symbol}`);
-      if (changeEl) {
-        const change = stockData.change || 0;
-        const changePct = stockData.changePercent || 0;
-        const sign = Utils.getChangeSign(change);
-        changeEl.textContent = `${sign}${Utils.formatCurrency(Math.abs(change))} (${sign}${changePct.toFixed(2)}%)`;
-        changeEl.className = `stock-change ${Utils.getChangeClass(change)}`;
-      }
-
-      // Value (shares * price)
-      const value = stockData.price * config.shares;
-      this._setElementText(`stock-value-${symbol}`, Utils.formatCurrency(value));
-
-      // Profit/Loss
-      const cost = config.avgCost * config.shares;
-      const profitLoss = value - cost;
-      const plEl = document.getElementById(`stock-pl-${symbol}`);
-      if (plEl) {
-        const sign = Utils.getChangeSign(profitLoss);
-        plEl.textContent = `${sign}${Utils.formatCurrency(Math.abs(profitLoss))}`;
-        plEl.className = `stock-pl ${Utils.getChangeClass(profitLoss)}`;
-      }
-
-      // Volume
       if (stockData.volume) {
         this._setElementText(`stock-volume-${symbol}`, Utils.formatNumber(stockData.volume));
       }
@@ -612,7 +607,12 @@ class ChartManager {
    */
   _updateSparklines(marketData) {
     for (const [symbol, config] of Object.entries(PORTFOLIO_CONFIG.stocks)) {
-      const canvas = document.getElementById(`sparkline-${symbol}`);
+      // Try ID first, then query selector by data-ticker
+      let canvas = document.getElementById(`sparkline-${symbol}`);
+      if (!canvas) {
+        const container = document.querySelector(`.sparkline-container[data-ticker="${symbol}"]`);
+        canvas = container ? container.querySelector('canvas') : null;
+      }
       if (!canvas) continue;
 
       const stockData = marketData.stocks[symbol];
@@ -752,7 +752,7 @@ class ChartManager {
   // ---------------------------------------------------------------------------
 
   _updateLastUpdated() {
-    const el = document.getElementById('last-updated');
+    const el = document.getElementById('lastUpdated') || document.getElementById('last-updated');
     if (el) {
       const now = new Date();
       el.textContent = `${LABELS.lastUpdated}: ${Utils.formatDate(now)}`;
