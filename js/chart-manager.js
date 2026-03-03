@@ -34,7 +34,7 @@ class ChartManager {
     this._defaultFontConfig = {
       family: "'Heebo', sans-serif",
       size: 12,
-      color: '#cbd5e1'
+      color: '#ffffff'
     };
   }
 
@@ -131,7 +131,7 @@ class ChartManager {
             rtl: true,
             textDirection: 'rtl',
             labels: {
-              color: '#cbd5e1',
+              color: '#ffffff',
               font: {
                 family: "'Heebo', sans-serif",
                 size: 12
@@ -249,7 +249,7 @@ class ChartManager {
               display: false
             },
             ticks: {
-              color: '#cbd5e1',
+              color: '#ffffff',
               font: { family: "'Heebo', sans-serif", size: 11 },
               mirror: false
             }
