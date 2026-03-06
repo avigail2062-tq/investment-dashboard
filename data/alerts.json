@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-03-06T14:26:51.880722+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-03-06T20:03:18.287388+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-nvda-ma_crossover_bullish-20260306",
+      "ticker": "NVDA",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "NVDA — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-03-06T20:03:07.340312+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
