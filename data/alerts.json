@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-03-11T07:30:15.362686+00:00",
+  "lastUpdated": "2026-03-11T15:10:30.008672+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-ma_crossover_bearish-20260311",
-      "ticker": "NVDA",
-      "type": "ma_crossover_bearish",
-      "severity": "warning",
-      "titleHe": "NVDA — חציית ממוצעים דובית",
-      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "id": "alert-ceg-ma_crossover_bullish-20260311",
+      "ticker": "CEG",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "CEG — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-03-11T07:30:07.221533+00:00",
+      "timestamp": "2026-03-11T15:10:26.228756+00:00",
       "dismissed": false
     }
   ],
