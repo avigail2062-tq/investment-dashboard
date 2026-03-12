@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-11T20:59:19.733501+00:00",
+  "lastUpdated": "2026-03-12T07:35:39.072887+00:00",
   "activeAlerts": [
     {
-      "id": "alert-ceg-price_drop-20260311",
+      "id": "alert-ceg-price_drop-20260312",
       "ticker": "CEG",
       "type": "price_drop",
       "severity": "danger",
@@ -10,11 +10,11 @@
       "messageHe": "CEG ירדה 5.17% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -5.17,
       "threshold": null,
-      "timestamp": "2026-03-11T20:59:16.384323+00:00",
+      "timestamp": "2026-03-12T07:35:35.829694+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-ma_crossover_bullish-20260311",
+      "id": "alert-ceg-ma_crossover_bullish-20260312",
       "ticker": "CEG",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -22,7 +22,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-03-11T20:59:16.384323+00:00",
+      "timestamp": "2026-03-12T07:35:35.829694+00:00",
       "dismissed": false
     }
   ],
