@@ -1,5 +1,42 @@
 {
-  "lastUpdated": "2026-03-19T07:37:26.664771+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-03-19T15:10:08.806225+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-nem-price_drop-20260319",
+      "ticker": "NEM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NEM — ירידת מחיר חריגה",
+      "messageHe": "NEM ירדה 6.95% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.95,
+      "threshold": null,
+      "timestamp": "2026-03-19T15:10:07.173117+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-rsi_oversold-20260319",
+      "ticker": "NEM",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "NEM — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-29.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 29.2,
+      "threshold": 30,
+      "timestamp": "2026-03-19T15:10:07.173117+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-ma_crossover_bearish-20260319",
+      "ticker": "NEM",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "NEM — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-03-19T15:10:07.173117+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
