@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-19T21:06:51.905375+00:00",
+  "lastUpdated": "2026-03-20T07:35:44.023291+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nem-price_drop-20260319",
+      "id": "alert-nem-price_drop-20260320",
       "ticker": "NEM",
       "type": "price_drop",
       "severity": "danger",
@@ -10,11 +10,11 @@
       "messageHe": "NEM ירדה 6.89% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -6.89,
       "threshold": null,
-      "timestamp": "2026-03-19T21:06:50.280665+00:00",
+      "timestamp": "2026-03-20T07:35:42.626974+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nem-rsi_oversold-20260319",
+      "id": "alert-nem-rsi_oversold-20260320",
       "ticker": "NEM",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-29.3 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 29.3,
       "threshold": 30,
-      "timestamp": "2026-03-19T21:06:50.280665+00:00",
+      "timestamp": "2026-03-20T07:35:42.626974+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nem-ma_crossover_bearish-20260319",
+      "id": "alert-nem-ma_crossover_bearish-20260320",
       "ticker": "NEM",
       "type": "ma_crossover_bearish",
       "severity": "warning",
@@ -34,7 +34,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-03-19T21:06:50.280665+00:00",
+      "timestamp": "2026-03-20T07:35:42.626974+00:00",
       "dismissed": false
     }
   ],
