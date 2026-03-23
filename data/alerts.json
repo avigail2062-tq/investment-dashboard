@@ -1,42 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T05:54:37.181677+00:00",
-  "activeAlerts": [
-    {
-      "id": "alert-lmt-volume_spike-20260323",
-      "ticker": "LMT",
-      "type": "volume_spike",
-      "severity": "info",
-      "titleHe": "LMT — נפח מסחר חריג",
-      "messageHe": "נפח מסחר גבוה פי 3.38 מהממוצע. עקוב אחרי התפתחויות.",
-      "value": 3.38,
-      "threshold": null,
-      "timestamp": "2026-03-23T05:54:29.853478+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-ceg-price_drop-20260323",
-      "ticker": "CEG",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "CEG — ירידת מחיר חריגה",
-      "messageHe": "CEG ירדה 10.9% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -10.9,
-      "threshold": null,
-      "timestamp": "2026-03-23T05:54:33.621064+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nem-rsi_oversold-20260323",
-      "ticker": "NEM",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "NEM — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-26.9 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 26.9,
-      "threshold": 30,
-      "timestamp": "2026-03-23T05:54:35.579760+00:00",
-      "dismissed": false
-    }
-  ],
+  "lastUpdated": "2026-03-23T13:56:35.290135+00:00",
+  "activeAlerts": [],
   "alertHistory": []
 }
