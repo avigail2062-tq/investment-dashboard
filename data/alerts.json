@@ -1,5 +1,30 @@
 {
-  "lastUpdated": "2026-03-24T05:42:51.232829+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-03-24T13:58:08.667277+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-xom-rsi_overbought-20260324",
+      "ticker": "XOM",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "XOM — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-73.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.7,
+      "threshold": 70,
+      "timestamp": "2026-03-24T13:58:06.196552+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-rsi_oversold-20260324",
+      "ticker": "NEM",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "NEM — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-29.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 29.6,
+      "threshold": 30,
+      "timestamp": "2026-03-24T13:58:07.149049+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
