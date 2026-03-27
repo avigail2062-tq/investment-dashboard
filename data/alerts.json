@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-03-27T05:56:58.851410+00:00",
+  "lastUpdated": "2026-03-27T13:51:36.292465+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-crwd-price_drop-20260327",
+      "ticker": "CRWD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CRWD — ירידת מחיר חריגה",
+      "messageHe": "CRWD ירדה 7.2% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.2,
+      "threshold": null,
+      "timestamp": "2026-03-27T13:51:31.835997+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-xom-rsi_overbought-20260327",
       "ticker": "XOM",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "XOM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.2,
+      "messageHe": "RSI ב-74.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 74.0,
       "threshold": 70,
-      "timestamp": "2026-03-27T05:56:56.245648+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20260327",
-      "ticker": "AMD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.49% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.49,
-      "threshold": null,
-      "timestamp": "2026-03-27T05:56:58.098031+00:00",
+      "timestamp": "2026-03-27T13:51:33.622446+00:00",
       "dismissed": false
     }
   ],
