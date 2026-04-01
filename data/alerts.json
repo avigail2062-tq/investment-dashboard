@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T14:12:14.882084+00:00",
+  "lastUpdated": "2026-04-01T20:08:28.284103+00:00",
   "activeAlerts": [
     {
       "id": "alert-rtx-ma_crossover_bearish-20260401",
@@ -10,7 +10,19 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-04-01T14:12:09.226162+00:00",
+      "timestamp": "2026-04-01T20:08:21.193982+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-xom-price_drop-20260401",
+      "ticker": "XOM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "XOM — ירידת מחיר חריגה",
+      "messageHe": "XOM ירדה 5.23% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.23,
+      "threshold": null,
+      "timestamp": "2026-04-01T20:08:25.526036+00:00",
       "dismissed": false
     }
   ],
