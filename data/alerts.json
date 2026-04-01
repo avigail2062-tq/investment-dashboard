@@ -1,40 +1,16 @@
 {
-  "lastUpdated": "2026-04-01T06:11:12.032144+00:00",
+  "lastUpdated": "2026-04-01T14:12:14.882084+00:00",
   "activeAlerts": [
     {
-      "id": "alert-crwd-ma_crossover_bullish-20260401",
-      "ticker": "CRWD",
-      "type": "ma_crossover_bullish",
-      "severity": "info",
-      "titleHe": "CRWD — חציית ממוצעים שורית",
-      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "id": "alert-rtx-ma_crossover_bearish-20260401",
+      "ticker": "RTX",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "RTX — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-04-01T06:11:08.092236+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-ceg-price_drop-20260401",
-      "ticker": "CEG",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "CEG — ירידת מחיר חריגה",
-      "messageHe": "CEG ירדה 6.48% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.48,
-      "threshold": null,
-      "timestamp": "2026-04-01T06:11:08.844789+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-xom-rsi_overbought-20260401",
-      "ticker": "XOM",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "XOM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.0,
-      "threshold": 70,
-      "timestamp": "2026-04-01T06:11:09.709404+00:00",
+      "timestamp": "2026-04-01T14:12:09.226162+00:00",
       "dismissed": false
     }
   ],
