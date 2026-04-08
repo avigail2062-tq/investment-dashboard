@@ -1,5 +1,42 @@
 {
-  "lastUpdated": "2026-04-08T06:06:23.111336+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-04-08T14:10:23.344519+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-crwd-ma_crossover_bullish-20260408",
+      "ticker": "CRWD",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "CRWD — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-04-08T14:10:19.203472+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-ma_crossover_bearish-20260408",
+      "ticker": "CEG",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "CEG — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-04-08T14:10:20.006822+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-xom-price_drop-20260408",
+      "ticker": "XOM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "XOM — ירידת מחיר חריגה",
+      "messageHe": "XOM ירדה 6.13% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.13,
+      "threshold": null,
+      "timestamp": "2026-04-08T14:10:20.944904+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
