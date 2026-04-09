@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-04-09T14:21:35.725377+00:00",
+  "lastUpdated": "2026-04-09T20:26:32.566486+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-crwd-price_drop-20260409",
+      "ticker": "CRWD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CRWD — ירידת מחיר חריגה",
+      "messageHe": "CRWD ירדה 7.46% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.46,
+      "threshold": null,
+      "timestamp": "2026-04-09T20:26:28.449507+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-crwd-ma_crossover_bearish-20260409",
       "ticker": "CRWD",
@@ -10,7 +22,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-04-09T14:21:31.627320+00:00",
+      "timestamp": "2026-04-09T20:26:28.449507+00:00",
       "dismissed": false
     }
   ],
