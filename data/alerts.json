@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-04-09T06:05:54.608770+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-04-09T14:21:35.725377+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-crwd-ma_crossover_bearish-20260409",
+      "ticker": "CRWD",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "CRWD — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-04-09T14:21:31.627320+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
