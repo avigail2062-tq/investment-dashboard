@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T14:15:31.389939+00:00",
+  "lastUpdated": "2026-04-13T20:32:13.628977+00:00",
   "activeAlerts": [
     {
       "id": "alert-avgo-rsi_overbought-20260413",
@@ -7,10 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AVGO — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.0,
+      "messageHe": "RSI ב-73.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.1,
       "threshold": 70,
-      "timestamp": "2026-04-13T14:15:23.055692+00:00",
+      "timestamp": "2026-04-13T20:32:05.186256+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-rsi_overbought-20260413",
+      "ticker": "AMD",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "AMD — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.8,
+      "threshold": 70,
+      "timestamp": "2026-04-13T20:32:12.887577+00:00",
       "dismissed": false
     }
   ],
