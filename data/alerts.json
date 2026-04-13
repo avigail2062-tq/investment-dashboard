@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-10T20:03:01.464883+00:00",
+  "lastUpdated": "2026-04-13T06:30:57.298778+00:00",
   "activeAlerts": [
     {
-      "id": "alert-avgo-rsi_overbought-20260410",
+      "id": "alert-avgo-rsi_overbought-20260413",
       "ticker": "AVGO",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-71.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.0,
       "threshold": 70,
-      "timestamp": "2026-04-10T20:02:53.245320+00:00",
+      "timestamp": "2026-04-13T06:30:49.166438+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260410",
+      "id": "alert-amd-rsi_overbought-20260413",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-70.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 70.1,
       "threshold": 70,
-      "timestamp": "2026-04-10T20:03:00.714366+00:00",
+      "timestamp": "2026-04-13T06:30:56.567197+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-ma_crossover_bullish-20260410",
+      "id": "alert-amd-ma_crossover_bullish-20260413",
       "ticker": "AMD",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -34,7 +34,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-04-10T20:03:00.714366+00:00",
+      "timestamp": "2026-04-13T06:30:56.567197+00:00",
       "dismissed": false
     }
   ],
