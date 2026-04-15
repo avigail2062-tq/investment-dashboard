@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T14:19:43.206572+00:00",
+  "lastUpdated": "2026-04-15T20:27:08.427653+00:00",
   "activeAlerts": [
     {
       "id": "alert-avgo-rsi_overbought-20260415",
@@ -7,10 +7,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AVGO — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.5,
+      "messageHe": "RSI ב-77.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 77.0,
       "threshold": 70,
-      "timestamp": "2026-04-15T14:13:45.776833+00:00",
+      "timestamp": "2026-04-15T20:27:00.967443+00:00",
       "dismissed": false
     },
     {
@@ -22,7 +22,19 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-04-15T14:13:45.776833+00:00",
+      "timestamp": "2026-04-15T20:27:00.967443+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-price_drop-20260415",
+      "ticker": "NEM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NEM — ירידת מחיר חריגה",
+      "messageHe": "NEM ירדה 5.25% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.25,
+      "threshold": null,
+      "timestamp": "2026-04-15T20:27:06.967186+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +43,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-73.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 73.5,
+      "messageHe": "RSI ב-74.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 74.8,
       "threshold": 70,
-      "timestamp": "2026-04-15T14:19:42.460971+00:00",
+      "timestamp": "2026-04-15T20:27:07.702978+00:00",
       "dismissed": false
     }
   ],
