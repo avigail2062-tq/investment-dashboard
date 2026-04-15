@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T06:17:04.361287+00:00",
+  "lastUpdated": "2026-04-15T14:19:43.206572+00:00",
   "activeAlerts": [
     {
       "id": "alert-avgo-rsi_overbought-20260415",
@@ -7,10 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AVGO — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-73.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 73.3,
+      "messageHe": "RSI ב-76.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.5,
       "threshold": 70,
-      "timestamp": "2026-04-15T06:16:56.110845+00:00",
+      "timestamp": "2026-04-15T14:13:45.776833+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-avgo-ma_crossover_bullish-20260415",
+      "ticker": "AVGO",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "AVGO — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-04-15T14:13:45.776833+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-73.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 73.7,
+      "messageHe": "RSI ב-73.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.5,
       "threshold": 70,
-      "timestamp": "2026-04-15T06:17:03.644303+00:00",
+      "timestamp": "2026-04-15T14:19:42.460971+00:00",
       "dismissed": false
     }
   ],
