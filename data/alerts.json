@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-15T20:27:08.427653+00:00",
+  "lastUpdated": "2026-04-16T06:18:49.554686+00:00",
   "activeAlerts": [
     {
-      "id": "alert-avgo-rsi_overbought-20260415",
+      "id": "alert-avgo-rsi_overbought-20260416",
       "ticker": "AVGO",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-77.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 77.0,
       "threshold": 70,
-      "timestamp": "2026-04-15T20:27:00.967443+00:00",
+      "timestamp": "2026-04-16T06:18:41.783244+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-avgo-ma_crossover_bullish-20260415",
+      "id": "alert-avgo-ma_crossover_bullish-20260416",
       "ticker": "AVGO",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -22,11 +22,11 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-04-15T20:27:00.967443+00:00",
+      "timestamp": "2026-04-16T06:18:41.783244+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nem-price_drop-20260415",
+      "id": "alert-nem-price_drop-20260416",
       "ticker": "NEM",
       "type": "price_drop",
       "severity": "danger",
@@ -34,11 +34,11 @@
       "messageHe": "NEM ירדה 5.25% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -5.25,
       "threshold": null,
-      "timestamp": "2026-04-15T20:27:06.967186+00:00",
+      "timestamp": "2026-04-16T06:18:48.113361+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260415",
+      "id": "alert-amd-rsi_overbought-20260416",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -46,7 +46,7 @@
       "messageHe": "RSI ב-74.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 74.8,
       "threshold": 70,
-      "timestamp": "2026-04-15T20:27:07.702978+00:00",
+      "timestamp": "2026-04-16T06:18:48.832573+00:00",
       "dismissed": false
     }
   ],
