@@ -1,16 +1,40 @@
 {
-  "lastUpdated": "2026-04-17T06:20:08.767745+00:00",
+  "lastUpdated": "2026-04-17T14:04:25.889191+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-nvda-rsi_overbought-20260417",
+      "ticker": "NVDA",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "NVDA — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-71.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.0,
+      "threshold": 70,
+      "timestamp": "2026-04-17T14:04:13.839367+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-avgo-rsi_overbought-20260417",
       "ticker": "AVGO",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AVGO — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.4,
+      "messageHe": "RSI ב-78.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 78.5,
       "threshold": 70,
-      "timestamp": "2026-04-17T06:20:01.648095+00:00",
+      "timestamp": "2026-04-17T14:04:14.949550+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-xom-price_drop-20260417",
+      "ticker": "XOM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "XOM — ירידת מחיר חריגה",
+      "messageHe": "XOM ירדה 5.89% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.89,
+      "threshold": null,
+      "timestamp": "2026-04-17T14:04:22.348357+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +43,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-80.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 80.2,
+      "messageHe": "RSI ב-79.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 79.1,
       "threshold": 70,
-      "timestamp": "2026-04-17T06:20:08.040650+00:00",
+      "timestamp": "2026-04-17T14:04:25.171733+00:00",
       "dismissed": false
     }
   ],
