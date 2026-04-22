@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-21T20:28:04.572817+00:00",
+  "lastUpdated": "2026-04-22T06:18:46.145944+00:00",
   "activeAlerts": [
     {
-      "id": "alert-avgo-rsi_overbought-20260421",
+      "id": "alert-avgo-rsi_overbought-20260422",
       "ticker": "AVGO",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-74.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 74.7,
       "threshold": 70,
-      "timestamp": "2026-04-21T20:27:56.813526+00:00",
+      "timestamp": "2026-04-22T06:18:38.558898+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-price_drop-20260421",
+      "id": "alert-noc-price_drop-20260422",
       "ticker": "NOC",
       "type": "price_drop",
       "severity": "danger",
@@ -22,11 +22,11 @@
       "messageHe": "NOC ירדה 6.98% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -6.98,
       "threshold": null,
-      "timestamp": "2026-04-21T20:27:59.555728+00:00",
+      "timestamp": "2026-04-22T06:18:41.323791+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-rsi_oversold-20260421",
+      "id": "alert-noc-rsi_oversold-20260422",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -34,11 +34,11 @@
       "messageHe": "RSI ב-23.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 23.2,
       "threshold": 30,
-      "timestamp": "2026-04-21T20:27:59.555728+00:00",
+      "timestamp": "2026-04-22T06:18:41.323791+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260421",
+      "id": "alert-amd-rsi_overbought-20260422",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -46,7 +46,7 @@
       "messageHe": "RSI ב-79.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 79.4,
       "threshold": 70,
-      "timestamp": "2026-04-21T20:28:03.858235+00:00",
+      "timestamp": "2026-04-22T06:18:45.423179+00:00",
       "dismissed": false
     }
   ],
