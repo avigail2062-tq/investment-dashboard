@@ -1,28 +1,16 @@
 {
-  "lastUpdated": "2026-04-23T06:23:20.987622+00:00",
+  "lastUpdated": "2026-04-23T14:20:00.135345+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-nvda-ma_crossover_bullish-20260423",
-      "ticker": "NVDA",
-      "type": "ma_crossover_bullish",
-      "severity": "info",
-      "titleHe": "NVDA — חציית ממוצעים שורית",
-      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-04-23T06:23:12.509187+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-avgo-rsi_overbought-20260423",
       "ticker": "AVGO",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AVGO — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-79.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 79.2,
+      "messageHe": "RSI ב-79.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 79.8,
       "threshold": 70,
-      "timestamp": "2026-04-23T06:23:13.301865+00:00",
+      "timestamp": "2026-04-23T14:19:52.257176+00:00",
       "dismissed": false
     },
     {
@@ -31,22 +19,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "LMT — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-26.3 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 26.3,
+      "messageHe": "RSI ב-22.5 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 22.5,
       "threshold": 30,
-      "timestamp": "2026-04-23T06:23:14.278723+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-rtx-rsi_oversold-20260423",
-      "ticker": "RTX",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-28.9 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 28.9,
-      "threshold": 30,
-      "timestamp": "2026-04-23T06:23:15.198740+00:00",
+      "timestamp": "2026-04-23T14:19:53.176391+00:00",
       "dismissed": false
     },
     {
@@ -55,10 +31,34 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-20.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 20.0,
+      "messageHe": "RSI ב-21.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 21.7,
       "threshold": 30,
-      "timestamp": "2026-04-23T06:23:16.075242+00:00",
+      "timestamp": "2026-04-23T14:19:54.883390+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-price_drop-20260423",
+      "ticker": "CRWD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CRWD — ירידת מחיר חריגה",
+      "messageHe": "CRWD ירדה 5.21% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.21,
+      "threshold": null,
+      "timestamp": "2026-04-23T14:19:55.730976+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-ma_crossover_bullish-20260423",
+      "ticker": "CRWD",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "CRWD — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-04-23T14:19:55.730976+00:00",
       "dismissed": false
     },
     {
@@ -67,10 +67,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-83.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 83.3,
+      "messageHe": "RSI ב-83.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 83.5,
       "threshold": 70,
-      "timestamp": "2026-04-23T06:23:20.245712+00:00",
+      "timestamp": "2026-04-23T14:19:59.179324+00:00",
       "dismissed": false
     }
   ],
