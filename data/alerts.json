@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-24T20:08:52.229902+00:00",
+  "lastUpdated": "2026-04-27T07:14:10.012131+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-rsi_overbought-20260424",
+      "id": "alert-nvda-rsi_overbought-20260427",
       "ticker": "NVDA",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-71.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.5,
       "threshold": 70,
-      "timestamp": "2026-04-24T20:08:43.213819+00:00",
+      "timestamp": "2026-04-27T07:14:01.701136+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-avgo-rsi_overbought-20260424",
+      "id": "alert-avgo-rsi_overbought-20260427",
       "ticker": "AVGO",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,23 +22,23 @@
       "messageHe": "RSI ב-77.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 77.8,
       "threshold": 70,
-      "timestamp": "2026-04-24T20:08:44.013249+00:00",
+      "timestamp": "2026-04-27T07:14:02.519872+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-lmt-rsi_oversold-20260424",
+      "id": "alert-lmt-rsi_oversold-20260427",
       "ticker": "LMT",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "LMT — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-19.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 19.1,
+      "messageHe": "RSI ב-19.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 19.2,
       "threshold": 30,
-      "timestamp": "2026-04-24T20:08:45.059201+00:00",
+      "timestamp": "2026-04-27T07:14:03.407416+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-rtx-rsi_oversold-20260424",
+      "id": "alert-rtx-rsi_oversold-20260427",
       "ticker": "RTX",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -46,11 +46,11 @@
       "messageHe": "RSI ב-24.3 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 24.3,
       "threshold": 30,
-      "timestamp": "2026-04-24T20:08:46.102348+00:00",
+      "timestamp": "2026-04-27T07:14:04.304313+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-rsi_oversold-20260424",
+      "id": "alert-noc-rsi_oversold-20260427",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -58,23 +58,23 @@
       "messageHe": "RSI ב-18.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 18.1,
       "threshold": 30,
-      "timestamp": "2026-04-24T20:08:47.073216+00:00",
+      "timestamp": "2026-04-27T07:14:05.153333+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nem-price_surge-20260424",
+      "id": "alert-nem-price_surge-20260427",
       "ticker": "NEM",
       "type": "price_surge",
       "severity": "info",
       "titleHe": "NEM — עלייה חדה",
-      "messageHe": "NEM עלתה 8.65% היום. שקול לקחת רווחים חלקיים.",
-      "value": 8.65,
+      "messageHe": "NEM עלתה 8.68% היום. שקול לקחת רווחים חלקיים.",
+      "value": 8.68,
       "threshold": null,
-      "timestamp": "2026-04-24T20:08:50.594995+00:00",
+      "timestamp": "2026-04-27T07:14:08.544874+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_surge-20260424",
+      "id": "alert-amd-price_surge-20260427",
       "ticker": "AMD",
       "type": "price_surge",
       "severity": "info",
@@ -82,11 +82,11 @@
       "messageHe": "AMD עלתה 13.91% היום. שקול לקחת רווחים חלקיים.",
       "value": 13.91,
       "threshold": null,
-      "timestamp": "2026-04-24T20:08:51.494817+00:00",
+      "timestamp": "2026-04-27T07:14:09.281588+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260424",
+      "id": "alert-amd-rsi_overbought-20260427",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -94,7 +94,7 @@
       "messageHe": "RSI ב-88.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 88.9,
       "threshold": 70,
-      "timestamp": "2026-04-24T20:08:51.494817+00:00",
+      "timestamp": "2026-04-27T07:14:09.281588+00:00",
       "dismissed": false
     }
   ],
