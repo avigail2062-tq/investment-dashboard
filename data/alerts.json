@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T07:14:10.012131+00:00",
+  "lastUpdated": "2026-04-27T14:35:15.132609+00:00",
   "activeAlerts": [
     {
       "id": "alert-nvda-rsi_overbought-20260427",
@@ -7,10 +7,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NVDA — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.5,
+      "messageHe": "RSI ב-71.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.6,
       "threshold": 70,
-      "timestamp": "2026-04-27T07:14:01.701136+00:00",
+      "timestamp": "2026-04-27T14:35:05.043227+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AVGO — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.8,
+      "messageHe": "RSI ב-73.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.0,
       "threshold": 70,
-      "timestamp": "2026-04-27T07:14:02.519872+00:00",
+      "timestamp": "2026-04-27T14:35:06.083165+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +31,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "LMT — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-19.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 19.2,
+      "messageHe": "RSI ב-25.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 25.2,
       "threshold": 30,
-      "timestamp": "2026-04-27T07:14:03.407416+00:00",
+      "timestamp": "2026-04-27T14:35:07.154688+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +43,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-24.3 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 24.3,
+      "messageHe": "RSI ב-26.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 26.7,
       "threshold": 30,
-      "timestamp": "2026-04-27T07:14:04.304313+00:00",
+      "timestamp": "2026-04-27T14:35:08.293514+00:00",
       "dismissed": false
     },
     {
@@ -55,34 +55,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-18.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 18.1,
+      "messageHe": "RSI ב-23.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 23.2,
       "threshold": 30,
-      "timestamp": "2026-04-27T07:14:05.153333+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nem-price_surge-20260427",
-      "ticker": "NEM",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "NEM — עלייה חדה",
-      "messageHe": "NEM עלתה 8.68% היום. שקול לקחת רווחים חלקיים.",
-      "value": 8.68,
-      "threshold": null,
-      "timestamp": "2026-04-27T07:14:08.544874+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_surge-20260427",
-      "ticker": "AMD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "AMD — עלייה חדה",
-      "messageHe": "AMD עלתה 13.91% היום. שקול לקחת רווחים חלקיים.",
-      "value": 13.91,
-      "threshold": null,
-      "timestamp": "2026-04-27T07:14:09.281588+00:00",
+      "timestamp": "2026-04-27T14:35:09.330201+00:00",
       "dismissed": false
     },
     {
@@ -91,10 +67,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-88.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 88.9,
+      "messageHe": "RSI ב-81.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 81.1,
       "threshold": 70,
-      "timestamp": "2026-04-27T07:14:09.281588+00:00",
+      "timestamp": "2026-04-27T14:35:14.422171+00:00",
       "dismissed": false
     }
   ],
