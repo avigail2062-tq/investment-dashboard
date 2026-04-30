@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T07:09:38.573213+00:00",
+  "lastUpdated": "2026-04-30T14:35:50.190813+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_oversold-20260430",
@@ -7,22 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "LMT — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-18.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 18.6,
+      "messageHe": "RSI ב-19.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 19.6,
       "threshold": 30,
-      "timestamp": "2026-04-30T07:09:31.212110+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-rtx-rsi_oversold-20260430",
-      "ticker": "RTX",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-26.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 26.2,
-      "threshold": 30,
-      "timestamp": "2026-04-30T07:09:32.269383+00:00",
+      "timestamp": "2026-04-30T14:35:41.219743+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +19,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-18.9 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 18.9,
+      "messageHe": "RSI ב-22.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 22.6,
       "threshold": 30,
-      "timestamp": "2026-04-30T07:09:33.280881+00:00",
+      "timestamp": "2026-04-30T14:35:43.781367+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.2,
+      "messageHe": "RSI ב-76.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.8,
       "threshold": 70,
-      "timestamp": "2026-04-30T07:09:37.858287+00:00",
+      "timestamp": "2026-04-30T14:35:49.453413+00:00",
       "dismissed": false
     }
   ],
