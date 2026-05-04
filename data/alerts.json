@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-01T20:28:49.876651+00:00",
+  "lastUpdated": "2026-05-04T07:34:49.924884+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-rsi_oversold-20260501",
+      "id": "alert-lmt-rsi_oversold-20260504",
       "ticker": "LMT",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-23.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 23.0,
       "threshold": 30,
-      "timestamp": "2026-05-01T20:28:43.059809+00:00",
+      "timestamp": "2026-05-04T07:34:43.436689+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-rsi_oversold-20260501",
+      "id": "alert-noc-rsi_oversold-20260504",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-21.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 21.4,
       "threshold": 30,
-      "timestamp": "2026-05-01T20:28:44.870473+00:00",
+      "timestamp": "2026-05-04T07:34:45.181366+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260501",
+      "id": "alert-amd-rsi_overbought-20260504",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -34,7 +34,7 @@
       "messageHe": "RSI ב-79.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 79.8,
       "threshold": 70,
-      "timestamp": "2026-05-01T20:28:49.101176+00:00",
+      "timestamp": "2026-05-04T07:34:49.205066+00:00",
       "dismissed": false
     }
   ],
