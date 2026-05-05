@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-04T20:48:47.748220+00:00",
+  "lastUpdated": "2026-05-05T06:34:17.560805+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-rsi_oversold-20260504",
+      "id": "alert-lmt-rsi_oversold-20260505",
       "ticker": "LMT",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-26.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 26.6,
       "threshold": 30,
-      "timestamp": "2026-05-04T20:48:39.292179+00:00",
+      "timestamp": "2026-05-05T06:34:11.023638+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-rtx-rsi_oversold-20260504",
+      "id": "alert-rtx-rsi_oversold-20260505",
       "ticker": "RTX",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-29.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 29.7,
       "threshold": 30,
-      "timestamp": "2026-05-04T20:48:40.409670+00:00",
+      "timestamp": "2026-05-05T06:34:11.965089+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-rsi_oversold-20260504",
+      "id": "alert-noc-rsi_oversold-20260505",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -34,11 +34,11 @@
       "messageHe": "RSI ב-21.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 21.2,
       "threshold": 30,
-      "timestamp": "2026-05-04T20:48:41.534956+00:00",
+      "timestamp": "2026-05-05T06:34:12.811609+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_drop-20260504",
+      "id": "alert-amd-price_drop-20260505",
       "ticker": "AMD",
       "type": "price_drop",
       "severity": "danger",
@@ -46,7 +46,7 @@
       "messageHe": "AMD ירדה 5.27% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -5.27,
       "threshold": null,
-      "timestamp": "2026-05-04T20:48:46.970009+00:00",
+      "timestamp": "2026-05-05T06:34:16.821775+00:00",
       "dismissed": false
     }
   ],
