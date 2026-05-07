@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T15:15:26.483705+00:00",
+  "lastUpdated": "2026-05-07T20:48:39.555918+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_oversold-20260507",
@@ -7,10 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "LMT — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-26.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 26.6,
+      "messageHe": "RSI ב-27.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 27.6,
       "threshold": 30,
-      "timestamp": "2026-05-07T15:15:19.665292+00:00",
+      "timestamp": "2026-05-07T20:48:32.793791+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,34 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-19.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 19.4,
+      "messageHe": "RSI ב-19.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 19.1,
       "threshold": 30,
-      "timestamp": "2026-05-07T15:15:21.543720+00:00",
+      "timestamp": "2026-05-07T20:48:34.596038+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-price_surge-20260507",
+      "ticker": "CRWD",
+      "type": "price_surge",
+      "severity": "info",
+      "titleHe": "CRWD — עלייה חדה",
+      "messageHe": "CRWD עלתה 8.04% היום. שקול לקחת רווחים חלקיים.",
+      "value": 8.04,
+      "threshold": null,
+      "timestamp": "2026-05-07T20:48:35.377907+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-rsi_overbought-20260507",
+      "ticker": "CRWD",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "CRWD — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.4,
+      "threshold": 70,
+      "timestamp": "2026-05-07T20:48:35.377907+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +55,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.4,
+      "messageHe": "RSI ב-76.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.1,
       "threshold": 70,
-      "timestamp": "2026-05-07T15:15:25.766800+00:00",
+      "timestamp": "2026-05-07T20:48:38.818403+00:00",
       "dismissed": false
     }
   ],
