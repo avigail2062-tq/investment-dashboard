@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T06:15:45.065577+00:00",
+  "lastUpdated": "2026-05-08T14:24:25.930394+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_oversold-20260508",
@@ -7,10 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "LMT — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-27.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 27.6,
+      "messageHe": "RSI ב-26.5 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 26.5,
       "threshold": 30,
-      "timestamp": "2026-05-08T06:15:36.474759+00:00",
+      "timestamp": "2026-05-08T14:24:18.495112+00:00",
       "dismissed": false
     },
     {
@@ -19,22 +19,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-19.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 19.1,
+      "messageHe": "RSI ב-18.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 18.0,
       "threshold": 30,
-      "timestamp": "2026-05-08T06:15:38.822323+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-price_surge-20260508",
-      "ticker": "CRWD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "CRWD — עלייה חדה",
-      "messageHe": "CRWD עלתה 8.04% היום. שקול לקחת רווחים חלקיים.",
-      "value": 8.04,
-      "threshold": null,
-      "timestamp": "2026-05-08T06:15:39.790379+00:00",
+      "timestamp": "2026-05-08T14:24:20.335177+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +31,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.4,
+      "messageHe": "RSI ב-71.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.3,
       "threshold": 70,
-      "timestamp": "2026-05-08T06:15:39.790379+00:00",
+      "timestamp": "2026-05-08T14:24:21.243195+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-ma_crossover_bullish-20260508",
+      "ticker": "CEG",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "CEG — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-05-08T14:24:22.045983+00:00",
       "dismissed": false
     },
     {
@@ -55,10 +55,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.1,
+      "messageHe": "RSI ב-79.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 79.4,
       "threshold": 70,
-      "timestamp": "2026-05-08T06:15:44.376751+00:00",
+      "timestamp": "2026-05-08T14:24:24.717087+00:00",
       "dismissed": false
     }
   ],
