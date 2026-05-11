@@ -1,28 +1,16 @@
 {
-  "lastUpdated": "2026-05-11T15:45:08.474280+00:00",
+  "lastUpdated": "2026-05-11T21:04:02.630163+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-lmt-rsi_oversold-20260511",
-      "ticker": "LMT",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "LMT — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-28.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 28.2,
-      "threshold": 30,
-      "timestamp": "2026-05-11T15:45:01.098246+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-noc-rsi_oversold-20260511",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-19.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 19.0,
+      "messageHe": "RSI ב-18.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 18.4,
       "threshold": 30,
-      "timestamp": "2026-05-11T15:45:03.155569+00:00",
+      "timestamp": "2026-05-11T21:03:57.769983+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +19,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-74.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 74.9,
+      "messageHe": "RSI ב-76.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.3,
       "threshold": 70,
-      "timestamp": "2026-05-11T15:45:04.034049+00:00",
+      "timestamp": "2026-05-11T21:03:58.503980+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-81.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 81.3,
+      "messageHe": "RSI ב-81.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 81.1,
       "threshold": 70,
-      "timestamp": "2026-05-11T15:45:07.745162+00:00",
+      "timestamp": "2026-05-11T21:04:01.888842+00:00",
       "dismissed": false
     }
   ],
