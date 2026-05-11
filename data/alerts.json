@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-08T20:35:14.144468+00:00",
+  "lastUpdated": "2026-05-11T08:00:55.351698+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-rsi_oversold-20260508",
+      "id": "alert-lmt-rsi_oversold-20260511",
       "ticker": "LMT",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-26.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 26.0,
       "threshold": 30,
-      "timestamp": "2026-05-08T20:35:06.722772+00:00",
+      "timestamp": "2026-05-11T08:00:48.873551+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-rsi_oversold-20260508",
+      "id": "alert-noc-rsi_oversold-20260511",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-18.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 18.6,
       "threshold": 30,
-      "timestamp": "2026-05-08T20:35:08.662883+00:00",
+      "timestamp": "2026-05-11T08:00:50.595331+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-crwd-rsi_overbought-20260508",
+      "id": "alert-crwd-rsi_overbought-20260511",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -34,11 +34,11 @@
       "messageHe": "RSI ב-74.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 74.2,
       "threshold": 70,
-      "timestamp": "2026-05-08T20:35:09.686453+00:00",
+      "timestamp": "2026-05-11T08:00:51.328190+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-ma_crossover_bullish-20260508",
+      "id": "alert-ceg-ma_crossover_bullish-20260511",
       "ticker": "CEG",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -46,11 +46,11 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-05-08T20:35:10.488041+00:00",
+      "timestamp": "2026-05-11T08:00:52.100506+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_surge-20260508",
+      "id": "alert-amd-price_surge-20260511",
       "ticker": "AMD",
       "type": "price_surge",
       "severity": "info",
@@ -58,11 +58,11 @@
       "messageHe": "AMD עלתה 11.44% היום. שקול לקחת רווחים חלקיים.",
       "value": 11.44,
       "threshold": null,
-      "timestamp": "2026-05-08T20:35:13.356227+00:00",
+      "timestamp": "2026-05-11T08:00:54.604643+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260508",
+      "id": "alert-amd-rsi_overbought-20260511",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -70,7 +70,7 @@
       "messageHe": "RSI ב-80.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 80.8,
       "threshold": 70,
-      "timestamp": "2026-05-08T20:35:13.356227+00:00",
+      "timestamp": "2026-05-11T08:00:54.604643+00:00",
       "dismissed": false
     }
   ],
