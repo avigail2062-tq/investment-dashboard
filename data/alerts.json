@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T15:26:03.922383+00:00",
+  "lastUpdated": "2026-05-13T21:09:06.073014+00:00",
   "activeAlerts": [
     {
       "id": "alert-nvda-rsi_overbought-20260513",
@@ -7,10 +7,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NVDA — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.2,
+      "messageHe": "RSI ב-72.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 72.1,
       "threshold": 70,
-      "timestamp": "2026-05-13T15:25:53.753883+00:00",
+      "timestamp": "2026-05-13T21:08:57.559611+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-24.5 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 24.5,
+      "messageHe": "RSI ב-24.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 24.7,
       "threshold": 30,
-      "timestamp": "2026-05-13T15:25:58.123592+00:00",
+      "timestamp": "2026-05-13T21:09:01.177336+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.3,
+      "messageHe": "RSI ב-79.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 79.0,
       "threshold": 70,
-      "timestamp": "2026-05-13T15:25:58.955757+00:00",
+      "timestamp": "2026-05-13T21:09:01.968785+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +43,10 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "CEG — ירידת מחיר חריגה",
-      "messageHe": "CEG ירדה 6.65% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.65,
+      "messageHe": "CEG ירדה 6.37% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.37,
       "threshold": null,
-      "timestamp": "2026-05-13T15:25:59.924822+00:00",
+      "timestamp": "2026-05-13T21:09:02.717601+00:00",
       "dismissed": false
     },
     {
@@ -58,7 +58,7 @@
       "messageHe": "RSI ב-76.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 76.2,
       "threshold": 70,
-      "timestamp": "2026-05-13T15:26:03.199050+00:00",
+      "timestamp": "2026-05-13T21:09:05.344273+00:00",
       "dismissed": false
     }
   ],
