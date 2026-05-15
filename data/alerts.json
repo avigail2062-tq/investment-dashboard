@@ -1,28 +1,16 @@
 {
-  "lastUpdated": "2026-05-15T07:41:05.748155+00:00",
+  "lastUpdated": "2026-05-15T15:02:13.800053+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-nvda-rsi_overbought-20260515",
-      "ticker": "NVDA",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "NVDA — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.7,
-      "threshold": 70,
-      "timestamp": "2026-05-15T07:40:56.430541+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-noc-rsi_oversold-20260515",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-23.9 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 23.9,
+      "messageHe": "RSI ב-23.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 23.1,
       "threshold": 30,
-      "timestamp": "2026-05-15T07:41:00.388021+00:00",
+      "timestamp": "2026-05-15T15:02:07.821564+00:00",
       "dismissed": false
     },
     {
@@ -31,22 +19,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-81.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 81.1,
+      "messageHe": "RSI ב-81.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 81.9,
       "threshold": 70,
-      "timestamp": "2026-05-15T07:41:01.235671+00:00",
+      "timestamp": "2026-05-15T15:02:08.828492+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260515",
-      "ticker": "AMD",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.7,
-      "threshold": 70,
-      "timestamp": "2026-05-15T07:41:05.029275+00:00",
+      "id": "alert-nem-price_drop-20260515",
+      "ticker": "NEM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NEM — ירידת מחיר חריגה",
+      "messageHe": "NEM ירדה 6.03% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.03,
+      "threshold": null,
+      "timestamp": "2026-05-15T15:02:12.080164+00:00",
       "dismissed": false
     }
   ],
