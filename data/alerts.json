@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T16:04:22.253739+00:00",
+  "lastUpdated": "2026-05-18T20:53:04.934637+00:00",
   "activeAlerts": [
     {
       "id": "alert-noc-rsi_oversold-20260518",
@@ -7,10 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-27.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 27.0,
+      "messageHe": "RSI ב-29.2 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 29.2,
       "threshold": 30,
-      "timestamp": "2026-05-18T16:04:16.081596+00:00",
+      "timestamp": "2026-05-18T20:52:59.239441+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-83.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 83.8,
+      "messageHe": "RSI ב-84.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 84.8,
       "threshold": 70,
-      "timestamp": "2026-05-18T16:04:17.154230+00:00",
+      "timestamp": "2026-05-18T20:53:00.232328+00:00",
       "dismissed": false
     }
   ],
