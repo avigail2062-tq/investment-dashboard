@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-15T20:41:06.550301+00:00",
+  "lastUpdated": "2026-05-18T08:30:32.864168+00:00",
   "activeAlerts": [
     {
-      "id": "alert-noc-rsi_oversold-20260515",
+      "id": "alert-noc-rsi_oversold-20260518",
       "ticker": "NOC",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-22.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 22.0,
       "threshold": 30,
-      "timestamp": "2026-05-15T20:41:00.885941+00:00",
+      "timestamp": "2026-05-18T08:30:28.036812+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-crwd-rsi_overbought-20260515",
+      "id": "alert-crwd-rsi_overbought-20260518",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-82.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 82.6,
       "threshold": 70,
-      "timestamp": "2026-05-15T20:41:01.739055+00:00",
+      "timestamp": "2026-05-18T08:30:28.777422+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nem-price_drop-20260515",
+      "id": "alert-nem-price_drop-20260518",
       "ticker": "NEM",
       "type": "price_drop",
       "severity": "danger",
@@ -34,11 +34,11 @@
       "messageHe": "NEM ירדה 6.25% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -6.25,
       "threshold": null,
-      "timestamp": "2026-05-15T20:41:04.841910+00:00",
+      "timestamp": "2026-05-18T08:30:31.411223+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_drop-20260515",
+      "id": "alert-amd-price_drop-20260518",
       "ticker": "AMD",
       "type": "price_drop",
       "severity": "danger",
@@ -46,7 +46,7 @@
       "messageHe": "AMD ירדה 5.69% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -5.69,
       "threshold": null,
-      "timestamp": "2026-05-15T20:41:05.828022+00:00",
+      "timestamp": "2026-05-18T08:30:32.140707+00:00",
       "dismissed": false
     }
   ],
