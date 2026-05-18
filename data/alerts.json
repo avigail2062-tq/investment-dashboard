@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T08:30:32.864168+00:00",
+  "lastUpdated": "2026-05-18T16:04:22.253739+00:00",
   "activeAlerts": [
     {
       "id": "alert-noc-rsi_oversold-20260518",
@@ -7,10 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-22.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 22.0,
+      "messageHe": "RSI ב-27.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 27.0,
       "threshold": 30,
-      "timestamp": "2026-05-18T08:30:28.036812+00:00",
+      "timestamp": "2026-05-18T16:04:16.081596+00:00",
       "dismissed": false
     },
     {
@@ -19,34 +19,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-82.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 82.6,
+      "messageHe": "RSI ב-83.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 83.8,
       "threshold": 70,
-      "timestamp": "2026-05-18T08:30:28.777422+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nem-price_drop-20260518",
-      "ticker": "NEM",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "NEM — ירידת מחיר חריגה",
-      "messageHe": "NEM ירדה 6.25% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.25,
-      "threshold": null,
-      "timestamp": "2026-05-18T08:30:31.411223+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20260518",
-      "ticker": "AMD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 5.69% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.69,
-      "threshold": null,
-      "timestamp": "2026-05-18T08:30:32.140707+00:00",
+      "timestamp": "2026-05-18T16:04:17.154230+00:00",
       "dismissed": false
     }
   ],
