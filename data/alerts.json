@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T07:58:40.722021+00:00",
+  "lastUpdated": "2026-05-22T15:36:27.765543+00:00",
   "activeAlerts": [
     {
       "id": "alert-crwd-rsi_overbought-20260522",
@@ -7,10 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-85.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 85.7,
+      "messageHe": "RSI ב-87.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 87.3,
       "threshold": 70,
-      "timestamp": "2026-05-22T07:58:35.690378+00:00",
+      "timestamp": "2026-05-22T15:36:22.887303+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-rsi_overbought-20260522",
+      "ticker": "AMD",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "AMD — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-73.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.0,
+      "threshold": 70,
+      "timestamp": "2026-05-22T15:36:27.046214+00:00",
       "dismissed": false
     }
   ],
