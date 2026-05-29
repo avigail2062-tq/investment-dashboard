@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T08:23:51.223118+00:00",
+  "lastUpdated": "2026-05-29T16:24:50.392629+00:00",
   "activeAlerts": [
     {
       "id": "alert-crwd-rsi_overbought-20260529",
@@ -7,10 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-78.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 78.8,
+      "messageHe": "RSI ב-83.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 83.1,
       "threshold": 70,
-      "timestamp": "2026-05-29T08:23:46.863212+00:00",
+      "timestamp": "2026-05-29T16:24:45.372880+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-ma_crossover_bearish-20260529",
+      "ticker": "CEG",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "CEG — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-05-29T16:24:46.400797+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.7,
+      "messageHe": "RSI ב-74.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 74.7,
       "threshold": 70,
-      "timestamp": "2026-05-29T08:23:50.504013+00:00",
+      "timestamp": "2026-05-29T16:24:49.677044+00:00",
       "dismissed": false
     }
   ],
