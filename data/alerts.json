@@ -1,16 +1,28 @@
 {
-  "lastUpdated": "2026-05-29T16:24:50.392629+00:00",
+  "lastUpdated": "2026-05-29T21:23:12.336330+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-crwd-price_surge-20260529",
+      "ticker": "CRWD",
+      "type": "price_surge",
+      "severity": "info",
+      "titleHe": "CRWD — עלייה חדה",
+      "messageHe": "CRWD עלתה 8.94% היום. שקול לקחת רווחים חלקיים.",
+      "value": 8.94,
+      "threshold": null,
+      "timestamp": "2026-05-29T21:23:07.615577+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-crwd-rsi_overbought-20260529",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-83.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 83.1,
+      "messageHe": "RSI ב-83.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 83.8,
       "threshold": 70,
-      "timestamp": "2026-05-29T16:24:45.372880+00:00",
+      "timestamp": "2026-05-29T21:23:07.615577+00:00",
       "dismissed": false
     },
     {
@@ -22,7 +34,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-05-29T16:24:46.400797+00:00",
+      "timestamp": "2026-05-29T21:23:08.545852+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +43,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-74.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 74.7,
+      "messageHe": "RSI ב-76.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.0,
       "threshold": 70,
-      "timestamp": "2026-05-29T16:24:49.677044+00:00",
+      "timestamp": "2026-05-29T21:23:11.615706+00:00",
       "dismissed": false
     }
   ],
