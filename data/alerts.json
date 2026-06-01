@@ -1,40 +1,28 @@
 {
-  "lastUpdated": "2026-06-01T09:40:52.500821+00:00",
+  "lastUpdated": "2026-06-01T18:24:31.127211+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-crwd-price_surge-20260601",
-      "ticker": "CRWD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "CRWD — עלייה חדה",
-      "messageHe": "CRWD עלתה 8.94% היום. שקול לקחת רווחים חלקיים.",
-      "value": 8.94,
-      "threshold": null,
-      "timestamp": "2026-06-01T09:40:47.784638+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-crwd-rsi_overbought-20260601",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-83.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 83.8,
+      "messageHe": "RSI ב-86.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 86.3,
       "threshold": 70,
-      "timestamp": "2026-06-01T09:40:47.784638+00:00",
+      "timestamp": "2026-06-01T18:24:26.817933+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-ma_crossover_bearish-20260601",
+      "id": "alert-ceg-price_drop-20260601",
       "ticker": "CEG",
-      "type": "ma_crossover_bearish",
-      "severity": "warning",
-      "titleHe": "CEG — חציית ממוצעים דובית",
-      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
-      "value": null,
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CEG — ירידת מחיר חריגה",
+      "messageHe": "CEG ירדה 6.9% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.9,
       "threshold": null,
-      "timestamp": "2026-06-01T09:40:48.695405+00:00",
+      "timestamp": "2026-06-01T18:24:27.670543+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.0,
+      "messageHe": "RSI ב-75.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 75.0,
       "threshold": 70,
-      "timestamp": "2026-06-01T09:40:51.775497+00:00",
+      "timestamp": "2026-06-01T18:24:30.404653+00:00",
       "dismissed": false
     }
   ],
