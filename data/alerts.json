@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T18:24:31.127211+00:00",
+  "lastUpdated": "2026-06-01T22:21:22.802811+00:00",
   "activeAlerts": [
     {
       "id": "alert-crwd-rsi_overbought-20260601",
@@ -7,10 +7,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-86.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 86.3,
+      "messageHe": "RSI ב-86.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 86.7,
       "threshold": 70,
-      "timestamp": "2026-06-01T18:24:26.817933+00:00",
+      "timestamp": "2026-06-01T22:21:18.709426+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,22 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "CEG — ירידת מחיר חריגה",
-      "messageHe": "CEG ירדה 6.9% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.9,
+      "messageHe": "CEG ירדה 7.66% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.66,
       "threshold": null,
-      "timestamp": "2026-06-01T18:24:27.670543+00:00",
+      "timestamp": "2026-06-01T22:21:19.494884+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-volume_spike-20260601",
+      "ticker": "CEG",
+      "type": "volume_spike",
+      "severity": "info",
+      "titleHe": "CEG — נפח מסחר חריג",
+      "messageHe": "נפח מסחר גבוה פי 2.95 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 2.95,
+      "threshold": null,
+      "timestamp": "2026-06-01T22:21:19.494884+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +43,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.0,
+      "messageHe": "RSI ב-73.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.7,
       "threshold": 70,
-      "timestamp": "2026-06-01T18:24:30.404653+00:00",
+      "timestamp": "2026-06-01T22:21:22.086899+00:00",
       "dismissed": false
     }
   ],
