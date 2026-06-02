@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-01T22:21:22.802811+00:00",
+  "lastUpdated": "2026-06-02T08:51:44.516106+00:00",
   "activeAlerts": [
     {
-      "id": "alert-crwd-rsi_overbought-20260601",
+      "id": "alert-crwd-rsi_overbought-20260602",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-86.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 86.7,
       "threshold": 70,
-      "timestamp": "2026-06-01T22:21:18.709426+00:00",
+      "timestamp": "2026-06-02T08:51:40.614654+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-price_drop-20260601",
+      "id": "alert-ceg-price_drop-20260602",
       "ticker": "CEG",
       "type": "price_drop",
       "severity": "danger",
@@ -22,11 +22,11 @@
       "messageHe": "CEG ירדה 7.66% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -7.66,
       "threshold": null,
-      "timestamp": "2026-06-01T22:21:19.494884+00:00",
+      "timestamp": "2026-06-02T08:51:41.359165+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-volume_spike-20260601",
+      "id": "alert-ceg-volume_spike-20260602",
       "ticker": "CEG",
       "type": "volume_spike",
       "severity": "info",
@@ -34,11 +34,11 @@
       "messageHe": "נפח מסחר גבוה פי 2.95 מהממוצע. עקוב אחרי התפתחויות.",
       "value": 2.95,
       "threshold": null,
-      "timestamp": "2026-06-01T22:21:19.494884+00:00",
+      "timestamp": "2026-06-02T08:51:41.359165+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260601",
+      "id": "alert-amd-rsi_overbought-20260602",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -46,7 +46,7 @@
       "messageHe": "RSI ב-73.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 73.7,
       "threshold": 70,
-      "timestamp": "2026-06-01T22:21:22.086899+00:00",
+      "timestamp": "2026-06-02T08:51:43.793930+00:00",
       "dismissed": false
     }
   ],
