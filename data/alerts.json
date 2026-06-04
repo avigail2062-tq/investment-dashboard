@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T16:00:31.643647+00:00",
+  "lastUpdated": "2026-06-04T21:13:16.246349+00:00",
   "activeAlerts": [
     {
       "id": "alert-avgo-price_drop-20260604",
@@ -7,22 +7,22 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "AVGO — ירידת מחיר חריגה",
-      "messageHe": "AVGO ירדה 14.76% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -14.76,
+      "messageHe": "AVGO ירדה 12.59% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -12.59,
       "threshold": null,
-      "timestamp": "2026-06-04T16:00:23.546356+00:00",
+      "timestamp": "2026-06-04T21:13:07.379281+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-crwd-price_drop-20260604",
-      "ticker": "CRWD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "CRWD — ירידת מחיר חריגה",
-      "messageHe": "CRWD ירדה 7.19% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.19,
+      "id": "alert-avgo-volume_spike-20260604",
+      "ticker": "AVGO",
+      "type": "volume_spike",
+      "severity": "info",
+      "titleHe": "AVGO — נפח מסחר חריג",
+      "messageHe": "נפח מסחר גבוה פי 3.09 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 3.09,
       "threshold": null,
-      "timestamp": "2026-06-04T16:00:27.478415+00:00",
+      "timestamp": "2026-06-04T21:13:07.379281+00:00",
       "dismissed": false
     },
     {
@@ -34,7 +34,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-06-04T16:00:30.105670+00:00",
+      "timestamp": "2026-06-04T21:13:14.540882+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +43,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.0,
+      "messageHe": "RSI ב-70.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.6,
       "threshold": 70,
-      "timestamp": "2026-06-04T16:00:30.912704+00:00",
+      "timestamp": "2026-06-04T21:13:15.515606+00:00",
       "dismissed": false
     }
   ],
