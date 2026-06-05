@@ -1,70 +1,70 @@
 {
-  "lastUpdated": "2026-06-05T08:29:28.550579+00:00",
+  "lastUpdated": "2026-06-05T15:35:21.345561+00:00",
   "updateSource": "Yahoo Finance via yfinance",
   "macro": {
     "sp500": {
-      "price": 7584.31,
-      "change": 30.63,
-      "changePct": 0.41
+      "price": 7489.13,
+      "change": -95.18,
+      "changePct": -1.25
     },
     "vix": {
-      "price": 15.75,
-      "change": 0.35,
-      "changePct": 2.27
+      "price": 16.48,
+      "change": 1.08,
+      "changePct": 7.01
     },
     "gold": {
-      "price": 4489.7,
-      "change": 13.9,
-      "changePct": 0.31
+      "price": 4378.0,
+      "change": -97.8,
+      "changePct": -2.19
     },
     "wti": {
-      "price": 92.56,
-      "change": -0.48,
-      "changePct": -0.52
+      "price": 91.12,
+      "change": -1.92,
+      "changePct": -2.06
     },
     "brent": {
-      "price": 94.85,
-      "change": -0.18,
-      "changePct": -0.19
+      "price": 93.75,
+      "change": -1.28,
+      "changePct": -1.35
     }
   },
   "stocks": {
     "NVDA": {
-      "price": 218.66,
-      "previousClose": 214.5,
-      "change": 4.16,
-      "changePct": 1.94,
-      "dayHigh": 221.6,
-      "dayLow": 210.97,
-      "volume": 168357500,
-      "avgVolume20d": 175226715,
-      "marketCap": 5296163913728,
-      "pe": 33.4,
+      "price": 208.38,
+      "previousClose": 218.66,
+      "change": -10.28,
+      "changePct": -4.7,
+      "dayHigh": 214.87,
+      "dayLow": 208.08,
+      "volume": 71718617,
+      "avgVolume20d": 170430485,
+      "marketCap": 5049976619008,
+      "pe": 31.9,
       "technicals": {
-        "rsi14": 54.44,
-        "sma20": 219.18,
-        "sma50": 202.69,
-        "sma200": 188.2,
-        "ema12": 217.49,
-        "ema26": 213.91,
-        "macdLine": 3.59,
-        "macdSignal": 4.75,
-        "macdHistogram": -1.16,
-        "volumeRatio": 0.96
+        "rsi14": 46.15,
+        "sma20": 219.04,
+        "sma50": 203.29,
+        "sma200": 188.36,
+        "ema12": 216.09,
+        "ema26": 213.5,
+        "macdLine": 2.59,
+        "macdSignal": 4.32,
+        "macdHistogram": -1.72,
+        "volumeRatio": 0.42
       },
       "priceHistory5d": [
-        210.89,
         224.1,
         222.56,
         214.5,
-        218.66
+        218.66,
+        208.38
       ],
       "macdHistory5d": [
-        -2.163,
         -1.414,
         -1.02,
         -1.283,
-        -1.161
+        -1.161,
+        -1.723
       ],
       "allocation": 5400,
       "portfolioPct": 12,
@@ -73,41 +73,41 @@
       "name": "NVIDIA"
     },
     "AVGO": {
-      "price": 418.91,
-      "previousClose": 479.23,
-      "change": -60.32,
-      "changePct": -12.59,
-      "dayHigh": 426.48,
-      "dayLow": 403.01,
-      "volume": 80684400,
-      "avgVolume20d": 26107805,
-      "marketCap": 1983399854080,
-      "pe": 69.9,
+      "price": 396.87,
+      "previousClose": 418.91,
+      "change": -22.04,
+      "changePct": -5.26,
+      "dayHigh": 410.5,
+      "dayLow": 396.19,
+      "volume": 19659156,
+      "avgVolume20d": 25965927,
+      "marketCap": 1878384967680,
+      "pe": 66.2,
       "technicals": {
-        "rsi14": 48.08,
-        "sma20": 430.36,
-        "sma50": 397.07,
-        "sma200": 354.46,
-        "ema12": 440.29,
-        "ema26": 426.13,
-        "macdLine": 14.16,
-        "macdSignal": 13.27,
-        "macdHistogram": 0.89,
-        "volumeRatio": 3.09
+        "rsi14": 42.35,
+        "sma20": 429.58,
+        "sma50": 398.63,
+        "sma200": 354.98,
+        "ema12": 433.61,
+        "ema26": 423.96,
+        "macdLine": 9.64,
+        "macdSignal": 12.54,
+        "macdHistogram": -2.9,
+        "volumeRatio": 0.76
       },
       "priceHistory5d": [
-        446.77,
         459.97,
         481.57,
         479.23,
-        418.91
+        418.91,
+        396.87
       ],
       "macdHistory5d": [
-        -0.907,
         0.956,
         3.352,
         4.419,
-        0.888
+        0.888,
+        -2.899
       ],
       "allocation": 4050,
       "portfolioPct": 9,
@@ -116,41 +116,41 @@
       "name": "Broadcom"
     },
     "LMT": {
-      "price": 519.05,
-      "previousClose": 512.03,
-      "change": 7.02,
-      "changePct": 1.37,
-      "dayHigh": 522.7,
-      "dayLow": 514.14,
-      "volume": 850300,
-      "avgVolume20d": 1259040,
-      "marketCap": 119674044416,
-      "pe": 25.1,
+      "price": 526.27,
+      "previousClose": 519.05,
+      "change": 7.22,
+      "changePct": 1.39,
+      "dayHigh": 528.01,
+      "dayLow": 520.0,
+      "volume": 298428,
+      "avgVolume20d": 1171196,
+      "marketCap": 121338691584,
+      "pe": 25.5,
       "technicals": {
-        "rsi14": 43.5,
-        "sma20": 519.02,
-        "sma50": 552.23,
-        "sma200": 527.85,
-        "ema12": 520.32,
-        "ema26": 527.61,
-        "macdLine": -7.28,
-        "macdSignal": -9.38,
-        "macdHistogram": 2.1,
-        "volumeRatio": 0.68
+        "rsi14": 48.67,
+        "sma20": 519.88,
+        "sma50": 550.35,
+        "sma200": 528.34,
+        "ema12": 521.24,
+        "ema26": 527.51,
+        "macdLine": -6.27,
+        "macdSignal": -8.76,
+        "macdHistogram": 2.49,
+        "volumeRatio": 0.25
       },
       "priceHistory5d": [
-        527.0,
         516.5,
         513.43,
         512.03,
-        519.05
+        519.05,
+        526.27
       ],
       "macdHistory5d": [
-        5.148,
         3.994,
         2.968,
         2.175,
-        2.102
+        2.102,
+        2.492
       ],
       "allocation": 4500,
       "portfolioPct": 10,
@@ -159,41 +159,41 @@
       "name": "Lockheed Martin"
     },
     "RTX": {
-      "price": 179.41,
-      "previousClose": 172.55,
-      "change": 6.86,
-      "changePct": 3.98,
-      "dayHigh": 180.42,
-      "dayLow": 176.19,
-      "volume": 4693400,
-      "avgVolume20d": 5711340,
-      "marketCap": 241608474624,
-      "pe": 33.7,
+      "price": 182.21,
+      "previousClose": 179.41,
+      "change": 2.79,
+      "changePct": 1.56,
+      "dayHigh": 182.53,
+      "dayLow": 178.01,
+      "volume": 1978902,
+      "avgVolume20d": 5527530,
+      "marketCap": 245372452864,
+      "pe": 34.2,
       "technicals": {
-        "rsi14": 52.26,
-        "sma20": 176.02,
-        "sma50": 183.13,
-        "sma200": 179.84,
-        "ema12": 176.28,
-        "ema26": 177.82,
-        "macdLine": -1.54,
-        "macdSignal": -2.25,
-        "macdHistogram": 0.71,
-        "volumeRatio": 0.82
+        "rsi14": 56.16,
+        "sma20": 176.33,
+        "sma50": 182.9,
+        "sma200": 179.99,
+        "ema12": 177.19,
+        "ema26": 178.14,
+        "macdLine": -0.95,
+        "macdSignal": -1.99,
+        "macdHistogram": 1.04,
+        "volumeRatio": 0.36
       },
       "priceHistory5d": [
-        179.66,
         174.41,
         174.26,
         172.55,
-        179.41
+        179.41,
+        182.21
       ],
       "macdHistory5d": [
-        1.289,
         0.961,
         0.72,
         0.445,
-        0.709
+        0.709,
+        1.037
       ],
       "allocation": 3600,
       "portfolioPct": 8,
@@ -202,41 +202,41 @@
       "name": "RTX Corporation"
     },
     "NOC": {
-      "price": 545.17,
-      "previousClose": 526.06,
-      "change": 19.11,
-      "changePct": 3.63,
-      "dayHigh": 545.43,
-      "dayLow": 531.33,
-      "volume": 1013600,
-      "avgVolume20d": 913120,
-      "marketCap": 77432381440,
-      "pe": 17.1,
+      "price": 547.83,
+      "previousClose": 545.17,
+      "change": 2.66,
+      "changePct": 0.49,
+      "dayHigh": 551.96,
+      "dayLow": 544.63,
+      "volume": 286870,
+      "avgVolume20d": 885423,
+      "marketCap": 77810196480,
+      "pe": 17.2,
       "technicals": {
-        "rsi14": 41.34,
-        "sma20": 547.72,
-        "sma50": 601.62,
-        "sma200": 613.38,
-        "ema12": 546.16,
-        "ema26": 561.58,
-        "macdLine": -15.42,
-        "macdSignal": -18.14,
-        "macdHistogram": 2.72,
-        "volumeRatio": 1.11
+        "rsi14": 42.82,
+        "sma20": 547.62,
+        "sma50": 598.81,
+        "sma200": 613.23,
+        "ema12": 546.42,
+        "ema26": 560.56,
+        "macdLine": -14.14,
+        "macdSignal": -17.34,
+        "macdHistogram": 3.2,
+        "volumeRatio": 0.32
       },
       "priceHistory5d": [
-        561.21,
         539.22,
         536.59,
         526.06,
-        545.17
+        545.17,
+        547.83
       ],
       "macdHistory5d": [
-        5.809,
         4.573,
         3.575,
         2.268,
-        2.72
+        2.72,
+        3.196
       ],
       "allocation": 3150,
       "portfolioPct": 7,
@@ -245,41 +245,41 @@
       "name": "Northrop Grumman"
     },
     "CRWD": {
-      "price": NaN,
-      "previousClose": 747.61,
-      "change": NaN,
-      "changePct": NaN,
-      "dayHigh": null,
-      "dayLow": null,
-      "volume": 7389052,
-      "avgVolume20d": 3894677,
-      "marketCap": 183055024128,
-      "pe": 116.6,
+      "price": 688.02,
+      "previousClose": 719.09,
+      "change": -31.07,
+      "changePct": -4.32,
+      "dayHigh": 706.22,
+      "dayLow": 683.14,
+      "volume": 1972504,
+      "avgVolume20d": 3740615,
+      "marketCap": 175145697280,
+      "pe": 110.2,
       "technicals": {
-        "rsi14": 76.32,
-        "sma20": null,
-        "sma50": null,
-        "sma200": null,
-        "ema12": 687.51,
-        "ema26": 614.35,
-        "macdLine": 73.16,
-        "macdSignal": 64.52,
-        "macdHistogram": 8.64,
-        "volumeRatio": 1.9
+        "rsi14": 61.66,
+        "sma20": 648.75,
+        "sma50": 516.04,
+        "sma200": 478.12,
+        "ema12": 691.7,
+        "ema26": 626.99,
+        "macdLine": 64.71,
+        "macdSignal": 64.1,
+        "macdHistogram": 0.62,
+        "volumeRatio": 0.53
       },
       "priceHistory5d": [
-        731.0,
         782.17,
         768.95,
         747.61,
-        NaN
+        719.09,
+        688.02
       ],
       "macdHistory5d": [
-        9.297,
         12.97,
         13.234,
         10.801,
-        8.641
+        6.32,
+        0.615
       ],
       "allocation": 3600,
       "portfolioPct": 8,
@@ -288,41 +288,41 @@
       "name": "CrowdStrike"
     },
     "CEG": {
-      "price": NaN,
-      "previousClose": 267.24,
-      "change": NaN,
-      "changePct": NaN,
-      "dayHigh": null,
-      "dayLow": null,
-      "volume": 3281759,
-      "avgVolume20d": 4260127,
-      "marketCap": 94485618688,
-      "pe": 23.0,
+      "price": 258.06,
+      "previousClose": 264.59,
+      "change": -6.53,
+      "changePct": -2.47,
+      "dayHigh": 261.86,
+      "dayLow": 257.09,
+      "volume": 1276440,
+      "avgVolume20d": 4201712,
+      "marketCap": 92153741312,
+      "pe": 22.4,
       "technicals": {
-        "rsi14": 40.91,
-        "sma20": null,
-        "sma50": null,
-        "sma200": null,
-        "ema12": 280.05,
-        "ema26": 285.8,
-        "macdLine": -5.75,
-        "macdSignal": -4.56,
-        "macdHistogram": -1.19,
-        "volumeRatio": 0.77
+        "rsi14": 37.42,
+        "sma20": 279.42,
+        "sma50": 289.03,
+        "sma200": 320.89,
+        "ema12": 274.65,
+        "ema26": 282.29,
+        "macdLine": -7.64,
+        "macdSignal": -5.3,
+        "macdHistogram": -2.34,
+        "volumeRatio": 0.3
       },
       "priceHistory5d": [
-        287.75,
         265.7,
         272.65,
         267.24,
-        NaN
+        264.59,
+        258.06
       ],
       "macdHistory5d": [
-        0.685,
         -0.679,
         -1.022,
         -1.493,
-        -1.194
+        -1.84,
+        -2.335
       ],
       "allocation": 3150,
       "portfolioPct": 7,
@@ -331,41 +331,41 @@
       "name": "Constellation Energy"
     },
     "XOM": {
-      "price": 152.04,
-      "previousClose": 152.53,
-      "change": -0.49,
-      "changePct": -0.32,
-      "dayHigh": 153.43,
-      "dayLow": 150.94,
-      "volume": 11796600,
-      "avgVolume20d": 17113745,
-      "marketCap": 630197714944,
-      "pe": 25.6,
+      "price": 150.99,
+      "previousClose": 152.04,
+      "change": -1.04,
+      "changePct": -0.69,
+      "dayHigh": 152.13,
+      "dayLow": 149.3,
+      "volume": 4342098,
+      "avgVolume20d": 16205519,
+      "marketCap": 625866309632,
+      "pe": 25.4,
       "technicals": {
-        "rsi14": 50.88,
-        "sma20": 151.53,
-        "sma50": 153.29,
-        "sma200": 131.2,
+        "rsi14": 49.12,
+        "sma20": 151.8,
+        "sma50": 153.07,
+        "sma200": 131.43,
         "ema12": 151.03,
-        "ema26": 151.51,
-        "macdLine": -0.47,
-        "macdSignal": -0.32,
-        "macdHistogram": -0.15,
-        "volumeRatio": 0.69
+        "ema26": 151.47,
+        "macdLine": -0.44,
+        "macdSignal": -0.35,
+        "macdHistogram": -0.1,
+        "volumeRatio": 0.27
       },
       "priceHistory5d": [
-        145.26,
         149.38,
         149.56,
         152.53,
-        152.04
+        152.04,
+        150.99
       ],
       "macdHistory5d": [
-        -0.874,
         -0.758,
         -0.633,
         -0.33,
-        -0.152
+        -0.152,
+        -0.096
       ],
       "allocation": 2700,
       "portfolioPct": 6,
@@ -374,41 +374,41 @@
       "name": "Exxon Mobil"
     },
     "NEM": {
-      "price": 108.33,
-      "previousClose": 107.47,
-      "change": 0.86,
-      "changePct": 0.8,
-      "dayHigh": 110.34,
-      "dayLow": 106.7,
-      "volume": 7214400,
-      "avgVolume20d": 7327890,
-      "marketCap": 115647995904,
-      "pe": 14.1,
+      "price": 101.93,
+      "previousClose": 108.33,
+      "change": -6.4,
+      "changePct": -5.91,
+      "dayHigh": 105.48,
+      "dayLow": 101.7,
+      "volume": 2356575,
+      "avgVolume20d": 7047738,
+      "marketCap": 108815654912,
+      "pe": 13.2,
       "technicals": {
-        "rsi14": 46.77,
-        "sma20": 111.0,
-        "sma50": 111.44,
-        "sma200": 100.56,
-        "ema12": 109.07,
-        "ema26": 110.26,
-        "macdLine": -1.19,
-        "macdSignal": -1.05,
-        "macdHistogram": -0.15,
-        "volumeRatio": 0.98
+        "rsi14": 38.71,
+        "sma20": 110.43,
+        "sma50": 111.46,
+        "sma200": 100.73,
+        "ema12": 107.97,
+        "ema26": 109.64,
+        "macdLine": -1.68,
+        "macdSignal": -1.17,
+        "macdHistogram": -0.5,
+        "volumeRatio": 0.33
       },
       "priceHistory5d": [
-        109.81,
         108.19,
         109.5,
         107.47,
-        108.33
+        108.33,
+        101.93
       ],
       "macdHistory5d": [
-        -0.348,
         -0.308,
         -0.175,
         -0.203,
-        -0.146
+        -0.146,
+        -0.501
       ],
       "allocation": 2700,
       "portfolioPct": 6,
@@ -417,41 +417,41 @@
       "name": "Newmont Corporation"
     },
     "AMD": {
-      "price": 523.2,
-      "previousClose": 542.52,
-      "change": -19.32,
-      "changePct": -3.56,
-      "dayHigh": 532.19,
-      "dayLow": 499.87,
-      "volume": 29006500,
-      "avgVolume20d": 34178820,
-      "marketCap": 853130215424,
-      "pe": 175.6,
+      "price": 485.65,
+      "previousClose": 523.2,
+      "change": -37.55,
+      "changePct": -7.18,
+      "dayHigh": 505.62,
+      "dayLow": 484.26,
+      "volume": 14720923,
+      "avgVolume20d": 32675766,
+      "marketCap": 791901175808,
+      "pe": 163.0,
       "technicals": {
-        "rsi14": 70.57,
-        "sma20": 471.04,
-        "sma50": 353.8,
-        "sma200": 244.47,
-        "ema12": 496.3,
-        "ema26": 446.83,
-        "macdLine": 49.47,
-        "macdSignal": 48.63,
-        "macdHistogram": 0.84,
-        "volumeRatio": 0.85
+        "rsi14": 59.1,
+        "sma20": 474.9,
+        "sma50": 359.11,
+        "sma200": 246.07,
+        "ema12": 494.66,
+        "ema26": 449.7,
+        "macdLine": 44.96,
+        "macdSignal": 47.89,
+        "macdHistogram": -2.94,
+        "volumeRatio": 0.45
       },
       "priceHistory5d": [
-        516.1,
         510.13,
         521.54,
         542.52,
-        523.2
+        523.2,
+        485.65
       ],
       "macdHistory5d": [
-        2.949,
         2.058,
         1.688,
         2.27,
-        0.841
+        0.841,
+        -2.938
       ],
       "allocation": 2700,
       "portfolioPct": 6,
@@ -462,9 +462,9 @@
   },
   "portfolioValue": {
     "totalInvested": 35550,
-    "currentValue": NaN,
-    "totalReturn": NaN,
-    "totalReturnPct": NaN,
+    "currentValue": 35550.0,
+    "totalReturn": 0.0,
+    "totalReturnPct": 0.0,
     "cashReserve": 9450
   }
 }
