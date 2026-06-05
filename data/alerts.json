@@ -1,16 +1,40 @@
 {
-  "lastUpdated": "2026-06-05T15:35:34.049253+00:00",
+  "lastUpdated": "2026-06-05T21:09:10.444278+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-nvda-price_drop-20260605",
+      "ticker": "NVDA",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NVDA — ירידת מחיר חריגה",
+      "messageHe": "NVDA ירדה 6.2% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.2,
+      "threshold": null,
+      "timestamp": "2026-06-05T21:09:01.781160+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-avgo-price_drop-20260605",
       "ticker": "AVGO",
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "AVGO — ירידת מחיר חריגה",
-      "messageHe": "AVGO ירדה 5.26% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.26,
+      "messageHe": "AVGO ירדה 7.92% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.92,
       "threshold": null,
-      "timestamp": "2026-06-05T15:35:25.721455+00:00",
+      "timestamp": "2026-06-05T21:09:02.647243+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-price_drop-20260605",
+      "ticker": "CRWD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CRWD — ירידת מחיר חריגה",
+      "messageHe": "CRWD ירדה 6.68% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.68,
+      "threshold": null,
+      "timestamp": "2026-06-05T21:09:06.301353+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +43,10 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "NEM — ירידת מחיר חריגה",
-      "messageHe": "NEM ירדה 5.91% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.91,
+      "messageHe": "NEM ירדה 7.96% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.96,
       "threshold": null,
-      "timestamp": "2026-06-05T15:35:32.492806+00:00",
+      "timestamp": "2026-06-05T21:09:08.953678+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +55,10 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.18% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.18,
+      "messageHe": "AMD ירדה 10.86% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -10.86,
       "threshold": null,
-      "timestamp": "2026-06-05T15:35:33.313284+00:00",
+      "timestamp": "2026-06-05T21:09:09.705199+00:00",
       "dismissed": false
     }
   ],
