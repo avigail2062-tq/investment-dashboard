@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-06-10T08:31:22.055831+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-06-10T16:22:31.252568+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-xom-ma_crossover_bullish-20260610",
+      "ticker": "XOM",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "XOM — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-06-10T16:22:28.315985+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
