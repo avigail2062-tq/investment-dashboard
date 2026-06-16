@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T17:33:26.760797+00:00",
+  "lastUpdated": "2026-06-16T22:01:11.540267+00:00",
   "activeAlerts": [
     {
       "id": "alert-xom-ma_crossover_bearish-20260616",
@@ -10,7 +10,19 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-06-16T17:33:24.037589+00:00",
+      "timestamp": "2026-06-16T22:01:08.976857+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-price_drop-20260616",
+      "ticker": "AMD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AMD — ירידת מחיר חריגה",
+      "messageHe": "AMD ירדה 7.3% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.3,
+      "threshold": null,
+      "timestamp": "2026-06-16T22:01:10.813577+00:00",
       "dismissed": false
     }
   ],
