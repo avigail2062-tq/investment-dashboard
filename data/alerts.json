@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-06-18T08:59:54.775128+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-06-18T16:00:28.377918+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-noc-price_drop-20260618",
+      "ticker": "NOC",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NOC — ירידת מחיר חריגה",
+      "messageHe": "NOC ירדה 5.56% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.56,
+      "threshold": null,
+      "timestamp": "2026-06-18T16:00:22.769608+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
