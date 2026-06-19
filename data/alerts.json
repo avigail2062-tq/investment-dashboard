@@ -1,40 +1,16 @@
 {
-  "lastUpdated": "2026-06-19T09:18:46.874630+00:00",
+  "lastUpdated": "2026-06-19T15:49:51.962358+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-lmt-volume_spike-20260619",
-      "ticker": "LMT",
-      "type": "volume_spike",
-      "severity": "info",
-      "titleHe": "LMT — נפח מסחר חריג",
-      "messageHe": "נפח מסחר גבוה פי 3.05 מהממוצע. עקוב אחרי התפתחויות.",
-      "value": 3.05,
-      "threshold": null,
-      "timestamp": "2026-06-19T09:18:38.435480+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-noc-price_drop-20260619",
-      "ticker": "NOC",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "NOC — ירידת מחיר חריגה",
-      "messageHe": "NOC ירדה 5.21% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.21,
-      "threshold": null,
-      "timestamp": "2026-06-19T09:18:40.655424+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-xom-volume_spike-20260619",
       "ticker": "XOM",
       "type": "volume_spike",
       "severity": "info",
       "titleHe": "XOM — נפח מסחר חריג",
-      "messageHe": "נפח מסחר גבוה פי 2.67 מהממוצע. עקוב אחרי התפתחויות.",
-      "value": 2.67,
+      "messageHe": "נפח מסחר גבוה פי 2.6 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 2.6,
       "threshold": null,
-      "timestamp": "2026-06-19T09:18:43.499077+00:00",
+      "timestamp": "2026-06-19T15:49:49.382471+00:00",
       "dismissed": false
     }
   ],
