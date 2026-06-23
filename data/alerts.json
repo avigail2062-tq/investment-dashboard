@@ -1,5 +1,42 @@
 {
-  "lastUpdated": "2026-06-23T08:03:18.503606+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-06-23T15:35:42.868477+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-avgo-ma_crossover_bearish-20260623",
+      "ticker": "AVGO",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "AVGO — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-06-23T15:35:34.380400+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-rtx-ma_crossover_bullish-20260623",
+      "ticker": "RTX",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "RTX — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-06-23T15:35:36.347074+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-price_drop-20260623",
+      "ticker": "AMD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AMD — ירידת מחיר חריגה",
+      "messageHe": "AMD ירדה 5.71% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.71,
+      "threshold": null,
+      "timestamp": "2026-06-23T15:35:42.126627+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
