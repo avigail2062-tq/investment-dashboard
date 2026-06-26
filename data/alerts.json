@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-06-26T15:12:20.233689+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-06-26T21:07:09.923008+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-lmt-volume_spike-20260626",
+      "ticker": "LMT",
+      "type": "volume_spike",
+      "severity": "info",
+      "titleHe": "LMT — נפח מסחר חריג",
+      "messageHe": "נפח מסחר גבוה פי 2.55 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 2.55,
+      "threshold": null,
+      "timestamp": "2026-06-26T21:07:02.689774+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
