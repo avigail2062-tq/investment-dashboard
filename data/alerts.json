@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-29T09:14:44.750005+00:00",
+  "lastUpdated": "2026-06-29T16:25:03.227744+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-volume_spike-20260629",
-      "ticker": "LMT",
-      "type": "volume_spike",
-      "severity": "info",
-      "titleHe": "LMT — נפח מסחר חריג",
-      "messageHe": "נפח מסחר גבוה פי 2.55 מהממוצע. עקוב אחרי התפתחויות.",
-      "value": 2.55,
-      "threshold": null,
-      "timestamp": "2026-06-29T09:14:37.174581+00:00",
+      "id": "alert-noc-rsi_oversold-20260629",
+      "ticker": "NOC",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "NOC — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-29.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 29.7,
+      "threshold": 30,
+      "timestamp": "2026-06-29T16:24:58.187428+00:00",
       "dismissed": false
     }
   ],
