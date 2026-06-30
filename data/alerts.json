@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-06-30T15:13:06.089143+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-06-30T21:15:51.465456+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-crwd-rsi_overbought-20260630",
+      "ticker": "CRWD",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "CRWD — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.3,
+      "threshold": 70,
+      "timestamp": "2026-06-30T21:15:47.270038+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
