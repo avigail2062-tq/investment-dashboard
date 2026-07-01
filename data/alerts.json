@@ -1,5 +1,42 @@
 {
-  "lastUpdated": "2026-07-01T08:35:14.264230+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-07-01T15:20:31.448670+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-crwd-price_surge-20260701",
+      "ticker": "CRWD",
+      "type": "price_surge",
+      "severity": "info",
+      "titleHe": "CRWD — עלייה חדה",
+      "messageHe": "CRWD עלתה 10.96% היום. שקול לקחת רווחים חלקיים.",
+      "value": 10.96,
+      "threshold": null,
+      "timestamp": "2026-07-01T15:20:25.997437+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-rsi_overbought-20260701",
+      "ticker": "CRWD",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "CRWD — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-71.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.7,
+      "threshold": 70,
+      "timestamp": "2026-07-01T15:20:25.997437+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-price_drop-20260701",
+      "ticker": "CEG",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CEG — ירידת מחיר חריגה",
+      "messageHe": "CEG ירדה 5.75% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.75,
+      "threshold": null,
+      "timestamp": "2026-07-01T15:20:27.156429+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
