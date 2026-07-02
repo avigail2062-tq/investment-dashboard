@@ -1,32 +1,20 @@
 {
-  "lastUpdated": "2026-07-01T21:08:07.992246+00:00",
+  "lastUpdated": "2026-07-02T07:50:00.436332+00:00",
   "activeAlerts": [
     {
-      "id": "alert-crwd-price_surge-20260701",
-      "ticker": "CRWD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "CRWD — עלייה חדה",
-      "messageHe": "CRWD עלתה 10.22% היום. שקול לקחת רווחים חלקיים.",
-      "value": 10.22,
-      "threshold": null,
-      "timestamp": "2026-07-01T21:08:03.361040+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-rsi_overbought-20260701",
+      "id": "alert-crwd-rsi_overbought-20260702",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.2,
+      "messageHe": "RSI ב-71.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.5,
       "threshold": 70,
-      "timestamp": "2026-07-01T21:08:03.361040+00:00",
+      "timestamp": "2026-07-02T07:49:56.671128+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_drop-20260701",
+      "id": "alert-amd-price_drop-20260702",
       "ticker": "AMD",
       "type": "price_drop",
       "severity": "danger",
@@ -34,7 +22,7 @@
       "messageHe": "AMD ירדה 6.89% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -6.89,
       "threshold": null,
-      "timestamp": "2026-07-01T21:08:07.266979+00:00",
+      "timestamp": "2026-07-02T07:49:59.719495+00:00",
       "dismissed": false
     }
   ],
