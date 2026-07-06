@@ -1,20 +1,8 @@
 {
-  "lastUpdated": "2026-07-03T20:39:41.639628+00:00",
+  "lastUpdated": "2026-07-06T08:46:25.492928+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-ma_crossover_bullish-20260703",
-      "ticker": "LMT",
-      "type": "ma_crossover_bullish",
-      "severity": "info",
-      "titleHe": "LMT — חציית ממוצעים שורית",
-      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-07-03T20:39:34.806046+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-rsi_overbought-20260703",
+      "id": "alert-crwd-rsi_overbought-20260706",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,7 +10,7 @@
       "messageHe": "RSI ב-71.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.9,
       "threshold": 70,
-      "timestamp": "2026-07-03T20:39:37.450825+00:00",
+      "timestamp": "2026-07-06T08:46:20.463738+00:00",
       "dismissed": false
     }
   ],

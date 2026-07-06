@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T20:39:29.585029+00:00",
+  "lastUpdated": "2026-07-06T08:46:10.396628+00:00",
   "signals": [
     {
       "ticker": "NVDA",
@@ -28,7 +28,7 @@
           "trendHe": "דובי"
         },
         "volume": {
-          "ratio": 0.91,
+          "ratio": 0.9,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -106,12 +106,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 60.0,
+          "value": 59.7,
           "interpretation": "neutral",
           "interpretationHe": "ניטראלי"
         },
         "macd": {
-          "histogram": 2.593,
+          "histogram": 2.72,
           "trend": "bullish",
           "trendHe": "שורי",
           "crossover": false
@@ -119,9 +119,9 @@
         "movingAverages": {
           "priceVsSma20": "above",
           "priceVsSma50": "above",
-          "sma20VsSma50": "above",
-          "trend": "bullish",
-          "trendHe": "שורי"
+          "sma20VsSma50": "below",
+          "trend": "neutral",
+          "trendHe": "ניטראלי"
         },
         "volume": {
           "ratio": 1.0,
@@ -202,12 +202,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 56.4,
+          "value": 56.2,
           "interpretation": "neutral",
           "interpretationHe": "ניטראלי"
         },
         "macd": {
-          "histogram": 2.589,
+          "histogram": 2.682,
           "trend": "bullish",
           "trendHe": "שורי",
           "crossover": true
@@ -483,7 +483,7 @@
     }
   ],
   "marketSentiment": {
-    "vix": 15.81,
+    "vix": 16.32,
     "vixInterpretation": "normal",
     "vixInterpretationHe": "רגיל",
     "sp500Trend": "neutral",
