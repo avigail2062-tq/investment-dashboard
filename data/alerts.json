@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T16:01:45.690649+00:00",
+  "lastUpdated": "2026-07-06T21:11:44.897107+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-ma_crossover_bullish-20260706",
@@ -10,7 +10,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-07-06T16:01:38.610505+00:00",
+      "timestamp": "2026-07-06T21:11:37.689365+00:00",
       "dismissed": false
     },
     {
@@ -19,22 +19,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.1,
+      "messageHe": "RSI ב-74.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 74.6,
       "threshold": 70,
-      "timestamp": "2026-07-06T16:01:41.419811+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_surge-20260706",
-      "ticker": "AMD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "AMD — עלייה חדה",
-      "messageHe": "AMD עלתה 9.17% היום. שקול לקחת רווחים חלקיים.",
-      "value": 9.17,
-      "threshold": null,
-      "timestamp": "2026-07-06T16:01:44.975154+00:00",
+      "timestamp": "2026-07-06T21:11:40.576017+00:00",
       "dismissed": false
     }
   ],
