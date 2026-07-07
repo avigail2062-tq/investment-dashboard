@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-07-07T07:57:59.096886+00:00",
+  "lastUpdated": "2026-07-07T15:26:46.290809+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-lmt-ma_crossover_bullish-20260707",
-      "ticker": "LMT",
-      "type": "ma_crossover_bullish",
-      "severity": "info",
-      "titleHe": "LMT — חציית ממוצעים שורית",
-      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-07-07T07:57:50.297081+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-crwd-rsi_overbought-20260707",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-74.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 74.6,
+      "messageHe": "RSI ב-72.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 72.9,
       "threshold": 70,
-      "timestamp": "2026-07-07T07:57:53.863504+00:00",
+      "timestamp": "2026-07-07T15:26:42.300056+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-price_drop-20260707",
+      "ticker": "AMD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AMD — ירידת מחיר חריגה",
+      "messageHe": "AMD ירדה 8.07% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -8.07,
+      "threshold": null,
+      "timestamp": "2026-07-07T15:26:45.593242+00:00",
       "dismissed": false
     }
   ],
