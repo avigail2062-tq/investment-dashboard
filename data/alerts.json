@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-07-14T06:34:20.456888+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-07-14T14:25:38.170414+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-lmt-ma_crossover_bearish-20260714",
+      "ticker": "LMT",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "LMT — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-07-14T14:25:29.818892+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
