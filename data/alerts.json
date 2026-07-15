@@ -1,20 +1,8 @@
 {
-  "lastUpdated": "2026-07-14T20:39:33.367913+00:00",
+  "lastUpdated": "2026-07-15T06:35:30.306337+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-ma_crossover_bearish-20260714",
-      "ticker": "LMT",
-      "type": "ma_crossover_bearish",
-      "severity": "warning",
-      "titleHe": "LMT — חציית ממוצעים דובית",
-      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-07-14T20:39:24.467443+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-price_surge-20260714",
+      "id": "alert-crwd-price_surge-20260715",
       "ticker": "CRWD",
       "type": "price_surge",
       "severity": "info",
@@ -22,7 +10,7 @@
       "messageHe": "CRWD עלתה 12.14% היום. שקול לקחת רווחים חלקיים.",
       "value": 12.14,
       "threshold": null,
-      "timestamp": "2026-07-14T20:39:28.094536+00:00",
+      "timestamp": "2026-07-15T06:35:26.205456+00:00",
       "dismissed": false
     }
   ],
