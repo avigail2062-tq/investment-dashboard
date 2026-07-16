@@ -1,5 +1,30 @@
 {
-  "lastUpdated": "2026-07-16T14:34:00.538791+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-07-16T20:27:33.580143+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-avgo-price_drop-20260716",
+      "ticker": "AVGO",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AVGO — ירידת מחיר חריגה",
+      "messageHe": "AVGO ירדה 5.03% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.03,
+      "threshold": null,
+      "timestamp": "2026-07-16T20:27:24.543356+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-price_drop-20260716",
+      "ticker": "AMD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AMD — ירידת מחיר חריגה",
+      "messageHe": "AMD ירדה 5.33% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.33,
+      "threshold": null,
+      "timestamp": "2026-07-16T20:27:32.851900+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
