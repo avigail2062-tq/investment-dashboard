@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-23T20:37:19.474693+00:00",
+  "lastUpdated": "2026-07-24T07:06:08.861906+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-price_surge-20260723",
+      "id": "alert-lmt-price_surge-20260724",
       "ticker": "LMT",
       "type": "price_surge",
       "severity": "info",
@@ -10,11 +10,23 @@
       "messageHe": "LMT עלתה 10.54% היום. שקול לקחת רווחים חלקיים.",
       "value": 10.54,
       "threshold": null,
-      "timestamp": "2026-07-23T20:37:10.826527+00:00",
+      "timestamp": "2026-07-24T07:06:02.589316+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-rtx-rsi_overbought-20260723",
+      "id": "alert-lmt-volume_spike-20260724",
+      "ticker": "LMT",
+      "type": "volume_spike",
+      "severity": "info",
+      "titleHe": "LMT — נפח מסחר חריג",
+      "messageHe": "נפח מסחר גבוה פי 2.59 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 2.59,
+      "threshold": null,
+      "timestamp": "2026-07-24T07:06:02.589316+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-rtx-rsi_overbought-20260724",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,11 +34,11 @@
       "messageHe": "RSI ב-71.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.6,
       "threshold": 70,
-      "timestamp": "2026-07-23T20:37:12.052573+00:00",
+      "timestamp": "2026-07-24T07:06:03.462276+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-xom-rsi_overbought-20260723",
+      "id": "alert-xom-rsi_overbought-20260724",
       "ticker": "XOM",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -34,7 +46,7 @@
       "messageHe": "RSI ב-72.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 72.1,
       "threshold": 70,
-      "timestamp": "2026-07-23T20:37:16.577559+00:00",
+      "timestamp": "2026-07-24T07:06:06.630874+00:00",
       "dismissed": false
     }
   ],
