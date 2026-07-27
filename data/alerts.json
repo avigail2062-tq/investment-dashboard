@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-07-27T08:01:10.913338+00:00",
+  "lastUpdated": "2026-07-27T15:24:44.606615+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-nvda-price_drop-20260727",
+      "ticker": "NVDA",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NVDA — ירידת מחיר חריגה",
+      "messageHe": "NVDA ירדה 5.53% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.53,
+      "threshold": null,
+      "timestamp": "2026-07-27T15:24:37.038478+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-lmt-rsi_overbought-20260727",
       "ticker": "LMT",
@@ -10,7 +22,7 @@
       "messageHe": "RSI ב-71.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.6,
       "threshold": 70,
-      "timestamp": "2026-07-27T08:01:02.423661+00:00",
+      "timestamp": "2026-07-27T15:24:38.674210+00:00",
       "dismissed": false
     },
     {
@@ -22,7 +34,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-07-27T08:01:02.423661+00:00",
+      "timestamp": "2026-07-27T15:24:38.674210+00:00",
       "dismissed": false
     },
     {
@@ -31,22 +43,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-74.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 74.0,
+      "messageHe": "RSI ב-77.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 77.0,
       "threshold": 70,
-      "timestamp": "2026-07-27T08:01:03.576881+00:00",
+      "timestamp": "2026-07-27T15:24:39.505930+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-xom-rsi_overbought-20260727",
-      "ticker": "XOM",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "XOM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.2,
-      "threshold": 70,
-      "timestamp": "2026-07-27T08:01:07.999192+00:00",
+      "id": "alert-amd-price_drop-20260727",
+      "ticker": "AMD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AMD — ירידת מחיר חריגה",
+      "messageHe": "AMD ירדה 10.95% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -10.95,
+      "threshold": null,
+      "timestamp": "2026-07-27T15:24:43.870908+00:00",
       "dismissed": false
     }
   ],
