@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-24T20:47:12.576908+00:00",
+  "lastUpdated": "2026-07-27T08:01:10.913338+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-rsi_overbought-20260724",
+      "id": "alert-lmt-rsi_overbought-20260727",
       "ticker": "LMT",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-71.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.6,
       "threshold": 70,
-      "timestamp": "2026-07-24T20:47:06.051026+00:00",
+      "timestamp": "2026-07-27T08:01:02.423661+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-lmt-ma_crossover_bullish-20260724",
+      "id": "alert-lmt-ma_crossover_bullish-20260727",
       "ticker": "LMT",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -22,11 +22,11 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-07-24T20:47:06.051026+00:00",
+      "timestamp": "2026-07-27T08:01:02.423661+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-rtx-rsi_overbought-20260724",
+      "id": "alert-rtx-rsi_overbought-20260727",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -34,11 +34,11 @@
       "messageHe": "RSI ב-74.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 74.0,
       "threshold": 70,
-      "timestamp": "2026-07-24T20:47:06.955959+00:00",
+      "timestamp": "2026-07-27T08:01:03.576881+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-xom-rsi_overbought-20260724",
+      "id": "alert-xom-rsi_overbought-20260727",
       "ticker": "XOM",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -46,7 +46,7 @@
       "messageHe": "RSI ב-72.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 72.2,
       "threshold": 70,
-      "timestamp": "2026-07-24T20:47:10.201381+00:00",
+      "timestamp": "2026-07-27T08:01:07.999192+00:00",
       "dismissed": false
     }
   ],
