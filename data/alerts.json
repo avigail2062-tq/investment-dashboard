@@ -1,40 +1,16 @@
 {
-  "lastUpdated": "2026-07-29T07:18:15.416908+00:00",
+  "lastUpdated": "2026-07-29T14:52:32.390909+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-lmt-rsi_overbought-20260729",
-      "ticker": "LMT",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.6,
-      "threshold": 70,
-      "timestamp": "2026-07-29T07:18:08.985731+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-rtx-rsi_overbought-20260729",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.4,
+      "messageHe": "RSI ב-74.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 74.7,
       "threshold": 70,
-      "timestamp": "2026-07-29T07:18:09.871361+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20260729",
-      "ticker": "AMD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 8.15% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -8.15,
-      "threshold": null,
-      "timestamp": "2026-07-29T07:18:14.701892+00:00",
+      "timestamp": "2026-07-29T14:52:26.693062+00:00",
       "dismissed": false
     }
   ],
