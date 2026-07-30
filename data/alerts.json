@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-29T20:31:28.024374+00:00",
+  "lastUpdated": "2026-07-30T07:11:45.373804+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-rsi_overbought-20260729",
+      "id": "alert-rtx-rsi_overbought-20260730",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-71.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.2,
       "threshold": 70,
-      "timestamp": "2026-07-29T20:31:19.909759+00:00",
+      "timestamp": "2026-07-30T07:11:39.604312+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_drop-20260729",
+      "id": "alert-amd-price_drop-20260730",
       "ticker": "AMD",
       "type": "price_drop",
       "severity": "danger",
@@ -22,7 +22,7 @@
       "messageHe": "AMD ירדה 5.51% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -5.51,
       "threshold": null,
-      "timestamp": "2026-07-29T20:31:27.336554+00:00",
+      "timestamp": "2026-07-30T07:11:44.649990+00:00",
       "dismissed": false
     }
   ],
