@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-07-31T15:00:22.517822+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-07-31T20:42:46.350524+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-rtx-rsi_overbought-20260731",
+      "ticker": "RTX",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "RTX — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.4,
+      "threshold": 70,
+      "timestamp": "2026-07-31T20:42:40.647565+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
