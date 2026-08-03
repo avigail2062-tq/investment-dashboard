@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-08-03T15:26:24.555605+00:00",
+  "lastUpdated": "2026-08-03T20:44:07.294173+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-rtx-rsi_overbought-20260803",
+      "ticker": "RTX",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "RTX — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-71.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.5,
+      "threshold": 70,
+      "timestamp": "2026-08-03T20:44:01.410102+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-amd-ma_crossover_bearish-20260803",
       "ticker": "AMD",
@@ -10,7 +22,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-08-03T15:26:23.855248+00:00",
+      "timestamp": "2026-08-03T20:44:06.582003+00:00",
       "dismissed": false
     }
   ],
