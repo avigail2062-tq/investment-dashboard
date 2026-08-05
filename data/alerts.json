@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T14:56:50.613407+00:00",
+  "lastUpdated": "2026-08-05T20:44:28.490756+00:00",
   "activeAlerts": [
     {
       "id": "alert-rtx-rsi_overbought-20260805",
@@ -7,10 +7,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-73.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 73.9,
+      "messageHe": "RSI ב-75.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 75.8,
       "threshold": 70,
-      "timestamp": "2026-08-05T14:56:43.352194+00:00",
+      "timestamp": "2026-08-05T20:44:22.593288+00:00",
       "dismissed": false
     },
     {
@@ -22,7 +22,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-08-05T14:56:44.487502+00:00",
+      "timestamp": "2026-08-05T20:44:23.524381+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +31,10 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.39% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.39,
+      "messageHe": "AMD ירדה 7.04% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.04,
       "threshold": null,
-      "timestamp": "2026-08-05T14:56:49.890607+00:00",
+      "timestamp": "2026-08-05T20:44:27.785497+00:00",
       "dismissed": false
     }
   ],
