@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-08-06T07:15:20.858930+00:00",
+  "lastUpdated": "2026-08-06T14:55:21.728137+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-nvda-ma_crossover_bullish-20260806",
+      "ticker": "NVDA",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "NVDA — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-08-06T14:55:12.617876+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-rtx-rsi_overbought-20260806",
       "ticker": "RTX",
@@ -10,31 +22,19 @@
       "messageHe": "RSI ב-75.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 75.8,
       "threshold": 70,
-      "timestamp": "2026-08-06T07:15:14.633359+00:00",
+      "timestamp": "2026-08-06T14:55:15.513998+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-ma_crossover_bullish-20260806",
-      "ticker": "NOC",
+      "id": "alert-ceg-ma_crossover_bullish-20260806",
+      "ticker": "CEG",
       "type": "ma_crossover_bullish",
       "severity": "info",
-      "titleHe": "NOC — חציית ממוצעים שורית",
+      "titleHe": "CEG — חציית ממוצעים שורית",
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-08-06T07:15:15.597359+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20260806",
-      "ticker": "AMD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.04% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.04,
-      "threshold": null,
-      "timestamp": "2026-08-06T07:15:20.218629+00:00",
+      "timestamp": "2026-08-06T14:55:18.176084+00:00",
       "dismissed": false
     }
   ],
