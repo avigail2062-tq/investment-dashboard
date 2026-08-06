@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-05T20:44:28.490756+00:00",
+  "lastUpdated": "2026-08-06T07:15:20.858930+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-rsi_overbought-20260805",
+      "id": "alert-rtx-rsi_overbought-20260806",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-75.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 75.8,
       "threshold": 70,
-      "timestamp": "2026-08-05T20:44:22.593288+00:00",
+      "timestamp": "2026-08-06T07:15:14.633359+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-ma_crossover_bullish-20260805",
+      "id": "alert-noc-ma_crossover_bullish-20260806",
       "ticker": "NOC",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -22,11 +22,11 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-08-05T20:44:23.524381+00:00",
+      "timestamp": "2026-08-06T07:15:15.597359+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_drop-20260805",
+      "id": "alert-amd-price_drop-20260806",
       "ticker": "AMD",
       "type": "price_drop",
       "severity": "danger",
@@ -34,7 +34,7 @@
       "messageHe": "AMD ירדה 7.04% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -7.04,
       "threshold": null,
-      "timestamp": "2026-08-05T20:44:27.785497+00:00",
+      "timestamp": "2026-08-06T07:15:20.218629+00:00",
       "dismissed": false
     }
   ],
