@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-06T14:55:21.728137+00:00",
+  "lastUpdated": "2026-08-07T00:48:29.727915+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-ma_crossover_bullish-20260806",
+      "id": "alert-nvda-ma_crossover_bullish-20260807",
       "ticker": "NVDA",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -10,23 +10,23 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-08-06T14:55:12.617876+00:00",
+      "timestamp": "2026-08-07T00:48:20.854476+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-rtx-rsi_overbought-20260806",
+      "id": "alert-rtx-rsi_overbought-20260807",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.8,
+      "messageHe": "RSI ב-76.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.5,
       "threshold": 70,
-      "timestamp": "2026-08-06T14:55:15.513998+00:00",
+      "timestamp": "2026-08-07T00:48:23.871079+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-ma_crossover_bullish-20260806",
+      "id": "alert-ceg-ma_crossover_bullish-20260807",
       "ticker": "CEG",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -34,7 +34,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-08-06T14:55:18.176084+00:00",
+      "timestamp": "2026-08-07T00:48:26.347049+00:00",
       "dismissed": false
     }
   ],
