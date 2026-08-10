@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-07T20:07:01.218358+00:00",
+  "lastUpdated": "2026-08-10T05:54:43.839515+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-rsi_overbought-20260807",
+      "id": "alert-rtx-rsi_overbought-20260810",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.8,
+      "messageHe": "RSI ב-75.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 75.9,
       "threshold": 70,
-      "timestamp": "2026-08-07T20:06:55.053907+00:00",
+      "timestamp": "2026-08-10T05:54:37.989659+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nem-rsi_overbought-20260807",
+      "id": "alert-nem-rsi_overbought-20260810",
       "ticker": "NEM",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,7 +22,7 @@
       "messageHe": "RSI ב-72.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 72.3,
       "threshold": 70,
-      "timestamp": "2026-08-07T20:06:59.718625+00:00",
+      "timestamp": "2026-08-10T05:54:42.321024+00:00",
       "dismissed": false
     }
   ],
