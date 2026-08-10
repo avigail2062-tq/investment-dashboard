@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T05:54:43.839515+00:00",
+  "lastUpdated": "2026-08-10T13:57:01.437783+00:00",
   "activeAlerts": [
     {
       "id": "alert-rtx-rsi_overbought-20260810",
@@ -7,10 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.9,
+      "messageHe": "RSI ב-77.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 77.9,
       "threshold": 70,
-      "timestamp": "2026-08-10T05:54:37.989659+00:00",
+      "timestamp": "2026-08-10T13:56:55.154768+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-rsi_overbought-20260810",
+      "ticker": "CRWD",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "CRWD — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.5,
+      "threshold": 70,
+      "timestamp": "2026-08-10T13:56:57.077583+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NEM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.3,
+      "messageHe": "RSI ב-72.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 72.8,
       "threshold": 70,
-      "timestamp": "2026-08-10T05:54:42.321024+00:00",
+      "timestamp": "2026-08-10T13:56:59.833895+00:00",
       "dismissed": false
     }
   ],
