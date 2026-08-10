@@ -1,16 +1,28 @@
 {
-  "lastUpdated": "2026-08-10T13:57:01.437783+00:00",
+  "lastUpdated": "2026-08-10T20:09:28.133267+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-lmt-rsi_overbought-20260810",
+      "ticker": "LMT",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "LMT — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.3,
+      "threshold": 70,
+      "timestamp": "2026-08-10T20:09:20.923416+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-rtx-rsi_overbought-20260810",
       "ticker": "RTX",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.9,
+      "messageHe": "RSI ב-76.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.8,
       "threshold": 70,
-      "timestamp": "2026-08-10T13:56:55.154768+00:00",
+      "timestamp": "2026-08-10T20:09:21.916439+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.5 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.5,
+      "messageHe": "RSI ב-71.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.3,
       "threshold": 70,
-      "timestamp": "2026-08-10T13:56:57.077583+00:00",
+      "timestamp": "2026-08-10T20:09:23.827668+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +43,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NEM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.8,
+      "messageHe": "RSI ב-75.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 75.4,
       "threshold": 70,
-      "timestamp": "2026-08-10T13:56:59.833895+00:00",
+      "timestamp": "2026-08-10T20:09:26.550689+00:00",
       "dismissed": false
     }
   ],
