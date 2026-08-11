@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-11T05:34:16.636416+00:00",
+  "lastUpdated": "2026-08-11T13:56:26.662337+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-rsi_overbought-20260811",
-      "ticker": "LMT",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.3,
-      "threshold": 70,
-      "timestamp": "2026-08-11T05:34:09.671089+00:00",
+      "id": "alert-avgo-ma_crossover_bullish-20260811",
+      "ticker": "AVGO",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "AVGO — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-08-11T13:56:16.469909+00:00",
       "dismissed": false
     },
     {
@@ -19,22 +19,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.8,
+      "messageHe": "RSI ב-76.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.7,
       "threshold": 70,
-      "timestamp": "2026-08-11T05:34:10.616129+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-rsi_overbought-20260811",
-      "ticker": "CRWD",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.3,
-      "threshold": 70,
-      "timestamp": "2026-08-11T05:34:12.412643+00:00",
+      "timestamp": "2026-08-11T13:56:18.974729+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NEM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.4,
+      "messageHe": "RSI ב-74.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 74.4,
       "threshold": 70,
-      "timestamp": "2026-08-11T05:34:15.168753+00:00",
+      "timestamp": "2026-08-11T13:56:24.808838+00:00",
       "dismissed": false
     }
   ],
