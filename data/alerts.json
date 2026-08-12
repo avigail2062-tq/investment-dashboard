@@ -1,52 +1,28 @@
 {
-  "lastUpdated": "2026-08-12T05:54:44.808199+00:00",
+  "lastUpdated": "2026-08-12T13:58:23.592360+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-avgo-ma_crossover_bullish-20260812",
-      "ticker": "AVGO",
-      "type": "ma_crossover_bullish",
-      "severity": "info",
-      "titleHe": "AVGO — חציית ממוצעים שורית",
-      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-08-12T05:54:36.501355+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-rtx-rsi_overbought-20260812",
-      "ticker": "RTX",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.1,
-      "threshold": 70,
-      "timestamp": "2026-08-12T05:54:38.358441+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-rsi_overbought-20260812",
-      "ticker": "CRWD",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "CRWD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.3,
-      "threshold": 70,
-      "timestamp": "2026-08-12T05:54:40.075927+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-nem-rsi_overbought-20260812",
       "ticker": "NEM",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NEM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.3,
+      "messageHe": "RSI ב-76.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.3,
       "threshold": 70,
-      "timestamp": "2026-08-12T05:54:43.215746+00:00",
+      "timestamp": "2026-08-12T13:58:21.880672+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-ma_crossover_bullish-20260812",
+      "ticker": "NEM",
+      "type": "ma_crossover_bullish",
+      "severity": "info",
+      "titleHe": "NEM — חציית ממוצעים שורית",
+      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-08-12T13:58:21.880672+00:00",
       "dismissed": false
     }
   ],
