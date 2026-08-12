@@ -1,16 +1,28 @@
 {
-  "lastUpdated": "2026-08-12T13:58:23.592360+00:00",
+  "lastUpdated": "2026-08-12T20:09:41.403678+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-rtx-rsi_overbought-20260812",
+      "ticker": "RTX",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "RTX — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-73.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.2,
+      "threshold": 70,
+      "timestamp": "2026-08-12T20:09:34.930821+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-nem-rsi_overbought-20260812",
       "ticker": "NEM",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NEM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.3,
+      "messageHe": "RSI ב-75.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 75.7,
       "threshold": 70,
-      "timestamp": "2026-08-12T13:58:21.880672+00:00",
+      "timestamp": "2026-08-12T20:09:39.353968+00:00",
       "dismissed": false
     },
     {
@@ -22,7 +34,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-08-12T13:58:21.880672+00:00",
+      "timestamp": "2026-08-12T20:09:39.353968+00:00",
       "dismissed": false
     }
   ],
