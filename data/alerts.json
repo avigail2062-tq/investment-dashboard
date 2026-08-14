@@ -1,6 +1,30 @@
 {
-  "lastUpdated": "2026-08-14T13:55:07.787452+00:00",
+  "lastUpdated": "2026-08-14T20:04:04.112272+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-avgo-price_drop-20260814",
+      "ticker": "AVGO",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AVGO — ירידת מחיר חריגה",
+      "messageHe": "AVGO ירדה 5.94% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.94,
+      "threshold": null,
+      "timestamp": "2026-08-14T20:03:55.931095+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-rtx-rsi_overbought-20260814",
+      "ticker": "RTX",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "RTX — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.1,
+      "threshold": 70,
+      "timestamp": "2026-08-14T20:03:58.008222+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-nem-rsi_overbought-20260814",
       "ticker": "NEM",
@@ -10,7 +34,7 @@
       "messageHe": "RSI ב-71.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 71.0,
       "threshold": 70,
-      "timestamp": "2026-08-14T13:55:06.134926+00:00",
+      "timestamp": "2026-08-14T20:04:02.598635+00:00",
       "dismissed": false
     }
   ],
