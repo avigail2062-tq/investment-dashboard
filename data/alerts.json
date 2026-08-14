@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-08-14T05:55:12.553566+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-08-14T13:55:07.787452+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-nem-rsi_overbought-20260814",
+      "ticker": "NEM",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "NEM — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-71.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.0,
+      "threshold": 70,
+      "timestamp": "2026-08-14T13:55:06.134926+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
