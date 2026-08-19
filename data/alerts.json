@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-19T13:26:07.256006+00:00",
+  "lastUpdated": "2026-08-19T19:50:59.871799+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-rsi_overbought-20260819",
-      "ticker": "RTX",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "RTX — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.7,
-      "threshold": 70,
-      "timestamp": "2026-08-19T13:25:59.905107+00:00",
+      "id": "alert-crwd-price_drop-20260819",
+      "ticker": "CRWD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CRWD — ירידת מחיר חריגה",
+      "messageHe": "CRWD ירדה 5.88% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.88,
+      "threshold": null,
+      "timestamp": "2026-08-19T19:50:55.319763+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "XOM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.4,
+      "messageHe": "RSI ב-70.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.3,
       "threshold": 70,
-      "timestamp": "2026-08-19T13:26:04.390921+00:00",
+      "timestamp": "2026-08-19T19:50:57.277707+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-rsi_overbought-20260819",
+      "ticker": "NEM",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "NEM — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-71.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.6,
+      "threshold": 70,
+      "timestamp": "2026-08-19T19:50:58.306340+00:00",
       "dismissed": false
     }
   ],
