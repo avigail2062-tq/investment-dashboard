@@ -1,16 +1,40 @@
 {
-  "lastUpdated": "2026-08-27T15:23:59.127769+00:00",
+  "lastUpdated": "2026-08-27T22:30:55.053943+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-nvda-price_surge-20260827",
+      "ticker": "NVDA",
+      "type": "price_surge",
+      "severity": "info",
+      "titleHe": "NVDA — עלייה חדה",
+      "messageHe": "NVDA עלתה 8.74% היום. שקול לקחת רווחים חלקיים.",
+      "value": 8.74,
+      "threshold": null,
+      "timestamp": "2026-08-27T22:30:45.059063+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-crwd-price_surge-20260827",
       "ticker": "CRWD",
       "type": "price_surge",
       "severity": "info",
       "titleHe": "CRWD — עלייה חדה",
-      "messageHe": "CRWD עלתה 18.57% היום. שקול לקחת רווחים חלקיים.",
-      "value": 18.57,
+      "messageHe": "CRWD עלתה 20.5% היום. שקול לקחת רווחים חלקיים.",
+      "value": 20.5,
       "threshold": null,
-      "timestamp": "2026-08-27T15:23:54.375231+00:00",
+      "timestamp": "2026-08-27T22:30:50.335885+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-volume_spike-20260827",
+      "ticker": "CRWD",
+      "type": "volume_spike",
+      "severity": "info",
+      "titleHe": "CRWD — נפח מסחר חריג",
+      "messageHe": "נפח מסחר גבוה פי 2.68 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 2.68,
+      "threshold": null,
+      "timestamp": "2026-08-27T22:30:50.335885+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +43,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "NEM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.2,
+      "messageHe": "RSI ב-72.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 72.0,
       "threshold": 70,
-      "timestamp": "2026-08-27T15:23:57.460841+00:00",
+      "timestamp": "2026-08-27T22:30:53.354366+00:00",
       "dismissed": false
     }
   ],
