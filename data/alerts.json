@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-03T09:04:54.831259+00:00",
+  "lastUpdated": "2026-09-03T16:37:42.462854+00:00",
   "activeAlerts": [
     {
-      "id": "alert-crwd-price_drop-20260903",
-      "ticker": "CRWD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "CRWD — ירידת מחיר חריגה",
-      "messageHe": "CRWD ירדה 5.42% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.42,
+      "id": "alert-avgo-ma_crossover_bearish-20260903",
+      "ticker": "AVGO",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "AVGO — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
       "threshold": null,
-      "timestamp": "2026-09-03T09:04:50.606894+00:00",
+      "timestamp": "2026-09-03T16:37:33.693228+00:00",
       "dismissed": false
     }
   ],
