@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T16:37:42.462854+00:00",
+  "lastUpdated": "2026-09-03T21:51:06.517744+00:00",
   "activeAlerts": [
     {
       "id": "alert-avgo-ma_crossover_bearish-20260903",
@@ -10,7 +10,19 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-09-03T16:37:33.693228+00:00",
+      "timestamp": "2026-09-03T21:50:58.176238+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-avgo-volume_spike-20260903",
+      "ticker": "AVGO",
+      "type": "volume_spike",
+      "severity": "info",
+      "titleHe": "AVGO — נפח מסחר חריג",
+      "messageHe": "נפח מסחר גבוה פי 2.67 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 2.67,
+      "threshold": null,
+      "timestamp": "2026-09-03T21:50:58.176238+00:00",
       "dismissed": false
     }
   ],
