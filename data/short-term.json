@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T21:56:12.593342+00:00",
+  "lastUpdated": "2026-09-03T09:04:42.538573+00:00",
   "signals": [
     {
       "ticker": "NVDA",
@@ -28,7 +28,7 @@
           "trendHe": "שורי"
         },
         "volume": {
-          "ratio": 1.23,
+          "ratio": 1.24,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -76,7 +76,7 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.55,
+          "ratio": 1.86,
           "trend": "high",
           "trendHe": "גבוה"
         }
@@ -154,12 +154,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 34.1,
+          "value": 34.9,
           "interpretation": "bearish",
           "interpretationHe": "דובי"
         },
         "macd": {
-          "histogram": -2.498,
+          "histogram": -2.681,
           "trend": "bearish",
           "trendHe": "דובי",
           "crossover": false
@@ -172,7 +172,7 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.11,
+          "ratio": 1.08,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -180,15 +180,15 @@
       "support": 200.31,
       "resistance": 226.41,
       "dayTradeIdea": {
-        "entry": 199.49,
-        "target": 203.78,
-        "stopLoss": 197.35,
+        "entry": 199.48,
+        "target": 203.82,
+        "stopLoss": 197.31,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 198.64,
-        "target": 211.49,
-        "stopLoss": 194.35,
+        "entry": 198.61,
+        "target": 211.63,
+        "stopLoss": 194.27,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -220,7 +220,7 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.16,
+          "ratio": 1.19,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -268,7 +268,7 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.23,
+          "ratio": 1.24,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -298,15 +298,15 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 64.0,
+          "value": 63.5,
           "interpretation": "bullish",
           "interpretationHe": "שורי"
         },
         "macd": {
-          "histogram": 0.639,
+          "histogram": 0.758,
           "trend": "bullish",
           "trendHe": "שורי",
-          "crossover": true
+          "crossover": false
         },
         "movingAverages": {
           "priceVsSma20": "above",
@@ -316,7 +316,7 @@
           "trendHe": "שורי"
         },
         "volume": {
-          "ratio": 1.14,
+          "ratio": 1.13,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -324,15 +324,15 @@
       "support": 260.27,
       "resistance": 290.81,
       "dayTradeIdea": {
-        "entry": 287.33,
-        "target": 296.36,
-        "stopLoss": 282.82,
+        "entry": 287.29,
+        "target": 296.45,
+        "stopLoss": 282.71,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 285.52,
-        "target": 312.62,
-        "stopLoss": 276.49,
+        "entry": 285.46,
+        "target": 312.93,
+        "stopLoss": 276.3,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -373,7 +373,7 @@
       "resistance": 168.64,
       "dayTradeIdea": {
         "entry": 163.31,
-        "target": 166.11,
+        "target": 166.12,
         "stopLoss": 161.9,
         "riskRewardRatio": 1.99
       },
@@ -412,7 +412,7 @@
           "trendHe": "שורי"
         },
         "volume": {
-          "ratio": 0.75,
+          "ratio": 0.76,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -483,7 +483,7 @@
     }
   ],
   "marketSentiment": {
-    "vix": 15.2,
+    "vix": 15.21,
     "vixInterpretation": "normal",
     "vixInterpretationHe": "רגיל",
     "sp500Trend": "neutral",
