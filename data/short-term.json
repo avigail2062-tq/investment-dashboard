@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T21:50:50.564336+00:00",
+  "lastUpdated": "2026-09-04T08:58:18.763970+00:00",
   "signals": [
     {
       "ticker": "NVDA",
@@ -228,15 +228,15 @@
       "support": 521.66,
       "resistance": 591.82,
       "dayTradeIdea": {
-        "entry": 524.79,
-        "target": 536.29,
-        "stopLoss": 519.04,
+        "entry": 524.77,
+        "target": 536.33,
+        "stopLoss": 519.0,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 522.49,
-        "target": 556.99,
-        "stopLoss": 510.99,
+        "entry": 522.46,
+        "target": 557.13,
+        "stopLoss": 510.91,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -284,7 +284,7 @@
       "swingTradeIdea": {
         "entry": 209.33,
         "target": 243.16,
-        "stopLoss": 198.06,
+        "stopLoss": 198.05,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -394,12 +394,12 @@
       "confidenceHe": "נמוכה",
       "analysis": {
         "rsi": {
-          "value": 64.0,
+          "value": 64.3,
           "interpretation": "bullish",
           "interpretationHe": "שורי"
         },
         "macd": {
-          "histogram": -0.77,
+          "histogram": -0.751,
           "trend": "bearish",
           "trendHe": "דובי",
           "crossover": false
@@ -417,18 +417,18 @@
           "trendHe": "רגיל"
         }
       },
-      "support": 110.0,
-      "resistance": 135.29,
+      "support": 109.77,
+      "resistance": 135.01,
       "dayTradeIdea": {
         "entry": 129.34,
-        "target": 132.98,
-        "stopLoss": 127.52,
-        "riskRewardRatio": 2.0
+        "target": 132.97,
+        "stopLoss": 127.53,
+        "riskRewardRatio": 2.01
       },
       "swingTradeIdea": {
         "entry": 128.61,
-        "target": 139.52,
-        "stopLoss": 124.97,
+        "target": 139.51,
+        "stopLoss": 124.98,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -483,7 +483,7 @@
     }
   ],
   "marketSentiment": {
-    "vix": 14.32,
+    "vix": 14.19,
     "vixInterpretation": "normal",
     "vixInterpretationHe": "רגיל",
     "sp500Trend": "bullish",
