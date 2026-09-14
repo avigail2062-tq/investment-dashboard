@@ -1,5 +1,78 @@
 {
-  "lastUpdated": "2026-09-14T10:02:54.375367+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-09-14T18:08:52.640601+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-lmt-ma_crossover_bearish-20260914",
+      "ticker": "LMT",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "LMT — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-09-14T18:08:45.753318+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-rtx-rsi_oversold-20260914",
+      "ticker": "RTX",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "RTX — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-28.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 28.7,
+      "threshold": 30,
+      "timestamp": "2026-09-14T18:08:46.644737+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-rtx-ma_crossover_bearish-20260914",
+      "ticker": "RTX",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "RTX — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-09-14T18:08:46.644737+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-noc-ma_crossover_bearish-20260914",
+      "ticker": "NOC",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "NOC — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-09-14T18:08:47.803492+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-price_surge-20260914",
+      "ticker": "CRWD",
+      "type": "price_surge",
+      "severity": "info",
+      "titleHe": "CRWD — עלייה חדה",
+      "messageHe": "CRWD עלתה 15.18% היום. שקול לקחת רווחים חלקיים.",
+      "value": 15.18,
+      "threshold": null,
+      "timestamp": "2026-09-14T18:08:48.590247+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-price_drop-20260914",
+      "ticker": "CEG",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CEG — ירידת מחיר חריגה",
+      "messageHe": "CEG ירדה 6.82% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.82,
+      "threshold": null,
+      "timestamp": "2026-09-14T18:08:49.415875+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
