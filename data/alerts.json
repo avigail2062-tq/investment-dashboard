@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-14T22:40:06.417207+00:00",
+  "lastUpdated": "2026-09-15T09:32:23.605692+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-ma_crossover_bearish-20260914",
+      "id": "alert-lmt-ma_crossover_bearish-20260915",
       "ticker": "LMT",
       "type": "ma_crossover_bearish",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-09-14T22:39:59.597636+00:00",
+      "timestamp": "2026-09-15T09:32:15.531679+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-rtx-rsi_oversold-20260914",
+      "id": "alert-rtx-rsi_oversold-20260915",
       "ticker": "RTX",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-29.8 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 29.8,
       "threshold": 30,
-      "timestamp": "2026-09-14T22:40:00.523491+00:00",
+      "timestamp": "2026-09-15T09:32:16.613664+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-rtx-ma_crossover_bearish-20260914",
+      "id": "alert-rtx-ma_crossover_bearish-20260915",
       "ticker": "RTX",
       "type": "ma_crossover_bearish",
       "severity": "warning",
@@ -34,11 +34,11 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-09-14T22:40:00.523491+00:00",
+      "timestamp": "2026-09-15T09:32:16.613664+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-ma_crossover_bearish-20260914",
+      "id": "alert-noc-ma_crossover_bearish-20260915",
       "ticker": "NOC",
       "type": "ma_crossover_bearish",
       "severity": "warning",
@@ -46,11 +46,11 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-09-14T22:40:01.370443+00:00",
+      "timestamp": "2026-09-15T09:32:17.669358+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-crwd-price_surge-20260914",
+      "id": "alert-crwd-price_surge-20260915",
       "ticker": "CRWD",
       "type": "price_surge",
       "severity": "info",
@@ -58,11 +58,11 @@
       "messageHe": "CRWD עלתה 13.85% היום. שקול לקחת רווחים חלקיים.",
       "value": 13.85,
       "threshold": null,
-      "timestamp": "2026-09-14T22:40:02.199320+00:00",
+      "timestamp": "2026-09-15T09:32:18.719232+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-price_drop-20260914",
+      "id": "alert-ceg-price_drop-20260915",
       "ticker": "CEG",
       "type": "price_drop",
       "severity": "danger",
@@ -70,7 +70,7 @@
       "messageHe": "CEG ירדה 7.09% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -7.09,
       "threshold": null,
-      "timestamp": "2026-09-14T22:40:03.046584+00:00",
+      "timestamp": "2026-09-15T09:32:19.758347+00:00",
       "dismissed": false
     }
   ],
