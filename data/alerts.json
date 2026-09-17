@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-09-17T09:35:03.639024+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-09-17T17:12:57.040236+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-rtx-rsi_oversold-20260917",
+      "ticker": "RTX",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "RTX — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-29.3 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 29.3,
+      "threshold": 30,
+      "timestamp": "2026-09-17T17:12:51.330452+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
