@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-21T22:45:51.799302+00:00",
+  "lastUpdated": "2026-09-22T09:25:17.337405+00:00",
   "activeAlerts": [
     {
-      "id": "alert-amd-price_surge-20260921",
+      "id": "alert-amd-price_surge-20260922",
       "ticker": "AMD",
       "type": "price_surge",
       "severity": "info",
@@ -10,11 +10,11 @@
       "messageHe": "AMD עלתה 9.95% היום. שקול לקחת רווחים חלקיים.",
       "value": 9.95,
       "threshold": null,
-      "timestamp": "2026-09-21T22:45:51.092144+00:00",
+      "timestamp": "2026-09-22T09:25:16.606035+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260921",
+      "id": "alert-amd-rsi_overbought-20260922",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-73.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 73.0,
       "threshold": 70,
-      "timestamp": "2026-09-21T22:45:51.092144+00:00",
+      "timestamp": "2026-09-22T09:25:16.606035+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-ma_crossover_bullish-20260921",
+      "id": "alert-amd-ma_crossover_bullish-20260922",
       "ticker": "AMD",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -34,7 +34,7 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-09-21T22:45:51.092144+00:00",
+      "timestamp": "2026-09-22T09:25:16.606035+00:00",
       "dismissed": false
     }
   ],
