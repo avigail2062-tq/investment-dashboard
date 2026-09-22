@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-22T09:25:17.337405+00:00",
+  "lastUpdated": "2026-09-22T17:11:24.515235+00:00",
   "activeAlerts": [
     {
-      "id": "alert-amd-price_surge-20260922",
-      "ticker": "AMD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "AMD — עלייה חדה",
-      "messageHe": "AMD עלתה 9.95% היום. שקול לקחת רווחים חלקיים.",
-      "value": 9.95,
-      "threshold": null,
-      "timestamp": "2026-09-22T09:25:16.606035+00:00",
+      "id": "alert-rtx-rsi_oversold-20260922",
+      "ticker": "RTX",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "RTX — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-26.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 26.6,
+      "threshold": 30,
+      "timestamp": "2026-09-22T17:11:17.393821+00:00",
       "dismissed": false
     },
     {
@@ -19,22 +19,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-73.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 73.0,
+      "messageHe": "RSI ב-73.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.2,
       "threshold": 70,
-      "timestamp": "2026-09-22T09:25:16.606035+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-ma_crossover_bullish-20260922",
-      "ticker": "AMD",
-      "type": "ma_crossover_bullish",
-      "severity": "info",
-      "titleHe": "AMD — חציית ממוצעים שורית",
-      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-09-22T09:25:16.606035+00:00",
+      "timestamp": "2026-09-22T17:11:23.836846+00:00",
       "dismissed": false
     }
   ],
