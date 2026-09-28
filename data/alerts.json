@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-25T22:41:52.995463+00:00",
+  "lastUpdated": "2026-09-28T11:08:15.985403+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-rsi_oversold-20260925",
+      "id": "alert-rtx-rsi_oversold-20260928",
       "ticker": "RTX",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-29.3 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 29.3,
       "threshold": 30,
-      "timestamp": "2026-09-25T22:41:47.278934+00:00",
+      "timestamp": "2026-09-28T11:08:09.676891+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20260925",
+      "id": "alert-amd-rsi_overbought-20260928",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,7 +22,7 @@
       "messageHe": "RSI ב-73.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 73.0,
       "threshold": 70,
-      "timestamp": "2026-09-25T22:41:52.314374+00:00",
+      "timestamp": "2026-09-28T11:08:15.308158+00:00",
       "dismissed": false
     }
   ],
