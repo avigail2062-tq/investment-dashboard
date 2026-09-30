@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T10:38:36.058844+00:00",
+  "lastUpdated": "2026-09-30T18:04:50.157242+00:00",
   "activeAlerts": [
     {
       "id": "alert-rtx-rsi_oversold-20260930",
@@ -7,10 +7,34 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-26.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 26.6,
+      "messageHe": "RSI ב-25.8 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 25.8,
       "threshold": 30,
-      "timestamp": "2026-09-30T10:38:30.597432+00:00",
+      "timestamp": "2026-09-30T18:04:44.147065+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-noc-rsi_oversold-20260930",
+      "ticker": "NOC",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "NOC — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-26.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 26.7,
+      "threshold": 30,
+      "timestamp": "2026-09-30T18:04:45.047522+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-ma_crossover_bearish-20260930",
+      "ticker": "CEG",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "CEG — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-09-30T18:04:46.666353+00:00",
       "dismissed": false
     }
   ],
