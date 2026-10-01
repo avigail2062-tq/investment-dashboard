@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T11:06:02.405255+00:00",
+  "lastUpdated": "2026-10-01T18:32:26.554673+00:00",
   "activeAlerts": [
     {
       "id": "alert-rtx-rsi_oversold-20261001",
@@ -7,10 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-25.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 25.1,
+      "messageHe": "RSI ב-23.9 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 23.9,
       "threshold": 30,
-      "timestamp": "2026-10-01T11:05:55.892236+00:00",
+      "timestamp": "2026-10-01T18:32:21.430356+00:00",
       "dismissed": false
     },
     {
@@ -19,22 +19,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-26.8 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 26.8,
+      "messageHe": "RSI ב-26.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 26.4,
       "threshold": 30,
-      "timestamp": "2026-10-01T11:05:56.873709+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-ceg-ma_crossover_bearish-20261001",
-      "ticker": "CEG",
-      "type": "ma_crossover_bearish",
-      "severity": "warning",
-      "titleHe": "CEG — חציית ממוצעים דובית",
-      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-10-01T11:05:58.668954+00:00",
+      "timestamp": "2026-10-01T18:32:22.184388+00:00",
       "dismissed": false
     }
   ],
