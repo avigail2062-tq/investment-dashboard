@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T17:59:35.750483+00:00",
+  "lastUpdated": "2026-10-02T23:10:55.999528+00:00",
   "activeAlerts": [
     {
       "id": "alert-rtx-rsi_oversold-20261002",
@@ -7,10 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-24.8 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 24.8,
+      "messageHe": "RSI ב-24.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 24.1,
       "threshold": 30,
-      "timestamp": "2026-10-02T17:59:29.659100+00:00",
+      "timestamp": "2026-10-02T23:10:49.359108+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,34 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-25.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 25.7,
+      "messageHe": "RSI ב-25.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 25.0,
       "threshold": 30,
-      "timestamp": "2026-10-02T17:59:30.559865+00:00",
+      "timestamp": "2026-10-02T23:10:50.385182+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-noc-volume_spike-20261002",
+      "ticker": "NOC",
+      "type": "volume_spike",
+      "severity": "info",
+      "titleHe": "NOC — נפח מסחר חריג",
+      "messageHe": "נפח מסחר גבוה פי 2.77 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 2.77,
+      "threshold": null,
+      "timestamp": "2026-10-02T23:10:50.385182+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-rsi_overbought-20261002",
+      "ticker": "AMD",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "AMD — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.1,
+      "threshold": 70,
+      "timestamp": "2026-10-02T23:10:55.283015+00:00",
       "dismissed": false
     }
   ],
