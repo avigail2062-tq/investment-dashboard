@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T18:33:27.496634+00:00",
+  "lastUpdated": "2026-10-06T23:11:59.436970+00:00",
   "activeAlerts": [
     {
       "id": "alert-rtx-rsi_oversold-20261006",
@@ -7,10 +7,10 @@
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-22.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 22.1,
+      "messageHe": "RSI ב-22.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 22.4,
       "threshold": 30,
-      "timestamp": "2026-10-06T18:33:20.438582+00:00",
+      "timestamp": "2026-10-06T23:11:52.517502+00:00",
       "dismissed": false
     },
     {
@@ -22,7 +22,7 @@
       "messageHe": "RSI ב-72.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 72.0,
       "threshold": 70,
-      "timestamp": "2026-10-06T18:33:22.417976+00:00",
+      "timestamp": "2026-10-06T23:11:54.457281+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +31,10 @@
       "type": "price_surge",
       "severity": "info",
       "titleHe": "CEG — עלייה חדה",
-      "messageHe": "CEG עלתה 11.01% היום. שקול לקחת רווחים חלקיים.",
-      "value": 11.01,
+      "messageHe": "CEG עלתה 12.25% היום. שקול לקחת רווחים חלקיים.",
+      "value": 12.25,
       "threshold": null,
-      "timestamp": "2026-10-06T18:33:23.614753+00:00",
+      "timestamp": "2026-10-06T23:11:55.378306+00:00",
       "dismissed": false
     },
     {
@@ -43,10 +43,10 @@
       "type": "volume_spike",
       "severity": "info",
       "titleHe": "CEG — נפח מסחר חריג",
-      "messageHe": "נפח מסחר גבוה פי 2.89 מהממוצע. עקוב אחרי התפתחויות.",
-      "value": 2.89,
+      "messageHe": "נפח מסחר גבוה פי 3.77 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 3.77,
       "threshold": null,
-      "timestamp": "2026-10-06T18:33:23.614753+00:00",
+      "timestamp": "2026-10-06T23:11:55.378306+00:00",
       "dismissed": false
     },
     {
@@ -55,10 +55,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-72.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 72.8,
+      "messageHe": "RSI ב-72.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 72.2,
       "threshold": 70,
-      "timestamp": "2026-10-06T18:33:26.818842+00:00",
+      "timestamp": "2026-10-06T23:11:58.745562+00:00",
       "dismissed": false
     }
   ],
