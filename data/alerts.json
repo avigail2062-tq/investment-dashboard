@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-06T23:11:59.436970+00:00",
+  "lastUpdated": "2026-10-07T11:15:40.007576+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-rsi_oversold-20261006",
+      "id": "alert-rtx-rsi_oversold-20261007",
       "ticker": "RTX",
       "type": "rsi_oversold",
       "severity": "opportunity",
@@ -10,11 +10,11 @@
       "messageHe": "RSI ב-22.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
       "value": 22.4,
       "threshold": 30,
-      "timestamp": "2026-10-06T23:11:52.517502+00:00",
+      "timestamp": "2026-10-07T11:15:34.187585+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-crwd-rsi_overbought-20261006",
+      "id": "alert-crwd-rsi_overbought-20261007",
       "ticker": "CRWD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -22,11 +22,11 @@
       "messageHe": "RSI ב-72.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 72.0,
       "threshold": 70,
-      "timestamp": "2026-10-06T23:11:54.457281+00:00",
+      "timestamp": "2026-10-07T11:15:35.779671+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-price_surge-20261006",
+      "id": "alert-ceg-price_surge-20261007",
       "ticker": "CEG",
       "type": "price_surge",
       "severity": "info",
@@ -34,11 +34,11 @@
       "messageHe": "CEG עלתה 12.25% היום. שקול לקחת רווחים חלקיים.",
       "value": 12.25,
       "threshold": null,
-      "timestamp": "2026-10-06T23:11:55.378306+00:00",
+      "timestamp": "2026-10-07T11:15:36.615310+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-volume_spike-20261006",
+      "id": "alert-ceg-volume_spike-20261007",
       "ticker": "CEG",
       "type": "volume_spike",
       "severity": "info",
@@ -46,11 +46,11 @@
       "messageHe": "נפח מסחר גבוה פי 3.77 מהממוצע. עקוב אחרי התפתחויות.",
       "value": 3.77,
       "threshold": null,
-      "timestamp": "2026-10-06T23:11:55.378306+00:00",
+      "timestamp": "2026-10-07T11:15:36.615310+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-rsi_overbought-20261006",
+      "id": "alert-amd-rsi_overbought-20261007",
       "ticker": "AMD",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -58,7 +58,7 @@
       "messageHe": "RSI ב-72.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 72.2,
       "threshold": 70,
-      "timestamp": "2026-10-06T23:11:58.745562+00:00",
+      "timestamp": "2026-10-07T11:15:39.303703+00:00",
       "dismissed": false
     }
   ],
