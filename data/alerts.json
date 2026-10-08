@@ -1,40 +1,16 @@
 {
-  "lastUpdated": "2026-10-08T11:32:04.629628+00:00",
+  "lastUpdated": "2026-10-08T18:58:24.361367+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-rsi_oversold-20261008",
-      "ticker": "RTX",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "RTX — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-19.3 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 19.3,
-      "threshold": 30,
-      "timestamp": "2026-10-08T11:31:58.798741+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-noc-rsi_oversold-20261008",
-      "ticker": "NOC",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "NOC — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-27.5 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 27.5,
-      "threshold": 30,
-      "timestamp": "2026-10-08T11:31:59.722820+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-rsi_overbought-20261008",
-      "ticker": "AMD",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "AMD — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.7,
-      "threshold": 70,
-      "timestamp": "2026-10-08T11:32:03.960944+00:00",
+      "id": "alert-ceg-price_drop-20261008",
+      "ticker": "CEG",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CEG — ירידת מחיר חריגה",
+      "messageHe": "CEG ירדה 5.72% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.72,
+      "threshold": null,
+      "timestamp": "2026-10-08T18:58:20.573807+00:00",
       "dismissed": false
     }
   ],
