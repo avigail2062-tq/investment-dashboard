@@ -1,5 +1,30 @@
 {
-  "lastUpdated": "2026-10-16T09:11:20.432102+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-10-16T16:52:29.556735+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-crwd-price_drop-20261016",
+      "ticker": "CRWD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CRWD — ירידת מחיר חריגה",
+      "messageHe": "CRWD ירדה 7.17% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.17,
+      "threshold": null,
+      "timestamp": "2026-10-16T16:52:25.215562+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-xom-rsi_overbought-20261016",
+      "ticker": "XOM",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "XOM — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-71.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 71.2,
+      "threshold": 70,
+      "timestamp": "2026-10-16T16:52:27.046579+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
