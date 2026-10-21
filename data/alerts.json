@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-10-21T17:34:38.752682+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-10-21T22:36:59.909800+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-xom-rsi_overbought-20261021",
+      "ticker": "XOM",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "XOM — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.2,
+      "threshold": 70,
+      "timestamp": "2026-10-21T22:36:57.454150+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
