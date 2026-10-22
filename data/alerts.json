@@ -1,16 +1,40 @@
 {
-  "lastUpdated": "2026-10-22T09:32:36.387043+00:00",
+  "lastUpdated": "2026-10-22T17:31:15.913364+00:00",
   "activeAlerts": [
     {
-      "id": "alert-xom-rsi_overbought-20261022",
-      "ticker": "XOM",
+      "id": "alert-lmt-rsi_overbought-20261022",
+      "ticker": "LMT",
       "type": "rsi_overbought",
       "severity": "warning",
-      "titleHe": "XOM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-70.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 70.2,
+      "titleHe": "LMT — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-73.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 73.6,
       "threshold": 70,
-      "timestamp": "2026-10-22T09:32:33.993364+00:00",
+      "timestamp": "2026-10-22T17:31:08.848947+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-price_drop-20261022",
+      "ticker": "CEG",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CEG — ירידת מחיר חריגה",
+      "messageHe": "CEG ירדה 5.45% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.45,
+      "threshold": null,
+      "timestamp": "2026-10-22T17:31:12.404733+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-amd-price_drop-20261022",
+      "ticker": "AMD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AMD — ירידת מחיר חריגה",
+      "messageHe": "AMD ירדה 7.66% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -7.66,
+      "threshold": null,
+      "timestamp": "2026-10-22T17:31:15.192566+00:00",
       "dismissed": false
     }
   ],
