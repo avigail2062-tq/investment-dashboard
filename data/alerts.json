@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T17:31:15.913364+00:00",
+  "lastUpdated": "2026-10-22T22:38:41.274045+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_overbought-20261022",
@@ -7,10 +7,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-73.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 73.6,
+      "messageHe": "RSI ב-75.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 75.3,
       "threshold": 70,
-      "timestamp": "2026-10-22T17:31:08.848947+00:00",
+      "timestamp": "2026-10-22T22:38:33.337217+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +19,22 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "CEG — ירידת מחיר חריגה",
-      "messageHe": "CEG ירדה 5.45% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.45,
+      "messageHe": "CEG ירדה 5.74% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.74,
       "threshold": null,
-      "timestamp": "2026-10-22T17:31:12.404733+00:00",
+      "timestamp": "2026-10-22T22:38:37.514392+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-xom-rsi_overbought-20261022",
+      "ticker": "XOM",
+      "type": "rsi_overbought",
+      "severity": "warning",
+      "titleHe": "XOM — RSI באזור קניית יתר",
+      "messageHe": "RSI ב-70.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 70.4,
+      "threshold": 70,
+      "timestamp": "2026-10-22T22:38:38.598241+00:00",
       "dismissed": false
     },
     {
@@ -31,10 +43,10 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.66% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.66,
+      "messageHe": "AMD ירדה 8.1% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -8.1,
       "threshold": null,
-      "timestamp": "2026-10-22T17:31:15.192566+00:00",
+      "timestamp": "2026-10-22T22:38:40.595571+00:00",
       "dismissed": false
     }
   ],
