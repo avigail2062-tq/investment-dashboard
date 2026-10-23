@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T17:22:32.186633+00:00",
+  "lastUpdated": "2026-10-23T22:31:55.365053+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_overbought-20261023",
@@ -7,10 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-78.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 78.0,
+      "messageHe": "RSI ב-78.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 78.1,
       "threshold": 70,
-      "timestamp": "2026-10-23T17:22:24.734233+00:00",
+      "timestamp": "2026-10-23T22:31:47.991661+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-price_surge-20261023",
+      "ticker": "CRWD",
+      "type": "price_surge",
+      "severity": "info",
+      "titleHe": "CRWD — עלייה חדה",
+      "messageHe": "CRWD עלתה 8.25% היום. שקול לקחת רווחים חלקיים.",
+      "value": 8.25,
+      "threshold": null,
+      "timestamp": "2026-10-23T22:31:50.961259+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +31,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "XOM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.2,
+      "messageHe": "RSI ב-76.2 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 76.2,
       "threshold": 70,
-      "timestamp": "2026-10-23T17:22:29.577023+00:00",
+      "timestamp": "2026-10-23T22:31:52.806789+00:00",
       "dismissed": false
     }
   ],
