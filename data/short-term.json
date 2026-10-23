@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T09:28:28.219555+00:00",
+  "lastUpdated": "2026-10-23T17:22:18.213761+00:00",
   "signals": [
     {
       "ticker": "NVDA",
@@ -10,12 +10,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 39.1,
+          "value": 38.7,
           "interpretation": "bearish",
           "interpretationHe": "דובי"
         },
         "macd": {
-          "histogram": -2.049,
+          "histogram": -2.107,
           "trend": "bearish",
           "trendHe": "דובי",
           "crossover": false
@@ -28,23 +28,23 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.18,
-          "trend": "normal",
-          "trendHe": "רגיל"
+          "ratio": 0.41,
+          "trend": "low",
+          "trendHe": "נמוך"
         }
       },
-      "support": 211.26,
+      "support": 210.18,
       "resistance": 243.37,
       "dayTradeIdea": {
-        "entry": 210.69,
-        "target": 215.75,
-        "stopLoss": 208.16,
+        "entry": 210.26,
+        "target": 215.31,
+        "stopLoss": 207.73,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 209.68,
-        "target": 224.85,
-        "stopLoss": 204.62,
+        "entry": 209.25,
+        "target": 224.4,
+        "stopLoss": 204.2,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -58,12 +58,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 34.9,
+          "value": 35.8,
           "interpretation": "bearish",
           "interpretationHe": "דובי"
         },
         "macd": {
-          "histogram": -2.73,
+          "histogram": -2.819,
           "trend": "bearish",
           "trendHe": "דובי",
           "crossover": false
@@ -76,23 +76,23 @@
           "trendHe": "דובי"
         },
         "volume": {
-          "ratio": 1.28,
-          "trend": "normal",
-          "trendHe": "רגיל"
+          "ratio": 0.39,
+          "trend": "low",
+          "trendHe": "נמוך"
         }
       },
-      "support": 321.02,
+      "support": 320.23,
       "resistance": 380.84,
       "dayTradeIdea": {
-        "entry": 320.43,
-        "target": 329.79,
-        "stopLoss": 315.75,
+        "entry": 321.67,
+        "target": 331.15,
+        "stopLoss": 316.93,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 318.56,
-        "target": 346.63,
-        "stopLoss": 309.2,
+        "entry": 319.77,
+        "target": 348.21,
+        "stopLoss": 310.29,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -101,17 +101,17 @@
       "ticker": "LMT",
       "signal": "HOLD",
       "signalHe": "החזק",
-      "momentumScore": 8,
-      "confidence": "high",
-      "confidenceHe": "גבוהה",
+      "momentumScore": 7,
+      "confidence": "medium",
+      "confidenceHe": "בינונית",
       "analysis": {
         "rsi": {
-          "value": 75.3,
+          "value": 78.0,
           "interpretation": "overbought",
           "interpretationHe": "קניית יתר"
         },
         "macd": {
-          "histogram": 8.619,
+          "histogram": 10.389,
           "trend": "bullish",
           "trendHe": "שורי",
           "crossover": false
@@ -124,23 +124,23 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 2.35,
-          "trend": "high",
-          "trendHe": "גבוה"
+          "ratio": 0.75,
+          "trend": "normal",
+          "trendHe": "רגיל"
         }
       },
       "support": 497.0,
       "resistance": 608.0,
       "dayTradeIdea": {
-        "entry": 586.55,
-        "target": 597.75,
-        "stopLoss": 580.94,
+        "entry": 599.7,
+        "target": 611.54,
+        "stopLoss": 593.79,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 584.31,
-        "target": 617.93,
-        "stopLoss": 573.1,
+        "entry": 597.34,
+        "target": 632.83,
+        "stopLoss": 585.51,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -149,17 +149,17 @@
       "ticker": "RTX",
       "signal": "BUY",
       "signalHe": "קנייה",
-      "momentumScore": 8,
-      "confidence": "high",
-      "confidenceHe": "גבוהה",
+      "momentumScore": 7,
+      "confidence": "medium",
+      "confidenceHe": "בינונית",
       "analysis": {
         "rsi": {
-          "value": 56.6,
+          "value": 49.9,
           "interpretation": "neutral",
           "interpretationHe": "ניטראלי"
         },
         "macd": {
-          "histogram": 1.783,
+          "histogram": 1.532,
           "trend": "bullish",
           "trendHe": "שורי",
           "crossover": false
@@ -172,23 +172,23 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.17,
-          "trend": "normal",
-          "trendHe": "רגיל"
+          "ratio": 0.48,
+          "trend": "low",
+          "trendHe": "נמוך"
         }
       },
       "support": 179.02,
       "resistance": 197.0,
       "dayTradeIdea": {
-        "entry": 193.56,
-        "target": 197.4,
-        "stopLoss": 191.63,
+        "entry": 189.81,
+        "target": 193.78,
+        "stopLoss": 187.82,
         "riskRewardRatio": 1.99
       },
       "swingTradeIdea": {
-        "entry": 192.79,
-        "target": 204.33,
-        "stopLoss": 188.94,
+        "entry": 189.01,
+        "target": 200.93,
+        "stopLoss": 185.04,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -202,12 +202,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 68.3,
+          "value": 66.1,
           "interpretation": "bullish",
           "interpretationHe": "שורי"
         },
         "macd": {
-          "histogram": 8.905,
+          "histogram": 8.98,
           "trend": "bullish",
           "trendHe": "שורי",
           "crossover": false
@@ -220,23 +220,23 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 0.95,
-          "trend": "normal",
-          "trendHe": "רגיל"
+          "ratio": 0.29,
+          "trend": "low",
+          "trendHe": "נמוך"
         }
       },
       "support": 470.06,
       "resistance": 556.56,
       "dayTradeIdea": {
-        "entry": 549.07,
-        "target": 560.01,
-        "stopLoss": 543.59,
+        "entry": 545.24,
+        "target": 556.42,
+        "stopLoss": 539.65,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 546.88,
-        "target": 579.71,
-        "stopLoss": 535.93,
+        "entry": 543.0,
+        "target": 576.55,
+        "stopLoss": 531.82,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -245,17 +245,17 @@
       "ticker": "CRWD",
       "signal": "SELL",
       "signalHe": "מכירה",
-      "momentumScore": 2,
-      "confidence": "high",
-      "confidenceHe": "גבוהה",
+      "momentumScore": 3,
+      "confidence": "medium",
+      "confidenceHe": "בינונית",
       "analysis": {
         "rsi": {
-          "value": 45.8,
+          "value": 53.6,
           "interpretation": "neutral",
           "interpretationHe": "ניטראלי"
         },
         "macd": {
-          "histogram": -5.111,
+          "histogram": -3.505,
           "trend": "bearish",
           "trendHe": "דובי",
           "crossover": false
@@ -268,7 +268,7 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.21,
+          "ratio": 0.95,
           "trend": "normal",
           "trendHe": "רגיל"
         }
@@ -276,15 +276,15 @@
       "support": 221.36,
       "resistance": 286.99,
       "dayTradeIdea": {
-        "entry": 234.69,
-        "target": 245.52,
-        "stopLoss": 229.28,
+        "entry": 248.96,
+        "target": 260.32,
+        "stopLoss": 243.28,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 232.53,
-        "target": 265.01,
-        "stopLoss": 221.7,
+        "entry": 246.69,
+        "target": 280.78,
+        "stopLoss": 235.32,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -298,12 +298,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 41.4,
+          "value": 40.9,
           "interpretation": "neutral",
           "interpretationHe": "ניטראלי"
         },
         "macd": {
-          "histogram": -2.787,
+          "histogram": -3.219,
           "trend": "bearish",
           "trendHe": "דובי",
           "crossover": false
@@ -316,23 +316,23 @@
           "trendHe": "דובי"
         },
         "volume": {
-          "ratio": 0.94,
-          "trend": "normal",
-          "trendHe": "רגיל"
+          "ratio": 0.31,
+          "trend": "low",
+          "trendHe": "נמוך"
         }
       },
       "support": 247.2,
       "resistance": 309.8,
       "dayTradeIdea": {
-        "entry": 251.34,
-        "target": 264.25,
-        "stopLoss": 244.88,
+        "entry": 249.97,
+        "target": 263.07,
+        "stopLoss": 243.42,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 248.75,
-        "target": 287.5,
-        "stopLoss": 235.84,
+        "entry": 247.35,
+        "target": 286.64,
+        "stopLoss": 234.26,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -346,12 +346,12 @@
       "confidenceHe": "בינונית",
       "analysis": {
         "rsi": {
-          "value": 70.4,
+          "value": 75.2,
           "interpretation": "overbought",
           "interpretationHe": "קניית יתר"
         },
         "macd": {
-          "histogram": 0.834,
+          "histogram": 0.899,
           "trend": "bullish",
           "trendHe": "שורי",
           "crossover": false
@@ -364,45 +364,45 @@
           "trendHe": "שורי"
         },
         "volume": {
-          "ratio": 1.02,
-          "trend": "normal",
-          "trendHe": "רגיל"
+          "ratio": 0.55,
+          "trend": "low",
+          "trendHe": "נמוך"
         }
       },
       "support": 159.27,
-      "resistance": 180.31,
+      "resistance": 183.75,
       "dayTradeIdea": {
-        "entry": 177.29,
-        "target": 180.43,
-        "stopLoss": 175.72,
-        "riskRewardRatio": 2.0
+        "entry": 181.26,
+        "target": 184.53,
+        "stopLoss": 179.62,
+        "riskRewardRatio": 1.99
       },
       "swingTradeIdea": {
-        "entry": 176.66,
-        "target": 186.07,
-        "stopLoss": 173.52,
+        "entry": 180.6,
+        "target": 190.43,
+        "stopLoss": 177.33,
         "timeframeHe": "5-10 ימי מסחר",
-        "riskRewardRatio": 3.0
+        "riskRewardRatio": 3.01
       }
     },
     {
       "ticker": "NEM",
-      "signal": "HOLD",
-      "signalHe": "החזק",
-      "momentumScore": 4,
-      "confidence": "low",
-      "confidenceHe": "נמוכה",
+      "signal": "SELL",
+      "signalHe": "מכירה",
+      "momentumScore": 2,
+      "confidence": "high",
+      "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 43.4,
-          "interpretation": "neutral",
-          "interpretationHe": "ניטראלי"
+          "value": 37.2,
+          "interpretation": "bearish",
+          "interpretationHe": "דובי"
         },
         "macd": {
-          "histogram": 0.093,
-          "trend": "bullish",
-          "trendHe": "שורי",
-          "crossover": false
+          "histogram": -0.287,
+          "trend": "bearish",
+          "trendHe": "דובי",
+          "crossover": true
         },
         "movingAverages": {
           "priceVsSma20": "below",
@@ -412,23 +412,23 @@
           "trendHe": "דובי"
         },
         "volume": {
-          "ratio": 1.79,
-          "trend": "high",
-          "trendHe": "גבוה"
+          "ratio": 0.8,
+          "trend": "normal",
+          "trendHe": "רגיל"
         }
       },
-      "support": 109.84,
-      "resistance": 121.94,
+      "support": 108.0,
+      "resistance": 120.05,
       "dayTradeIdea": {
-        "entry": 113.26,
-        "target": 116.09,
-        "stopLoss": 111.85,
-        "riskRewardRatio": 2.01
+        "entry": 108.77,
+        "target": 111.8,
+        "stopLoss": 107.25,
+        "riskRewardRatio": 1.99
       },
       "swingTradeIdea": {
-        "entry": 112.7,
-        "target": 121.17,
-        "stopLoss": 109.88,
+        "entry": 108.16,
+        "target": 117.26,
+        "stopLoss": 105.13,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
@@ -442,12 +442,12 @@
       "confidenceHe": "גבוהה",
       "analysis": {
         "rsi": {
-          "value": 36.5,
+          "value": 38.8,
           "interpretation": "bearish",
           "interpretationHe": "דובי"
         },
         "macd": {
-          "histogram": -14.468,
+          "histogram": -13.991,
           "trend": "bearish",
           "trendHe": "דובי",
           "crossover": false
@@ -460,34 +460,34 @@
           "trendHe": "ניטראלי"
         },
         "volume": {
-          "ratio": 1.42,
-          "trend": "normal",
-          "trendHe": "רגיל"
+          "ratio": 0.49,
+          "trend": "low",
+          "trendHe": "נמוך"
         }
       },
       "support": 502.6,
       "resistance": 658.52,
       "dayTradeIdea": {
-        "entry": 501.11,
-        "target": 523.84,
-        "stopLoss": 489.75,
+        "entry": 509.28,
+        "target": 532.11,
+        "stopLoss": 497.87,
         "riskRewardRatio": 2.0
       },
       "swingTradeIdea": {
-        "entry": 496.57,
-        "target": 564.75,
-        "stopLoss": 473.84,
+        "entry": 504.71,
+        "target": 573.21,
+        "stopLoss": 481.88,
         "timeframeHe": "5-10 ימי מסחר",
         "riskRewardRatio": 3.0
       }
     }
   ],
   "marketSentiment": {
-    "vix": 19.3,
-    "vixInterpretation": "normal",
-    "vixInterpretationHe": "רגיל",
-    "sp500Trend": "bearish",
-    "sp500TrendHe": "דובי",
+    "vix": 20.02,
+    "vixInterpretation": "elevated",
+    "vixInterpretationHe": "מוגבר",
+    "sp500Trend": "neutral",
+    "sp500TrendHe": "ניטראלי",
     "overallSignal": "bearish",
     "overallSignalHe": "פסימי"
   }
