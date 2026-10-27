@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T09:57:20.854741+00:00",
+  "lastUpdated": "2026-10-27T18:11:10.437710+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_overbought-20261027",
@@ -7,34 +7,10 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-82.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 82.7,
+      "messageHe": "RSI ב-77.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 77.0,
       "threshold": 70,
-      "timestamp": "2026-10-27T09:57:14.062161+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-noc-rsi_overbought-20261027",
-      "ticker": "NOC",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "NOC — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-71.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 71.6,
-      "threshold": 70,
-      "timestamp": "2026-10-27T09:57:15.851665+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-xom-rsi_overbought-20261027",
-      "ticker": "XOM",
-      "type": "rsi_overbought",
-      "severity": "warning",
-      "titleHe": "XOM — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.4 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.4,
-      "threshold": 70,
-      "timestamp": "2026-10-27T09:57:18.367129+00:00",
+      "timestamp": "2026-10-27T18:11:02.718050+00:00",
       "dismissed": false
     }
   ],
