@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T11:00:53.982250+00:00",
+  "lastUpdated": "2026-10-29T18:36:32.087492+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_overbought-20261029",
@@ -7,22 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-77.1 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 77.1,
+      "messageHe": "RSI ב-79.9 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 79.9,
       "threshold": 70,
-      "timestamp": "2026-10-29T11:00:46.028211+00:00",
+      "timestamp": "2026-10-29T18:36:23.479239+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-lmt-ma_crossover_bullish-20261029",
-      "ticker": "LMT",
+      "id": "alert-ceg-ma_crossover_bullish-20261029",
+      "ticker": "CEG",
       "type": "ma_crossover_bullish",
       "severity": "info",
-      "titleHe": "LMT — חציית ממוצעים שורית",
+      "titleHe": "CEG — חציית ממוצעים שורית",
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-10-29T11:00:46.028211+00:00",
+      "timestamp": "2026-10-29T18:36:28.004751+00:00",
       "dismissed": false
     }
   ],
