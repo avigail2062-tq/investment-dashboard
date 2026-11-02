@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-30T23:07:27.838486+00:00",
+  "lastUpdated": "2026-11-02T12:45:36.641152+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-ma_crossover_bearish-20261030",
+      "id": "alert-nvda-ma_crossover_bearish-20261102",
       "ticker": "NVDA",
       "type": "ma_crossover_bearish",
       "severity": "warning",
@@ -10,11 +10,11 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-10-30T23:07:17.818207+00:00",
+      "timestamp": "2026-11-02T12:45:29.214621+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-avgo-price_drop-20261030",
+      "id": "alert-avgo-price_drop-20261102",
       "ticker": "AVGO",
       "type": "price_drop",
       "severity": "danger",
@@ -22,11 +22,11 @@
       "messageHe": "AVGO ירדה 5.48% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -5.48,
       "threshold": null,
-      "timestamp": "2026-10-30T23:07:18.980457+00:00",
+      "timestamp": "2026-11-02T12:45:29.946373+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-lmt-rsi_overbought-20261030",
+      "id": "alert-lmt-rsi_overbought-20261102",
       "ticker": "LMT",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -34,11 +34,11 @@
       "messageHe": "RSI ב-75.6 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 75.6,
       "threshold": 70,
-      "timestamp": "2026-10-30T23:07:20.038707+00:00",
+      "timestamp": "2026-11-02T12:45:30.746630+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-xom-rsi_overbought-20261030",
+      "id": "alert-xom-rsi_overbought-20261102",
       "ticker": "XOM",
       "type": "rsi_overbought",
       "severity": "warning",
@@ -46,11 +46,11 @@
       "messageHe": "RSI ב-73.0 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
       "value": 73.0,
       "threshold": 70,
-      "timestamp": "2026-10-30T23:07:25.216159+00:00",
+      "timestamp": "2026-11-02T12:45:34.498517+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_drop-20261030",
+      "id": "alert-amd-price_drop-20261102",
       "ticker": "AMD",
       "type": "price_drop",
       "severity": "danger",
@@ -58,7 +58,7 @@
       "messageHe": "AMD ירדה 10.88% היום. בדוק את הסיבה ושקול פעולה.",
       "value": -10.88,
       "threshold": null,
-      "timestamp": "2026-10-30T23:07:27.116750+00:00",
+      "timestamp": "2026-11-02T12:45:35.972088+00:00",
       "dismissed": false
     }
   ],
