@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T12:11:06.578920+00:00",
+  "lastUpdated": "2026-11-03T19:44:02.265067+00:00",
   "activeAlerts": [
     {
       "id": "alert-lmt-rsi_overbought-20261103",
@@ -7,34 +7,22 @@
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-76.7 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 76.7,
+      "messageHe": "RSI ב-75.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 75.8,
       "threshold": 70,
-      "timestamp": "2026-11-03T12:11:00.568228+00:00",
+      "timestamp": "2026-11-03T19:43:55.408714+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-noc-ma_crossover_bullish-20261103",
-      "ticker": "NOC",
-      "type": "ma_crossover_bullish",
-      "severity": "info",
-      "titleHe": "NOC — חציית ממוצעים שורית",
-      "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
+      "id": "alert-ceg-ma_crossover_bearish-20261103",
+      "ticker": "CEG",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "CEG — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-11-03T12:11:02.132534+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20261103",
-      "ticker": "AMD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.52% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.52,
-      "threshold": null,
-      "timestamp": "2026-11-03T12:11:05.838979+00:00",
+      "timestamp": "2026-11-03T19:43:58.830213+00:00",
       "dismissed": false
     }
   ],
