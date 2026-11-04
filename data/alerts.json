@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-11-03T19:44:02.265067+00:00",
+  "lastUpdated": "2026-11-04T00:08:48.080886+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-rsi_overbought-20261103",
+      "id": "alert-lmt-rsi_overbought-20261104",
       "ticker": "LMT",
       "type": "rsi_overbought",
       "severity": "warning",
       "titleHe": "LMT — RSI באזור קניית יתר",
-      "messageHe": "RSI ב-75.8 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
-      "value": 75.8,
+      "messageHe": "RSI ב-74.3 — אזור קניית יתר. שקול לקחת רווחים חלקיים.",
+      "value": 74.3,
       "threshold": 70,
-      "timestamp": "2026-11-03T19:43:55.408714+00:00",
+      "timestamp": "2026-11-04T00:08:41.300600+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-ma_crossover_bearish-20261103",
+      "id": "alert-ceg-ma_crossover_bearish-20261104",
       "ticker": "CEG",
       "type": "ma_crossover_bearish",
       "severity": "warning",
@@ -22,7 +22,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-11-03T19:43:58.830213+00:00",
+      "timestamp": "2026-11-04T00:08:44.713484+00:00",
       "dismissed": false
     }
   ],
