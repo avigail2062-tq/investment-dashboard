@@ -1,44 +1,44 @@
 {
-  "lastUpdated": "2026-11-04T19:58:26.361900+00:00",
+  "lastUpdated": "2026-11-05T00:28:44.054280+00:00",
   "activeAlerts": [
     {
-      "id": "alert-lmt-price_drop-20261104",
+      "id": "alert-lmt-price_drop-20261105",
       "ticker": "LMT",
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "LMT — ירידת מחיר חריגה",
-      "messageHe": "LMT ירדה 6.46% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.46,
+      "messageHe": "LMT ירדה 6.88% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.88,
       "threshold": null,
-      "timestamp": "2026-11-04T19:58:16.985256+00:00",
+      "timestamp": "2026-11-05T00:28:37.306286+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-ceg-price_drop-20261104",
+      "id": "alert-ceg-price_drop-20261105",
       "ticker": "CEG",
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "CEG — ירידת מחיר חריגה",
-      "messageHe": "CEG ירדה 6.59% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.59,
+      "messageHe": "CEG ירדה 6.71% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.71,
       "threshold": null,
-      "timestamp": "2026-11-04T19:58:21.749661+00:00",
+      "timestamp": "2026-11-05T00:28:40.788293+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nem-price_surge-20261104",
+      "id": "alert-nem-price_surge-20261105",
       "ticker": "NEM",
       "type": "price_surge",
       "severity": "info",
       "titleHe": "NEM — עלייה חדה",
-      "messageHe": "NEM עלתה 8.87% היום. שקול לקחת רווחים חלקיים.",
-      "value": 8.87,
+      "messageHe": "NEM עלתה 9.9% היום. שקול לקחת רווחים חלקיים.",
+      "value": 9.9,
       "threshold": null,
-      "timestamp": "2026-11-04T19:58:24.361954+00:00",
+      "timestamp": "2026-11-05T00:28:42.561750+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-ma_crossover_bearish-20261104",
+      "id": "alert-amd-ma_crossover_bearish-20261105",
       "ticker": "AMD",
       "type": "ma_crossover_bearish",
       "severity": "warning",
@@ -46,7 +46,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-11-04T19:58:25.616170+00:00",
+      "timestamp": "2026-11-05T00:28:43.335023+00:00",
       "dismissed": false
     }
   ],
