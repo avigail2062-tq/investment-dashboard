@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-06T23:46:43.218605+00:00",
+  "lastUpdated": "2026-11-09T13:12:21.106379+00:00",
   "activeAlerts": [
     {
-      "id": "alert-rtx-ma_crossover_bullish-20261106",
+      "id": "alert-rtx-ma_crossover_bullish-20261109",
       "ticker": "RTX",
       "type": "ma_crossover_bullish",
       "severity": "info",
@@ -10,11 +10,11 @@
       "messageHe": "SMA20 חצה מעל SMA50 — סימן שורי. שקול הגדלת פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-11-06T23:46:37.372661+00:00",
+      "timestamp": "2026-11-09T13:12:14.029152+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-amd-price_surge-20261106",
+      "id": "alert-amd-price_surge-20261109",
       "ticker": "AMD",
       "type": "price_surge",
       "severity": "info",
@@ -22,7 +22,7 @@
       "messageHe": "AMD עלתה 11.04% היום. שקול לקחת רווחים חלקיים.",
       "value": 11.04,
       "threshold": null,
-      "timestamp": "2026-11-06T23:46:42.524696+00:00",
+      "timestamp": "2026-11-09T13:12:20.443653+00:00",
       "dismissed": false
     }
   ],
