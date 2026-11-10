@@ -1,20 +1,8 @@
 {
-  "lastUpdated": "2026-11-09T22:38:26.273651+00:00",
+  "lastUpdated": "2026-11-10T02:21:06.231682+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-rsi_oversold-20261109",
-      "ticker": "NVDA",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "NVDA — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-27.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 27.4,
-      "threshold": 30,
-      "timestamp": "2026-11-09T22:38:17.547410+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nvda-volume_spike-20261109",
+      "id": "alert-nvda-volume_spike-20261110",
       "ticker": "NVDA",
       "type": "volume_spike",
       "severity": "info",
@@ -22,55 +10,7 @@
       "messageHe": "נפח מסחר גבוה פי 3.33 מהממוצע. עקוב אחרי התפתחויות.",
       "value": 3.33,
       "threshold": null,
-      "timestamp": "2026-11-09T22:38:17.547410+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-avgo-price_surge-20261109",
-      "ticker": "AVGO",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "AVGO — עלייה חדה",
-      "messageHe": "AVGO עלתה 8.78% היום. שקול לקחת רווחים חלקיים.",
-      "value": 8.78,
-      "threshold": null,
-      "timestamp": "2026-11-09T22:38:18.428880+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-ma_crossover_bearish-20261109",
-      "ticker": "CRWD",
-      "type": "ma_crossover_bearish",
-      "severity": "warning",
-      "titleHe": "CRWD — חציית ממוצעים דובית",
-      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
-      "value": null,
-      "threshold": null,
-      "timestamp": "2026-11-09T22:38:21.961053+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-ceg-price_surge-20261109",
-      "ticker": "CEG",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "CEG — עלייה חדה",
-      "messageHe": "CEG עלתה 10.46% היום. שקול לקחת רווחים חלקיים.",
-      "value": 10.46,
-      "threshold": null,
-      "timestamp": "2026-11-09T22:38:22.912193+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_surge-20261109",
-      "ticker": "AMD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "AMD — עלייה חדה",
-      "messageHe": "AMD עלתה 13.26% היום. שקול לקחת רווחים חלקיים.",
-      "value": 13.26,
-      "threshold": null,
-      "timestamp": "2026-11-09T22:38:25.564045+00:00",
+      "timestamp": "2026-11-10T02:20:56.432556+00:00",
       "dismissed": false
     }
   ],
