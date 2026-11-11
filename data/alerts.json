@@ -1,40 +1,16 @@
 {
-  "lastUpdated": "2026-11-11T12:01:20.873261+00:00",
+  "lastUpdated": "2026-11-11T19:48:44.691200+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-price_drop-20261111",
-      "ticker": "NVDA",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "NVDA — ירידת מחיר חריגה",
-      "messageHe": "NVDA ירדה 5.47% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.47,
-      "threshold": null,
-      "timestamp": "2026-11-11T12:01:10.270363+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nvda-rsi_oversold-20261111",
-      "ticker": "NVDA",
-      "type": "rsi_oversold",
-      "severity": "opportunity",
-      "titleHe": "NVDA — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-23.9 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 23.9,
-      "threshold": 30,
-      "timestamp": "2026-11-11T12:01:10.270363+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nvda-volume_spike-20261111",
-      "ticker": "NVDA",
-      "type": "volume_spike",
+      "id": "alert-amd-price_surge-20261111",
+      "ticker": "AMD",
+      "type": "price_surge",
       "severity": "info",
-      "titleHe": "NVDA — נפח מסחר חריג",
-      "messageHe": "נפח מסחר גבוה פי 2.76 מהממוצע. עקוב אחרי התפתחויות.",
-      "value": 2.76,
+      "titleHe": "AMD — עלייה חדה",
+      "messageHe": "AMD עלתה 8.69% היום. שקול לקחת רווחים חלקיים.",
+      "value": 8.69,
       "threshold": null,
-      "timestamp": "2026-11-11T12:01:10.270363+00:00",
+      "timestamp": "2026-11-11T19:48:43.994336+00:00",
       "dismissed": false
     }
   ],
