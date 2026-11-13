@@ -1,40 +1,28 @@
 {
-  "lastUpdated": "2026-11-12T20:18:41.756558+00:00",
+  "lastUpdated": "2026-11-13T00:38:35.775495+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-price_drop-20261112",
-      "ticker": "NVDA",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "NVDA — ירידת מחיר חריגה",
-      "messageHe": "NVDA ירדה 5.49% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.49,
-      "threshold": null,
-      "timestamp": "2026-11-12T20:18:32.810226+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nvda-rsi_oversold-20261112",
+      "id": "alert-nvda-rsi_oversold-20261113",
       "ticker": "NVDA",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NVDA — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-25.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 25.4,
+      "messageHe": "RSI ב-26.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 26.0,
       "threshold": 30,
-      "timestamp": "2026-11-12T20:18:32.810226+00:00",
+      "timestamp": "2026-11-13T00:38:25.369194+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-nvda-volume_spike-20261112",
+      "id": "alert-nvda-volume_spike-20261113",
       "ticker": "NVDA",
       "type": "volume_spike",
       "severity": "info",
       "titleHe": "NVDA — נפח מסחר חריג",
-      "messageHe": "נפח מסחר גבוה פי 3.44 מהממוצע. עקוב אחרי התפתחויות.",
-      "value": 3.44,
+      "messageHe": "נפח מסחר גבוה פי 3.77 מהממוצע. עקוב אחרי התפתחויות.",
+      "value": 3.77,
       "threshold": null,
-      "timestamp": "2026-11-12T20:18:32.810226+00:00",
+      "timestamp": "2026-11-13T00:38:25.369194+00:00",
       "dismissed": false
     }
   ],
