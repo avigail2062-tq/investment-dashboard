@@ -1,40 +1,28 @@
 {
-  "lastUpdated": "2026-11-13T19:57:42.641316+00:00",
+  "lastUpdated": "2026-11-14T00:25:43.199699+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-rsi_oversold-20261113",
+      "id": "alert-nvda-rsi_oversold-20261114",
       "ticker": "NVDA",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NVDA — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-24.7 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 24.7,
+      "messageHe": "RSI ב-24.9 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 24.9,
       "threshold": 30,
-      "timestamp": "2026-11-13T19:57:34.862358+00:00",
+      "timestamp": "2026-11-14T00:25:34.828181+00:00",
       "dismissed": false
     },
     {
-      "id": "alert-avgo-price_drop-20261113",
-      "ticker": "AVGO",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AVGO — ירידת מחיר חריגה",
-      "messageHe": "AVGO ירדה 5.25% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -5.25,
-      "threshold": null,
-      "timestamp": "2026-11-13T19:57:35.620590+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20261113",
+      "id": "alert-amd-price_drop-20261114",
       "ticker": "AMD",
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 9.24% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -9.24,
+      "messageHe": "AMD ירדה 8.75% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -8.75,
       "threshold": null,
-      "timestamp": "2026-11-13T19:57:41.929962+00:00",
+      "timestamp": "2026-11-14T00:25:42.518424+00:00",
       "dismissed": false
     }
   ],
