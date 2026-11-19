@@ -1,40 +1,16 @@
 {
-  "lastUpdated": "2026-11-18T20:50:04.173484+00:00",
+  "lastUpdated": "2026-11-19T01:23:17.096968+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-rsi_oversold-20261118",
+      "id": "alert-nvda-rsi_oversold-20261119",
       "ticker": "NVDA",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NVDA — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-21.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 21.1,
+      "messageHe": "RSI ב-22.5 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 22.5,
       "threshold": 30,
-      "timestamp": "2026-11-18T20:49:54.774692+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-crwd-price_surge-20261118",
-      "ticker": "CRWD",
-      "type": "price_surge",
-      "severity": "info",
-      "titleHe": "CRWD — עלייה חדה",
-      "messageHe": "CRWD עלתה 8.16% היום. שקול לקחת רווחים חלקיים.",
-      "value": 8.16,
-      "threshold": null,
-      "timestamp": "2026-11-18T20:49:59.670390+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-nem-price_drop-20261118",
-      "ticker": "NEM",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "NEM — ירידת מחיר חריגה",
-      "messageHe": "NEM ירדה 6.06% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.06,
-      "threshold": null,
-      "timestamp": "2026-11-18T20:50:02.555211+00:00",
+      "timestamp": "2026-11-19T01:23:07.967743+00:00",
       "dismissed": false
     }
   ],
