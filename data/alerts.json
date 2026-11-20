@@ -1,28 +1,16 @@
 {
-  "lastUpdated": "2026-11-19T20:54:36.256179+00:00",
+  "lastUpdated": "2026-11-20T01:24:48.900519+00:00",
   "activeAlerts": [
     {
-      "id": "alert-nvda-rsi_oversold-20261119",
+      "id": "alert-nvda-rsi_oversold-20261120",
       "ticker": "NVDA",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NVDA — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-20.0 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 20.0,
+      "messageHe": "RSI ב-21.1 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 21.1,
       "threshold": 30,
-      "timestamp": "2026-11-19T20:54:28.475148+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20261119",
-      "ticker": "AMD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.1% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.1,
-      "threshold": null,
-      "timestamp": "2026-11-19T20:54:35.553404+00:00",
+      "timestamp": "2026-11-20T01:24:39.607782+00:00",
       "dismissed": false
     }
   ],
