@@ -1,16 +1,88 @@
 {
-  "lastUpdated": "2026-11-20T13:26:03.905181+00:00",
+  "lastUpdated": "2026-11-20T20:39:28.978535+00:00",
   "activeAlerts": [
+    {
+      "id": "alert-nvda-price_drop-20261120",
+      "ticker": "NVDA",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NVDA — ירידת מחיר חריגה",
+      "messageHe": "NVDA ירדה 12.8% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -12.8,
+      "threshold": null,
+      "timestamp": "2026-11-20T20:39:19.423356+00:00",
+      "dismissed": false
+    },
     {
       "id": "alert-nvda-rsi_oversold-20261120",
       "ticker": "NVDA",
       "type": "rsi_oversold",
       "severity": "opportunity",
       "titleHe": "NVDA — RSI באזור מכירת יתר",
-      "messageHe": "RSI ב-19.6 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
-      "value": 19.6,
+      "messageHe": "RSI ב-15.4 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 15.4,
       "threshold": 30,
-      "timestamp": "2026-11-20T13:25:56.433206+00:00",
+      "timestamp": "2026-11-20T20:39:19.423356+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-avgo-price_drop-20261120",
+      "ticker": "AVGO",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "AVGO — ירידת מחיר חריגה",
+      "messageHe": "AVGO ירדה 12.5% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -12.5,
+      "threshold": null,
+      "timestamp": "2026-11-20T20:39:20.421849+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-crwd-price_drop-20261120",
+      "ticker": "CRWD",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CRWD — ירידת מחיר חריגה",
+      "messageHe": "CRWD ירדה 6.09% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -6.09,
+      "threshold": null,
+      "timestamp": "2026-11-20T20:39:24.365501+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-ceg-price_drop-20261120",
+      "ticker": "CEG",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "CEG — ירידת מחיר חריגה",
+      "messageHe": "CEG ירדה 5.06% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.06,
+      "threshold": null,
+      "timestamp": "2026-11-20T20:39:25.312593+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-price_drop-20261120",
+      "ticker": "NEM",
+      "type": "price_drop",
+      "severity": "danger",
+      "titleHe": "NEM — ירידת מחיר חריגה",
+      "messageHe": "NEM ירדה 5.24% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -5.24,
+      "threshold": null,
+      "timestamp": "2026-11-20T20:39:27.347168+00:00",
+      "dismissed": false
+    },
+    {
+      "id": "alert-nem-rsi_oversold-20261120",
+      "ticker": "NEM",
+      "type": "rsi_oversold",
+      "severity": "opportunity",
+      "titleHe": "NEM — RSI באזור מכירת יתר",
+      "messageHe": "RSI ב-29.8 — אזור מכירת יתר. הזדמנות קנייה אפשרית.",
+      "value": 29.8,
+      "threshold": 30,
+      "timestamp": "2026-11-20T20:39:27.347168+00:00",
       "dismissed": false
     },
     {
@@ -19,10 +91,10 @@
       "type": "price_drop",
       "severity": "danger",
       "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 7.72% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -7.72,
+      "messageHe": "AMD ירדה 13.39% היום. בדוק את הסיבה ושקול פעולה.",
+      "value": -13.39,
       "threshold": null,
-      "timestamp": "2026-11-20T13:26:03.240086+00:00",
+      "timestamp": "2026-11-20T20:39:28.276709+00:00",
       "dismissed": false
     }
   ],
