@@ -1,30 +1,6 @@
 {
-  "lastUpdated": "2026-11-25T14:47:18.017228+00:00",
+  "lastUpdated": "2026-11-25T21:56:06.630058+00:00",
   "activeAlerts": [
-    {
-      "id": "alert-nvda-price_drop-20261125",
-      "ticker": "NVDA",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "NVDA — ירידת מחיר חריגה",
-      "messageHe": "NVDA ירדה 8.26% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -8.26,
-      "threshold": null,
-      "timestamp": "2026-11-25T14:47:10.378611+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-avgo-price_drop-20261125",
-      "ticker": "AVGO",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AVGO — ירידת מחיר חריגה",
-      "messageHe": "AVGO ירדה 6.67% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -6.67,
-      "threshold": null,
-      "timestamp": "2026-11-25T14:47:11.113101+00:00",
-      "dismissed": false
-    },
     {
       "id": "alert-xom-ma_crossover_bearish-20261125",
       "ticker": "XOM",
@@ -34,19 +10,7 @@
       "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
       "value": null,
       "threshold": null,
-      "timestamp": "2026-11-25T14:47:15.826434+00:00",
-      "dismissed": false
-    },
-    {
-      "id": "alert-amd-price_drop-20261125",
-      "ticker": "AMD",
-      "type": "price_drop",
-      "severity": "danger",
-      "titleHe": "AMD — ירידת מחיר חריגה",
-      "messageHe": "AMD ירדה 8.59% היום. בדוק את הסיבה ושקול פעולה.",
-      "value": -8.59,
-      "threshold": null,
-      "timestamp": "2026-11-25T14:47:17.351756+00:00",
+      "timestamp": "2026-11-25T21:56:04.438619+00:00",
       "dismissed": false
     }
   ],
