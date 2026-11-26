@@ -1,5 +1,18 @@
 {
-  "lastUpdated": "2026-11-26T02:23:14.879286+00:00",
-  "activeAlerts": [],
+  "lastUpdated": "2026-11-26T14:12:03.477543+00:00",
+  "activeAlerts": [
+    {
+      "id": "alert-xom-ma_crossover_bearish-20261126",
+      "ticker": "XOM",
+      "type": "ma_crossover_bearish",
+      "severity": "warning",
+      "titleHe": "XOM — חציית ממוצעים דובית",
+      "messageHe": "SMA20 חצה מתחת SMA50 — סימן דובי. שקול צמצום פוזיציה.",
+      "value": null,
+      "threshold": null,
+      "timestamp": "2026-11-26T14:12:01.092060+00:00",
+      "dismissed": false
+    }
+  ],
   "alertHistory": []
 }
